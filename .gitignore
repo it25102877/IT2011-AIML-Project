@@ -1,0 +1,27 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment & Cache
+.env
+.venv
+env/
+venv/
+ENV/
+.matplotlib/
+
+# Scratch & Temporary Logs
+scratch/
+*.log
+
+# Large Datasets (>100MB exceeds GitHub file limit without Git LFS)
+# Teammates keep this file locally in data/raw/
+*.csv
