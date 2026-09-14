@@ -25,3 +25,4 @@ scratch/
 # Large Datasets (>100MB exceeds GitHub file limit without Git LFS)
 # Teammates keep this file locally in data/raw/
 *.csv
+*.zip
