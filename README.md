@@ -24,7 +24,7 @@ The project is structured into two core milestones according to the official SLI
 | **Fernando B. K. H.** | `IT25102631` | Categorical Multi-Label Encoding (`genres`) | Linear Support Vector Machine | [`IT25102631_...`](notebooks/IT25102631_Preprocessing_GenreEncoding.ipynb) | ✅ Completed |
 | **Abdullah H.F.** *(Lead)* | `IT25102877` | **Numerical Cleaning, Outlier Capping & Feature Scaling** | **Random Forest Classifier** | [`IT25102877_...`](notebooks/IT25102877_Preprocessing_OutliersScaling.ipynb) | ✅ Completed |
 | **Sameeha M.S.F.** | `IT25103066` | Class Imbalance Mitigation (Cost-Sensitive Weights) | Gradient Boosting (XGBoost) | [`IT25103066_...`](notebooks/IT25103066_Preprocessing_ImbalanceHandling.ipynb) | ✅ Completed |
-| **Silva A.M.K.N.** | `IT25103132` | Feature Extraction (TF-IDF) & Dimensionality Reduction | Deep Learning (MLP / Neural Net) | [`IT25103132_...`](notebooks/IT25103132_Preprocessing_FeatureExtraction.ipynb) | 🔄 In Progress |
+| **Silva A.M.K.N.** | `IT25103132` | Feature Extraction (TF-IDF) & Dimensionality Reduction | Deep Learning (MLP / Neural Net) | [`IT25103132_...`](notebooks/IT25103132_Preprocessing_FeatureExtraction.ipynb) | ✅ Completed |
 
 ---
 
