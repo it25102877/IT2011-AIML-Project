@@ -186,7 +186,10 @@ Phase 2 focuses on multi-class emotion classification benchmarking. Each model n
 ### 2. Execution Run Order
 
 1. **Phase 1 Pipeline (Preprocessing):** Run `group_pipeline.ipynb` to verify data cleaning and invariant checks.
-2. **Phase 2 Model Training:** Run individual model notebooks in `notebooks/` (e.g., `IT25102877_Model_DecisionTree.ipynb`, `IT25102877_Model_RandomForest.ipynb`). Each notebook saves standardized metrics to `results/phase2/{model_key}_results.json` and predictions to `results/phase2/{model_key}_test_predictions.csv`.
+2. **Phase 2 Model Training:** Run Member 4's individual model notebooks in `notebooks/`:
+   * [`IT25102877_Model_DecisionTree.ipynb`](notebooks/IT25102877_Model_DecisionTree.ipynb)
+   * [`IT25102877_Model_RandomForest.ipynb`](notebooks/IT25102877_Model_RandomForest.ipynb)
+   Each notebook performs hyperparameter tuning, cross-validation, and held-out test evaluation, saving standardized outputs to `results/phase2/`.
 
 ### 3. Artifacts Saved in `results/phase2/`
 
@@ -197,7 +200,7 @@ Phase 2 focuses on multi-class emotion classification benchmarking. Each model n
 
 ### 4. How to Save Standardized Model Results
 
-To ensure seamless integration across the project, each model notebook adheres to the standardized evaluation protocol:
+To ensure seamless integration across the project, each member's model notebook adheres to the standardized group protocol:
 - **Identical Split:** Use `make_split(df, test_size=0.2, random_state=42)` from `src.data_prep`.
 - **Identical 5 Folds:** Partition training groups using `get_cv(5)` from `src.data_prep`.
 - **Results Persistence:** Append the following code template in the final cells of your notebook to serialize results:
