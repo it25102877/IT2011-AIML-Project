@@ -7,7 +7,14 @@
 ---
 
 ## 📌 Project Overview
-This project delivers an end-to-end Machine Learning pipeline applied to an assigned real-world dataset of **46,173 movie reviews**. The system addresses the multiclass classification problem of predicting human emotion categories (`sadness`, `joy`, `anticipation`, `optimism`, `anger`, `fear`, `disgust`, `surprise`) and rating predictions.
+This project delivers an end-to-end Machine Learning pipeline applied to an assigned real-world movie reviews dataset. The system addresses the multiclass classification problem of predicting human emotion categories (`sadness`, `joy`, `anticipation`, `optimism`, `anger`, `fear`, `disgust`) and rating predictions.
+
+Following a thorough data audit, rigorous quality control measures were implemented in `src/data_prep.py` to eliminate data leakage and label ambiguity:
+1. **Text Normalization & Deduplication:** Cleans text (contractions, HTML entities, URLs, punctuation, lowercasing) before deduplication, eliminating 26,857 repeat reviews and 4 near-repeat variations.
+2. **Label Noise Mitigation (`drop_conflicts`):** Dropped review texts that appeared with conflicting emotion labels across different rows.
+3. **Sparse Class Handling:** Dropped the `surprise` category (only 19 reviews post-cleaning, all originating from a single film *"She's All That"*), leaving **7 cleanly separable classes** suitable for cross-validation.
+4. **Stratified Grouped Splitting:** Because every movie's reviews map to a single emotion label, all validation splits and cross-validation use `make_split()` and `get_cv()` powered by **`StratifiedGroupKFold` on `movie_name`**. This simultaneously guarantees group disjointness between movies and preserves exact class balance across all 7 emotions.
+5. **Leak-Free Pipelines:** All stateful feature transformations (scalers, TF-IDF, TruncatedSVD) are encapsulated in `sklearn.pipeline.Pipeline` objects fit strictly on training splits. The exported CSV file retains only **stateless, un-leaked features** for EDA and baseline reference.
 
 The project is structured into two core milestones according to the official SLIIT specification:
 1. **Progress Review I (Viva 1 — 25 Marks):** Data Cleaning, Domain Preprocessing, Numerical Outlier Handling, and Exploratory Data Analysis (EDA).
@@ -17,10 +24,10 @@ The project is structured into two core milestones according to the official SLI
 
 ## 👥 Group Member Allocation & Milestone 1 Status
 
-| Member Name | Student IT Number | Assigned Preprocessing Technique (Viva 1) | Assigned ML Model (Viva 2) | Notebook Link | Status |
+| Member Name | Student IT Number | Assigned Preprocessing Technique (Viva 1) | Planned Phase 2 Model | Notebook Link | Preprocessing Status |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 | **Athapaththu A. M. P. P.** | `IT25102549` | Text Cleaning, Noise Removal & Contraction Expansion | Multinomial Naive Bayes | [`IT25102549_...`](notebooks/IT25102549_Preprocessing_TextCleaning.ipynb) | ✅ Completed |
-| **Nishara W.A.S.** | `IT25102550` | Tokenization, Lemmatization & Domain Stopwords | Logistic Regression | [`IT25102550_...`](notebooks/IT25102550_Preprocessing_Lemmatization.ipynb) | ✅ Completed |
+| **Nishara W.A.S.** | `IT25102550` | Domain-Specific Stopword Filtering *(Lemmatization Benchmarked)* | Logistic Regression | [`IT25102550_...`](notebooks/IT25102550_Preprocessing_Lemmatization.ipynb) | ✅ Completed |
 | **Fernando B. K. H.** | `IT25102631` | Categorical Multi-Label Encoding (`genres`) | Linear Support Vector Machine | [`IT25102631_...`](notebooks/IT25102631_Preprocessing_GenreEncoding.ipynb) | ✅ Completed |
 | **Abdullah H.F.** *(Lead)* | `IT25102877` | **Numerical Cleaning, Outlier Capping & Feature Scaling** | **Random Forest Classifier** | [`IT25102877_...`](notebooks/IT25102877_Preprocessing_OutliersScaling.ipynb) | ✅ Completed |
 | **Sameeha M.S.F.** | `IT25103066` | Class Imbalance Mitigation (Cost-Sensitive Weights) | Gradient Boosting (XGBoost) | [`IT25103066_...`](notebooks/IT25103066_Preprocessing_ImbalanceHandling.ipynb) | ✅ Completed |
@@ -31,35 +38,37 @@ The project is structured into two core milestones according to the official SLI
 ## 📊 Dataset Characteristics
 
 * **Filename:** `Movies_Reviews_modified_version1.csv`
-* **Size:** 46,173 records, 8 attributes (~130 MB raw)
+* **Raw Size:** 46,173 records, 8 attributes (~130 MB raw)
+* **Cleaned Size:** **16,107 unique records** across **1,309 unique movies** (produced by `src.data_prep.load_clean()`)
 * **Domain:** Natural Language Processing (NLP) & Sentiment/Emotion Analysis
-* **Primary Target Attribute:** `emotion` (8 multiclass categories with severe 304:1 class imbalance)
+* **Primary Target Attribute:** `emotion` (**7 multiclass categories** post-cleaning)
+* **Data Splitting Strategy:** `StratifiedGroupKFold` grouped by `movie_name` (disjoint films + stratified emotion balance)
 
 ### Data Dictionary
 
 | Column Name | Data Type | Description | Handling / Role |
 | :--- | :--- | :--- | :--- |
-| `Unnamed: 0` | Integer | Original row index identifier | Dropped during preprocessing |
-| `movie_name` | String | Title of the film | Informational metadata |
-| `Reviews` | String | Raw English user review text | Primary NLP feature (Cleaning, Lemmatization, TF-IDF) |
-| `Resenhas` | String | Portuguese translation of the review text | Redundant multilingual column (excluded from NLP training) |
-| `genres` | String | Serialized list of movie genres (e.g. `['Drama', 'Romance']`) | Multi-label binarized into indicator columns |
-| `Description` | String | Movie storyline summary / synopsis | Contextual NLP metadata |
-| `Ratings` | Float ($1.0 - 10.0$) | User numerical review score | Normalized into $[0, 1]$ using `MinMaxScaler` |
-| `emotion` | String | Target emotion category | Encoded target variable with balanced class weighting |
+| `movie_name` | String | Title of the film | Grouping key for `StratifiedGroupKFold` |
+| `Ratings` | Float ($1.0 - 10.0$) | User numerical review score | Scaled inside `Pipeline` via `MinMaxScaler` |
+| `word_count` | Integer | Length of review in words | Capped via `WordCountIQRCapper` and scaled via `RobustScaler` in `Pipeline` |
+| `emotion` | String | Target emotion category | 7 classes; balanced class weighting applied during training |
+| `cleaned_review` | String | Sanitized English review text | TF-IDF feature extraction inside `Pipeline` |
+| `tokens_filtered` | String | Stopword-filtered tokens | Informational tokenized review text |
+| `genre_*` | Binary ($0/1$) | Binarized movie genre indicators | Categorical metadata indicators |
 
-### Target Emotion Class Distribution
+### Target Emotion Class Distribution (Before vs. After Cleaning)
 
-| Emotion | Sample Count | Percentage | Handling Strategy |
-| :--- | :---: | :---: | :--- |
-| `sadness` | 17,339 | 37.55% | Dominant majority class |
-| `joy` | 7,861 | 17.02% | Secondary class |
-| `anticipation` | 7,336 | 15.89% | Balanced representation |
-| `optimism` | 4,812 | 10.42% | Moderate representation |
-| `anger` | 3,638 | 7.88% | Moderate representation |
-| `fear` | 3,460 | 7.49% | Moderate representation |
-| `disgust` | 1,670 | 3.62% | Minority class |
-| `surprise` | 57 | **0.12%** | **Critical minority class** (requires Stratified K-Fold & class weights) |
+| Emotion | Raw Count | Raw Share (%) | Cleaned Count (7 Classes) | Cleaned Share (%) | Handling Strategy |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| `sadness` | 17,339 | 37.55% | **6,555** | 40.70% | Majority class |
+| `joy` | 7,861 | 17.02% | **2,765** | 17.17% | Secondary class |
+| `anticipation` | 7,336 | 15.89% | **2,166** | 13.45% | Moderate representation |
+| `optimism` | 4,812 | 10.42% | **1,772** | 11.00% | Moderate representation |
+| `fear` | 3,460 | 7.49% | **1,386** | 8.61% | Moderate representation |
+| `anger` | 3,638 | 7.88% | **929** | 5.77% | Minority class |
+| `disgust` | 1,670 | 3.62% | **534** | 3.32% | Minority class |
+| `surprise` | 57 | 0.12% | **0** | *Excluded* | Dropped: 19 reviews post-clean, all from 1 movie (*"She's All That"*) |
+| **Total** | **46,173** | **100.00%** | **16,107** | **100.00%** | **Cleaned & Leak-Free** |
 
 ---
 
@@ -71,6 +80,10 @@ The repository strictly conforms to the required directory structure specified i
 IT2011-AIML-Project/
 ├── README.md                                          # Project overview, team allocation, execution guide
 ├── group_pipeline.ipynb                               # End-to-end integrated master preprocessing pipeline
+│
+├── src/                                               # Shared modular source code
+│   ├── data_prep.py                                   # load_clean(), make_split(), get_cv(), find_repo_root()
+│   └── preprocessors.py                               # Modular scikit-learn transformers for Members 1–6
 │
 ├── data/
 │   ├── raw/                                           # Movies_Reviews_modified_version1.csv (as provided)
@@ -85,16 +98,25 @@ IT2011-AIML-Project/
 │   └── IT25103132_Preprocessing_FeatureExtraction.ipynb # Member 6: Silva A.M.K.N.
 │
 ├── results/
-│   ├── eda_visualizations/                            # High-resolution plots for Viva presentation
+│   ├── eda_visualizations/                            # Contains 7 figures (members 1 to 6, with Member 3 having two: member3_genre_distribution.png and member3_genre_cooccurrence_heatmap.png)
 │   │   ├── member1_text_cleaning_distributions.png
 │   │   ├── member2_ngram_stopword_frequency.png
 │   │   ├── member3_genre_cooccurrence_heatmap.png
+│   │   ├── member3_genre_distribution.png
 │   │   ├── member4_numerical_outliers_and_ratings.png
 │   │   ├── member5_class_imbalance_distribution.png
 │   │   └── member6_tfidf_svd_variance.png
 │   ├── logs/                                          # Execution logs (.gitkeep)
-│   └── outputs/                                       # Final processed dataset and features (.gitkeep)
+│   └── outputs/                                       # Stateless cleaned dataset, manifest, and serializations
+│       ├── processed_movie_reviews.csv                # Stateless processed dataset (16,107 rows x 26 features)
+│       ├── split_movies_manifest.joblib               # Reproducible train/test movie split manifest
+│       ├── train_movies.txt                           # 1,048 train movie titles
+│       ├── test_movies.txt                            # 261 test movie titles
+│       └── full_preprocessor.joblib                   # Serialized ColumnTransformer fitted strictly on train_df
 │
+├── tests/
+│   └── test_preprocessing.py                          # 7 automated sanity and leak-free verification tests
+├── requirements.txt                                   # Reproducible dependencies
 └── docs/                                              # SLIIT Assignment Specification & Rubric PDFs
     ├── Group Assignment Specification.pdf
     ├── Progress Review I - Data Preprocessing and EDA.pdf
@@ -102,33 +124,41 @@ IT2011-AIML-Project/
     └── Final Evaluation - Documentation.pdf
 ```
 
+> **Note on `results/outputs/`:** Contains `processed_movie_reviews.csv` (stateless features, 16,107 x 26), `full_preprocessor.joblib`, `split_movies_manifest.joblib`, `train_movies.txt`, and `test_movies.txt`.
+
 ---
 
-## 🚀 Environment Setup & Execution Guide
+## 🚀 How to Run & Environment Setup
+
+* **Working Directory Rule:** Open each member notebook with the working directory set to the `notebooks/` folder, and open `group_pipeline.ipynb` with the working directory set to the repo root.
+* **Local Cache Handling:** The notebooks create `__pycache__/` folders when run locally; they are ignored by `.gitignore` and should be deleted before zipping.
 
 ### 1. Prerequisites
-Ensure Python 3.9+ is installed. Install the necessary machine learning and NLP packages:
+Ensure Python 3.9+ is installed. Install all project dependencies:
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn nltk jupyter
+pip install -r requirements.txt
 ```
+*(Note: `nltk` is included in `requirements.txt` to support Member 2's standalone exploration notebook. The core group preprocessing pipeline itself in `group_pipeline.ipynb` and `src/preprocessors.py` does not require NLTK).*
 
 ### 2. Dataset Setup
 Ensure the assigned dataset is placed in the raw data directory:
 ```text
 data/raw/Movies_Reviews_modified_version1.csv
 ```
-*(Note: Because the CSV is ~135 MB, it is tracked locally and excluded from git commits via `.gitignore` to adhere to GitHub's 100 MB file limit).*
+*(Note: The raw dataset is not committed to git (size limit); place Movies_Reviews_modified_version1.csv in data/raw/ before running anything).*
 
 ### 3. Running Individual Member Notebooks
-Each member can independently run and present their notebook located in `notebooks/`:
+Each member can independently run and present their notebook located in `notebooks/` (working directory set to `notebooks/`):
 ```bash
-# Launch Jupyter Notebook
-jupyter notebook notebooks/IT25102877_Preprocessing_OutliersScaling.ipynb
+# Launch Jupyter Notebook from notebooks/ folder
+cd notebooks
+jupyter notebook IT25102877_Preprocessing_OutliersScaling.ipynb
 ```
+Each notebook contains the original individual preprocessing implementation plus a dedicated concluding cell showcasing its technique encapsulated inside a leak-free `sklearn.pipeline.Pipeline` evaluated via stratified grouped splits.
 
 ### 4. Running the Common Integrated Pipeline
 To execute the complete end-to-end preprocessing flow combining all 6 techniques:
-1. Open `group_pipeline.ipynb` in VS Code or Jupyter Notebook.
+1. Open `group_pipeline.ipynb` with working directory set to the repo root.
 2. Execute all cells sequentially.
 3. The final preprocessed dataset ready for Phase 2 model training will be generated in `results/outputs/processed_movie_reviews.csv`.
 
