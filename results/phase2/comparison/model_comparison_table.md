@@ -1,7 +1,0 @@
-| Model | Member ID | Algorithm | Preprocessing | Tuning Budget | CV Macro-F1 (Mean ± Std) | CV Accuracy | Test Accuracy | Test Macro-F1 (95% CI) | Test Weighted-F1 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Random Forest | IT25102877 | RandomForestClassifier | TF-IDF (2500) + Genre Binarizer (20) + Word Count (1) + Rating (1) | RandomizedSearchCV (15 configs x 5 folds, macro_f1, accuracy, weighted_f1) | 0.1708 ± 0.0138 | 0.2594 | 0.2729 | 0.1942 [0.1543, 0.2310] | 0.2707 |
-| Decision Tree | IT25102877 | DecisionTreeClassifier | TF-IDF (2500) + Genre Binarizer (20) + Word Count (1) + Rating (1) | GridSearchCV (30 configs x 5 folds, macro_f1, accuracy, weighted_f1) | 0.1767 ± 0.0211 | 0.2862 | 0.2866 | 0.1914 [0.1459, 0.2346] | 0.2788 |
-| Majority Class Predictor | - | DummyClassifier (most_frequent) | - | - | - | - | 0.4070 | 0.0827 | 0.2355 |
-| Stratified Random Baseline | - | DummyClassifier (stratified, 200 seeds) | - | - | - | - | 0.2378 ± 0.0071 | 0.1427 ± 0.0062 | - |
-| Uniform Random Baseline | - | DummyClassifier (uniform, 200 seeds) | - | - | - | - | 0.1424 ± 0.0060 | 0.1243 ± 0.0056 | - |
