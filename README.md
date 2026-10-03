@@ -167,9 +167,9 @@ To execute the complete end-to-end preprocessing flow combining all 6 techniques
 
 ---
 
-## 🔬 Phase 2: Model Training and Comparison
+## 🔬 Phase 2: Model Training and Evaluation
 
-Phase 2 focuses on multi-class emotion classification benchmarking across the group. Each model notebook tunes its algorithm using grouped stratified cross-validation on `train_df`, performs a single held-out evaluation on `test_df`, and serializes results via `src.evaluation.save_model_results()`. The integrated comparison notebook aggregates, verifies, and compares all models without training any estimators.
+Phase 2 focuses on multi-class emotion classification benchmarking. Each model notebook tunes its algorithm using grouped stratified cross-validation on `train_df`, performs a single held-out evaluation on `test_df`, and serializes results via `src.evaluation.save_model_results()`.
 
 ### 1. Model Notebooks & Delivery Status
 
@@ -186,26 +186,21 @@ Phase 2 focuses on multi-class emotion classification benchmarking across the gr
 ### 2. Execution Run Order
 
 1. **Phase 1 Pipeline (Preprocessing):** Run `group_pipeline.ipynb` to verify data cleaning and invariant checks.
-2. **Phase 2 Model Training:** Run individual model notebooks in `notebooks/` (e.g., `IT25102877_Model_DecisionTree.ipynb`, `IT25102877_Model_RandomForest.ipynb`). Each notebook saves standardized metrics to `results/phase2/{model_key}_results.json` and predictions to `results/phase2/{model_key}_test_predictions.csv`.
-3. **Phase 2 Comparison Notebook:** Run `notebooks/Phase2_Model_Comparison.ipynb`. It automatically discovers all delivered models, executes comparability checks, and generates consolidated tables and figures in `results/phase2/comparison/`.
+2. **Phase 2 Model Training:** Run Member 4's individual model notebooks in `notebooks/`:
+   * [`IT25102877_Model_DecisionTree.ipynb`](notebooks/IT25102877_Model_DecisionTree.ipynb)
+   * [`IT25102877_Model_RandomForest.ipynb`](notebooks/IT25102877_Model_RandomForest.ipynb)
+   Each notebook performs hyperparameter tuning, cross-validation, and held-out test evaluation, saving standardized outputs to `results/phase2/`.
 
 ### 3. Artifacts Saved in `results/phase2/`
 
 * **Per-Model Serializations:**
   * `{model_key}_results.json`: Complete metadata, split fingerprints, 5-fold CV scores, test metrics, baseline benchmarks, and confusion matrices.
   * `{model_key}_test_predictions.csv`: Row-level predictions on the test set (`row_id`, `review_id`, `movie_name`, `y_true`, `y_pred`).
-  * Diagnostic plots and parameter exports (`decision_tree_cv_results.csv`, `decision_tree_best_params.json`, etc.).
-* **Integrated Comparison Outputs (`results/phase2/comparison/`):**
-  * `model_comparison_table.csv` & `model_comparison_table.md`: Consolidated performance table including CV and test scores with bootstrap 95% CIs.
-  * `comparison_macro_f1.png`: Grouped bar chart comparing CV and test macro-F1 with baseline references.
-  * `comparison_per_class_f1.png`: Heatmap of per-class F1 performance across all delivered models.
-  * `comparison_confusion_matrices.png`: Row-normalized confusion matrix grid.
-  * `comparison_cv_folds.png`: Cross-validation fold score distribution box/strip plot.
-  * `comparison_summary.json`: Serialized comparison metadata, rankings, and statistical tie decisions.
+  * Diagnostic plots and parameter exports (`decision_tree_cv_results.csv`, `decision_tree_best_params.json`, `random_forest_cv_results.csv`, etc.).
 
-### 4. How to Add Your Model to the Comparison
+### 4. How to Save Standardized Model Results
 
-To ensure seamless integration into `Phase2_Model_Comparison.ipynb`, each member's model notebook must adhere to the standardized group protocol:
+To ensure seamless integration across the project, each member's model notebook adheres to the standardized group protocol:
 - **Identical Split:** Use `make_split(df, test_size=0.2, random_state=42)` from `src.data_prep`.
 - **Identical 5 Folds:** Partition training groups using `get_cv(5)` from `src.data_prep`.
 - **Results Persistence:** Append the following code template in the final cells of your notebook to serialize results:
