@@ -134,10 +134,13 @@ IT2011-AIML-Project/
 * **Local Cache Handling:** The notebooks create `__pycache__/` folders when run locally; they are ignored by `.gitignore` and should be deleted before zipping.
 
 ### 1. Prerequisites
-Ensure Python 3.9+ is installed. Install all project dependencies:
+Ensure Python 3.10+ is installed. Install all project dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+* `requirements.txt` installs the latest compatible versions.
+* `requirements-lock.txt` reproduces the submitted numbers exactly.
+* Results of single decision trees can differ by about 0.01 macro-F1 across library versions.
 *(Note: `nltk` is included in `requirements.txt` to support Member 2's standalone exploration notebook. The core group preprocessing pipeline itself in `group_pipeline.ipynb` and `src/preprocessors.py` does not require NLTK).*
 
 ### 2. Dataset Setup
@@ -161,6 +164,86 @@ To execute the complete end-to-end preprocessing flow combining all 6 techniques
 1. Open `group_pipeline.ipynb` with working directory set to the repo root.
 2. Execute all cells sequentially.
 3. The final preprocessed dataset ready for Phase 2 model training will be generated in `results/outputs/processed_movie_reviews.csv`.
+
+---
+
+## 🔬 Phase 2: Model Training and Comparison
+
+Phase 2 focuses on multi-class emotion classification benchmarking across the group. Each model notebook tunes its algorithm using grouped stratified cross-validation on `train_df`, performs a single held-out evaluation on `test_df`, and serializes results via `src.evaluation.save_model_results()`. The integrated comparison notebook aggregates, verifies, and compares all models without training any estimators.
+
+### 1. Model Notebooks & Delivery Status
+
+| Model Key | Model Label | Member ID | Algorithm | Notebook Link | Delivery Status |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| `decision_tree` | Decision Tree | `IT25102877` | `DecisionTreeClassifier` | [`IT25102877_Model_DecisionTree.ipynb`](notebooks/IT25102877_Model_DecisionTree.ipynb) | ✅ Delivered |
+| `random_forest` | Random Forest | `IT25102877` | `RandomForestClassifier` | [`IT25102877_Model_RandomForest.ipynb`](notebooks/IT25102877_Model_RandomForest.ipynb) | ✅ Delivered |
+| `naive_bayes` | Multinomial Naive Bayes | `IT25102549` | `MultinomialNB` | `IT25102549_Model_NaiveBayes.ipynb` | ⏳ Pending |
+| `logistic_regression` | Logistic Regression | `IT25102550` | `LogisticRegression` | `IT25102550_Model_LogisticRegression.ipynb` | ⏳ Pending |
+| `linear_svc` | Linear Support Vector Machine | `IT25102631` | `LinearSVC` | `IT25102631_Model_LinearSVC.ipynb` | ⏳ Pending |
+| `hist_gradient_boosting` | Gradient Boosting | `IT25103066` | `HistGradientBoostingClassifier` | `IT25103066_Model_HistGradientBoosting.ipynb` | ⏳ Pending |
+| `mlp` | Multi-Layer Perceptron | `IT25103132` | `MLPClassifier` | `IT25103132_Model_MLP.ipynb` | ⏳ Pending |
+
+### 2. Execution Run Order
+
+1. **Phase 1 Pipeline (Preprocessing):** Run `group_pipeline.ipynb` to verify data cleaning and invariant checks.
+2. **Phase 2 Model Training:** Run individual model notebooks in `notebooks/` (e.g., `IT25102877_Model_DecisionTree.ipynb`, `IT25102877_Model_RandomForest.ipynb`). Each notebook saves standardized metrics to `results/phase2/{model_key}_results.json` and predictions to `results/phase2/{model_key}_test_predictions.csv`.
+3. **Phase 2 Comparison Notebook:** Run `notebooks/Phase2_Model_Comparison.ipynb`. It automatically discovers all delivered models, executes comparability checks, and generates consolidated tables and figures in `results/phase2/comparison/`.
+
+### 3. Artifacts Saved in `results/phase2/`
+
+* **Per-Model Serializations:**
+  * `{model_key}_results.json`: Complete metadata, split fingerprints, 5-fold CV scores, test metrics, baseline benchmarks, and confusion matrices.
+  * `{model_key}_test_predictions.csv`: Row-level predictions on the test set (`row_id`, `review_id`, `movie_name`, `y_true`, `y_pred`).
+  * Diagnostic plots and parameter exports (`decision_tree_cv_results.csv`, `decision_tree_best_params.json`, etc.).
+* **Integrated Comparison Outputs (`results/phase2/comparison/`):**
+  * `model_comparison_table.csv` & `model_comparison_table.md`: Consolidated performance table including CV and test scores with bootstrap 95% CIs.
+  * `comparison_macro_f1.png`: Grouped bar chart comparing CV and test macro-F1 with baseline references.
+  * `comparison_per_class_f1.png`: Heatmap of per-class F1 performance across all delivered models.
+  * `comparison_confusion_matrices.png`: Row-normalized confusion matrix grid.
+  * `comparison_cv_folds.png`: Cross-validation fold score distribution box/strip plot.
+  * `comparison_summary.json`: Serialized comparison metadata, rankings, and statistical tie decisions.
+
+### 4. How to Add Your Model to the Comparison
+
+To ensure seamless integration into `Phase2_Model_Comparison.ipynb`, each member's model notebook must adhere to the standardized group protocol:
+- **Identical Split:** Use `make_split(df, test_size=0.2, random_state=42)` from `src.data_prep`.
+- **Identical 5 Folds:** Partition training groups using `get_cv(5)` from `src.data_prep`.
+- **Results Persistence:** Append the following code template in the final cells of your notebook to serialize results:
+
+Copy the setup sections (data, split, SPLIT_INFO, CV folds and CV_FINGERPRINTS, SCORING, BASELINES) and the Step 5 test-evaluation cell (which creates test_metrics and predictions_df) from notebooks/IT25102877_Model_DecisionTree.ipynb first, so every name used in this template exists. Set elapsed_time to the number of seconds your search took.
+
+```python
+meta = {
+    "model_label": "<Model Label, e.g. Logistic Regression>",
+    "member_id": "<Your IT Number, e.g. IT25102550>",
+    "algorithm": "<Estimator Name, e.g. LogisticRegression>",
+    "preprocessing": "<Preprocessing Description, e.g. Full Pipeline (TF-IDF + Genre + WordCount + Rating)>",
+    "tuning": {
+        "method": "<GridSearchCV or RandomizedSearchCV>",
+        "n_configs": int(len(search.cv_results_["params"])),
+        "n_folds": int(N_SPLITS),
+        "scoring": list(SCORING.keys()),
+        "elapsed_seconds": float(elapsed_time),
+        "best_params": {k: (v if v is not None else None) for k, v in search.best_params_.items()},
+    }
+}
+
+json_path, csv_path = save_model_results(
+    out_dir=PHASE2_DIR,
+    model_key="<model_key, e.g. logistic_regression>",
+    meta=meta,
+    split=SPLIT_INFO,
+    cv=cv_fold_scores(search),
+    cv_fingerprints=CV_FINGERPRINTS,
+    test=test_metrics,
+    baselines=BASELINES,
+    predictions_df=predictions_df,
+)
+
+loaded = load_model_results(json_path)
+validate_results(loaded)
+print(f"✔ Artifacts validated and saved: {json_path.name}, {csv_path.name}")
+```
 
 ---
 

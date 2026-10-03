@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "model_key": "random_forest",
+  "labels": [
+    "anger",
+    "anticipation",
+    "disgust",
+    "fear",
+    "joy",
+    "optimism",
+    "sadness"
+  ],
+  "created_with": {
+    "python": "3.14.3",
+    "sklearn": "1.9.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.5"
+  },
+  "meta": {
+    "model_label": "Random Forest",
+    "member_id": "IT25102877",
+    "algorithm": "RandomForestClassifier",
+    "preprocessing": "TF-IDF (2500) + Genre Binarizer (20) + Word Count (1) + Rating (1)",
+    "tuning": {
+      "method": "RandomizedSearchCV",
+      "n_configs": 15,
+      "n_folds": 5,
+      "scoring": [
+        "macro_f1",
+        "accuracy",
+        "weighted_f1"
+      ],
+      "elapsed_seconds": 338.4263050556183,
+      "best_params": {
+        "clf__min_samples_leaf": 1,
+        "clf__max_features": "sqrt",
+        "clf__max_depth": 16,
+        "clf__class_weight": "balanced_subsample"
+      }
+    }
+  },
+  "split": {
+    "random_state": 42,
+    "test_size": 0.2,
+    "n_train": 12886,
+    "n_test": 3221,
+    "n_train_movies": 1048,
+    "n_test_movies": 261,
+    "train_movies_sha256": "0328cac6eb3497d63c998b0d505818803e04ce5bb4a80af67d4d15d3f56af968",
+    "test_movies_sha256": "4c2db19b16912144e369125d6ebfcfda74c686adbe55c180703af76de719551e",
+    "train_review_ids_sha256": "ad22497c35f80d37435dc2c22ee4189e98bf080a7aa342a625720785b68b0dff",
+    "test_review_ids_sha256": "6980b40d7858603d6a27fe6ec2e77c25263cf761ffedd9447e5c45745b3a803e"
+  },
+  "cv": {
+    "n_splits": 5,
+    "macro_f1": {
+      "folds": [
+        0.1702369495013651,
+        0.1625266013420791,
+        0.18962794169260144,
+        0.15038482575705855,
+        0.1811137104996421
+      ],
+      "mean": 0.17077800575854926,
+      "std": 0.013757958311491588
+    },
+    "accuracy": {
+      "folds": [
+        0.2626066718386346,
+        0.256499805975941,
+        0.2848273185875049,
+        0.22894838960031044,
+        0.26426076833527357
+      ],
+      "mean": 0.2594285908675329,
+      "std": 0.017978687147639557
+    },
+    "weighted_f1": {
+      "folds": [
+        0.26043839231523463,
+        0.24557163901915643,
+        0.28822342853895194,
+        0.2352871179600627,
+        0.2766311055675913
+      ],
+      "mean": 0.2612303366801994,
+      "std": 0.019414856560355596
+    }
+  },
+  "cv_fingerprints": [
+    {
+      "fold": 1,
+      "n_train": 10308,
+      "n_val": 2578,
+      "val_movies_sha256": "6bf2f45da9070ac616e3055e7efd0c46fd1256d1ffbaa11126bec39d086baf03"
+    },
+    {
+      "fold": 2,
+      "n_train": 10309,
+      "n_val": 2577,
+      "val_movies_sha256": "13fb5434da995effcd9efed782fb91c230ca880ddaac847f18601dd6c99f2fc4"
+    },
+    {
+      "fold": 3,
+      "n_train": 10309,
+      "n_val": 2577,
+      "val_movies_sha256": "d46a5c0fa8e3ed58fe0dc59bf535691c565e96a205b9e420f9885d27aebd0b49"
+    },
+    {
+      "fold": 4,
+      "n_train": 10309,
+      "n_val": 2577,
+      "val_movies_sha256": "22b38334191c7b0f86f4ad879f85b089bebfa10d843ee396fe6f634ab2a66643"
+    },
+    {
+      "fold": 5,
+      "n_train": 10309,
+      "n_val": 2577,
+      "val_movies_sha256": "ee20bd306a7d84cc90f97f464f7c8707812e355923c0075817e29b2296fd6674"
+    }
+  ],
+  "test": {
+    "accuracy": 0.2728966159577771,
+    "macro_f1": 0.19421056492629904,
+    "weighted_f1": 0.2707044309826256,
+    "per_class": {
+      "anger": {
+        "precision": 0.13333333333333333,
+        "recall": 0.0972972972972973,
+        "f1": 0.1125,
+        "support": 185
+      },
+      "anticipation": {
+        "precision": 0.16897506925207756,
+        "recall": 0.14087759815242495,
+        "f1": 0.15365239294710328,
+        "support": 433
+      },
+      "disgust": {
+        "precision": 0.009259259259259259,
+        "recall": 0.009345794392523364,
+        "f1": 0.009302325581395349,
+        "support": 107
+      },
+      "fear": {
+        "precision": 0.18032786885245902,
+        "recall": 0.3971119133574007,
+        "f1": 0.2480270574971815,
+        "support": 277
+      },
+      "joy": {
+        "precision": 0.27155172413793105,
+        "recall": 0.45569620253164556,
+        "f1": 0.34031060094530724,
+        "support": 553
+      },
+      "optimism": {
+        "precision": 0.17647058823529413,
+        "recall": 0.10140845070422536,
+        "f1": 0.12880143112701253,
+        "support": 355
+      },
+      "sadness": {
+        "precision": 0.4582857142857143,
+        "recall": 0.30587337909992374,
+        "f1": 0.36688014638609334,
+        "support": 1311
+      }
+    },
+    "confusion_matrix": [
+      [
+        18,
+        16,
+        12,
+        43,
+        33,
+        11,
+        52
+      ],
+      [
+        13,
+        61,
+        3,
+        145,
+        110,
+        16,
+        85
+      ],
+      [
+        9,
+        26,
+        1,
+        19,
+        34,
+        4,
+        14
+      ],
+      [
+        6,
+        24,
+        8,
+        110,
+        42,
+        8,
+        79
+      ],
+      [
+        22,
+        53,
+        24,
+        27,
+        252,
+        54,
+        121
+      ],
+      [
+        17,
+        46,
+        19,
+        66,
+        48,
+        36,
+        123
+      ],
+      [
+        50,
+        135,
+        41,
+        200,
+        409,
+        75,
+        401
+      ]
+    ]
+  },
+  "baselines": {
+    "majority": {
+      "class": "sadness",
+      "accuracy": 0.4070164545172307,
+      "macro_f1": 0.08265035934938847,
+      "weighted_f1": 0.235480393588742
+    },
+    "stratified_random": {
+      "accuracy_mean": 0.2377879540515368,
+      "accuracy_std": 0.007068243718744252,
+      "macro_f1_mean": 0.1426687552921984,
+      "macro_f1_std": 0.0062151128361809865
+    },
+    "uniform_random": {
+      "accuracy_mean": 0.14244023595156785,
+      "accuracy_std": 0.006042227346861529,
+      "macro_f1_mean": 0.12428949276925227,
+      "macro_f1_std": 0.005560493834197515
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# Python 3.14.3; exact versions used for the results in results/phase2
+scikit-learn==1.9.0
+numpy==2.4.4
+pandas==3.0.5
+matplotlib==3.10.9
+seaborn==0.13.2
+joblib==1.5.3
+nltk==3.10.3
+pytest==9.1.1

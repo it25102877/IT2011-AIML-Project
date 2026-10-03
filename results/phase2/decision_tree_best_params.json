@@ -1,0 +1,11 @@
+{
+  "best_params": {
+    "clf__class_weight": "balanced",
+    "clf__max_depth": 20,
+    "clf__min_samples_leaf": 5
+  },
+  "best_cv_macro_f1_mean": 0.17667406916145204,
+  "best_cv_macro_f1_std": 0.021074434521219255,
+  "best_cv_accuracy_mean": 0.28620656021082846,
+  "elapsed_seconds": 626.9541499614716
+}
