@@ -8,5 +8,5 @@
   "best_cv_macro_f1_mean": 0.17077800575854926,
   "best_cv_macro_f1_std": 0.013757958311491588,
   "best_cv_accuracy_mean": 0.2594285908675329,
-  "elapsed_seconds": 313.2736167907715
+  "elapsed_seconds": 338.4263050556183
 }
