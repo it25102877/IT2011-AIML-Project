@@ -1,0 +1,92 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "student_id": "IT25103066",
+  "task": "seven_class_emotion_classification",
+  "target_column": "emotion",
+  "group_column": "movie_name",
+  "classes": [
+    "anger",
+    "anticipation",
+    "disgust",
+    "fear",
+    "joy",
+    "optimism",
+    "sadness"
+  ],
+  "random_state": 42,
+  "train_rows": 12873,
+  "test_rows": 3234,
+  "train_movies": 1048,
+  "test_movies": 261,
+  "cv_protocol": "shared get_cv() grouped and stratified movie-level folds",
+  "cv_folds": 5,
+  "scoring": "f1_macro",
+  "class_weights": {
+    "anger": 2.7864,
+    "anticipation": 1.0761,
+    "disgust": 4.2767,
+    "fear": 1.6673,
+    "joy": 0.8108,
+    "optimism": 1.3297,
+    "sadness": 0.3457
+  },
+  "best_variant": "HGB \u2014 Word TF-IDF + SVD (GridSearch)",
+  "best_parameters": {
+    "hgb__learning_rate": 0.05,
+    "hgb__max_iter": 100,
+    "hgb__max_leaf_nodes": 31,
+    "hgb__min_samples_leaf": 20
+  },
+  "metrics": {
+    "accuracy": 0.22943722943722944,
+    "macro_precision": 0.16968974796204422,
+    "macro_recall": 0.17191406451412478,
+    "macro_f1": 0.16842724395484152,
+    "weighted_f1": 0.23900075739143875,
+    "grouped_cv_macro_f1": 0.1607781129277967
+  },
+  "variant_comparison": [
+    {
+      "Model": "HGB \u2014 Word TF-IDF + SVD",
+      "CV Macro F1": NaN,
+      "Test Accuracy": 0.25757575757575757,
+      "Test Macro Precision": 0.17436759820254868,
+      "Test Macro Recall": 0.17771849957757807,
+      "Test Macro F1": 0.1737272592488168,
+      "Test Weighted F1": 0.25370744846215115
+    },
+    {
+      "Model": "HGB \u2014 Word TF-IDF + SVD (GridSearch)",
+      "CV Macro F1": 0.1607781129277967,
+      "Test Accuracy": 0.22943722943722944,
+      "Test Macro Precision": 0.16968974796204422,
+      "Test Macro Recall": 0.17191406451412478,
+      "Test Macro F1": 0.16842724395484152,
+      "Test Weighted F1": 0.23900075739143875
+    },
+    {
+      "Model": "HGB \u2014 Character TF-IDF + SVD",
+      "CV Macro F1": NaN,
+      "Test Accuracy": 0.22294372294372294,
+      "Test Macro Precision": 0.16429364064525132,
+      "Test Macro Recall": 0.17583722994706144,
+      "Test Macro F1": 0.16637417903671445,
+      "Test Weighted F1": 0.22414547155262893
+    },
+    {
+      "Model": "HGB \u2014 Structured Baseline",
+      "CV Macro F1": NaN,
+      "Test Accuracy": 0.18985776128633272,
+      "Test Macro Precision": 0.16456538510989224,
+      "Test Macro Recall": 0.15806649850405147,
+      "Test Macro F1": 0.15479663001751123,
+      "Test Weighted F1": 0.20590219817172623
+    }
+  ],
+  "artifacts": {
+    "model": "results/phase2/hist_gradient_boosting_model.joblib",
+    "predictions": "results/phase2/hist_gradient_boosting_test_predictions.csv",
+    "confusion_matrix": "results/phase2/hist_gradient_boosting_confusion_matrix.png",
+    "comparison_plot": "results/phase2/hist_gradient_boosting_model_comparison.png"
+  }
+}
