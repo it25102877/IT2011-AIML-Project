@@ -2,7 +2,7 @@
 ## Group Assignment: Design, Implement, and Evaluate AI/ML Solutions for a Real-World Problem
 **Academic Year:** Year 2, Semester 1 (2026)  
 **Faculty:** Faculty of Computing — Sri Lanka Institute of Information Technology (SLIIT)  
-**Group ID:** `2026-Y2-S1-MET-23`  
+**Group ID:** `2026-Y2-S1-MET-24`  
 
 ---
 
