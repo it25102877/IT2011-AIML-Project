@@ -7,7 +7,7 @@
 ---
 
 ## 📌 Project Overview
-This project delivers an end-to-end Machine Learning pipeline applied to an assigned real-world movie reviews dataset. The system addresses the multiclass classification problem of predicting human emotion categories (`sadness`, `joy`, `anticipation`, `optimism`, `anger`, `fear`, `disgust`) and rating predictions.
+This project delivers an end-to-end Machine Learning pipeline applied to an assigned real-world movie reviews dataset. The system addresses the multiclass classification problem of predicting human emotion categories (`sadness`, `joy`, `anticipation`, `optimism`, `anger`, `fear`, `disgust`).
 
 Following a thorough data audit, rigorous quality control measures were implemented in `src/data_prep.py` to eliminate data leakage and label ambiguity:
 1. **Text Normalization & Deduplication:** Cleans text (contractions, HTML entities, URLs, punctuation, lowercasing) before deduplication, eliminating 26,857 repeat reviews and 4 near-repeat variations.
@@ -30,8 +30,8 @@ The project is structured into two core milestones according to the official SLI
 | **Nishara W.A.S.** | `IT25102550` | Domain-Specific Stopword Filtering *(Lemmatization Benchmarked)* | Logistic Regression | [`IT25102550_...`](notebooks/IT25102550_Preprocessing_Lemmatization.ipynb) | ✅ Completed |
 | **Fernando B. K. H.** | `IT25102631` | Categorical Multi-Label Encoding (`genres`) | Linear Support Vector Machine | [`IT25102631_...`](notebooks/IT25102631_Preprocessing_GenreEncoding.ipynb) | ✅ Completed |
 | **Abdullah H.F.** *(Lead)* | `IT25102877` | **Numerical Cleaning, Outlier Capping & Feature Scaling** | **Random Forest Classifier** | [`IT25102877_...`](notebooks/IT25102877_Preprocessing_OutliersScaling.ipynb) | ✅ Completed |
-| **Sameeha M.S.F.** | `IT25103066` | Class Imbalance Mitigation (Cost-Sensitive Weights) | Gradient Boosting (XGBoost) | [`IT25103066_...`](notebooks/IT25103066_Preprocessing_ImbalanceHandling.ipynb) | ✅ Completed |
-| **Silva A.M.K.N.** | `IT25103132` | Feature Extraction (TF-IDF) & Dimensionality Reduction | Deep Learning (MLP / Neural Net) | [`IT25103132_...`](notebooks/IT25103132_Preprocessing_FeatureExtraction.ipynb) | ✅ Completed |
+| **Sameeha M.S.F.** | `IT25103066` | Class Imbalance Mitigation (Cost-Sensitive Weights) | HistGradientBoosting Classifier | [`IT25103066_...`](notebooks/IT25103066_Preprocessing_ImbalanceHandling.ipynb) | ✅ Completed |
+| **Silva A.M.K.N.** | `IT25103132` | Feature Extraction (TF-IDF) & Dimensionality Reduction | Deep Learning (MLP / Neural Net) | [`IT25103132_...`](notebooks/IT25103132_Preprocessing_FeatureExtraction.ipynb) | ⚠️ Needs rerun |
 
 ---
 
@@ -74,7 +74,7 @@ The project is structured into two core milestones according to the official SLI
 
 ## 📂 Repository Layout (SLIIT Deliverable Standard)
 
-The repository strictly conforms to the required directory structure specified in the assignment guidelines:
+The repository follows the required directory structure specified in the assignment guidelines. Optional empty directories are omitted, while Phase 2 source, result, and test folders extend the documented minimum layout.
 
 ```text
 IT2011-AIML-Project/
@@ -83,11 +83,12 @@ IT2011-AIML-Project/
 │
 ├── src/                                               # Shared modular source code
 │   ├── data_prep.py                                   # load_clean(), make_split(), get_cv(), find_repo_root()
-│   └── preprocessors.py                               # Modular scikit-learn transformers for Members 1–6
+│   ├── preprocessors.py                               # Modular scikit-learn transformers for Members 1–6
+│   ├── evaluation.py                                  # Standard result schema, metrics, validation and bootstrap helpers
+│   └── protocol.py                                    # Minimal shared setup/finalization API for all model owners
 │
 ├── data/
-│   ├── raw/                                           # Movies_Reviews_modified_version1.csv (as provided)
-│   └── external/                                      # External reference datasets / lexicons (.gitkeep)
+│   └── raw/                                           # Movies_Reviews_modified_version1.csv (as provided)
 │
 ├── notebooks/                                         # Individual member notebooks (one per member 1–6)
 │   ├── IT25102549_Preprocessing_TextCleaning.ipynb    # Member 1: Athapaththu A. M. P. P.
@@ -95,7 +96,10 @@ IT2011-AIML-Project/
 │   ├── IT25102631_Preprocessing_GenreEncoding.ipynb   # Member 3: Fernando B. K. H.
 │   ├── IT25102877_Preprocessing_OutliersScaling.ipynb # Member 4: Abdullah H.F.
 │   ├── IT25103066_Preprocessing_ImbalanceHandling.ipynb # Member 5: Sameeha M.S.F.
-│   └── IT25103132_Preprocessing_FeatureExtraction.ipynb # Member 6: Silva A.M.K.N.
+│   ├── IT25103132_Preprocessing_FeatureExtraction.ipynb # Member 6: Silva A.M.K.N.
+│   ├── IT25102877_Model_DecisionTree.ipynb             # Member 4 additional baseline
+│   ├── IT25102877_Model_RandomForest.ipynb             # Member 4 primary model
+│   └── Phase2_Model_Comparison.ipynb                   # Role-aware six-member comparison
 │
 ├── results/
 │   ├── eda_visualizations/                            # Contains 7 figures (members 1 to 6, with Member 3 having two: member3_genre_distribution.png and member3_genre_cooccurrence_heatmap.png)
@@ -106,16 +110,19 @@ IT2011-AIML-Project/
 │   │   ├── member4_numerical_outliers_and_ratings.png
 │   │   ├── member5_class_imbalance_distribution.png
 │   │   └── member6_tfidf_svd_variance.png
-│   ├── logs/                                          # Execution logs (.gitkeep)
-│   └── outputs/                                       # Stateless cleaned dataset, manifest, and serializations
+│   ├── outputs/                                       # Stateless cleaned dataset, manifest, and serializations
 │       ├── processed_movie_reviews.csv                # Stateless processed dataset (16,107 rows x 26 features)
 │       ├── split_movies_manifest.joblib               # Reproducible train/test movie split manifest
 │       ├── train_movies.txt                           # 1,048 train movie titles
 │       ├── test_movies.txt                            # 261 test movie titles
 │       └── full_preprocessor.joblib                   # Serialized ColumnTransformer fitted strictly on train_df
+│   └── phase2/                                        # Standardized model metrics, predictions, plots and comparison exports
 │
+├── scripts/                                           # Acceptance and repository verification utilities
 ├── tests/
-│   └── test_preprocessing.py                          # 7 automated sanity and leak-free verification tests
+│   ├── test_preprocessing.py                          # Preprocessing and leakage checks
+│   ├── test_evaluation.py                             # Saved-result schema and comparison checks
+│   └── test_protocol.py                               # Shared teammate protocol checks
 ├── requirements.txt                                   # Reproducible dependencies
 └── docs/                                              # SLIIT Assignment Specification & Rubric PDFs
     ├── Group Assignment Specification.pdf
@@ -173,15 +180,19 @@ Phase 2 focuses on multi-class emotion classification benchmarking across the gr
 
 ### 1. Model Notebooks & Delivery Status
 
-| Model Key | Model Label | Member ID | Algorithm | Notebook Link | Delivery Status |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| `decision_tree` | Decision Tree | `IT25102877` | `DecisionTreeClassifier` | [`IT25102877_Model_DecisionTree.ipynb`](notebooks/IT25102877_Model_DecisionTree.ipynb) | ✅ Delivered |
-| `random_forest` | Random Forest | `IT25102877` | `RandomForestClassifier` | [`IT25102877_Model_RandomForest.ipynb`](notebooks/IT25102877_Model_RandomForest.ipynb) | ✅ Delivered |
-| `naive_bayes` | Multinomial Naive Bayes | `IT25102549` | `MultinomialNB` | `IT25102549_Model_NaiveBayes.ipynb` | ⏳ Pending |
-| `logistic_regression` | Logistic Regression | `IT25102550` | `LogisticRegression` | `IT25102550_Model_LogisticRegression.ipynb` | ⏳ Pending |
-| `linear_svc` | Linear Support Vector Machine | `IT25102631` | `LinearSVC` | `IT25102631_Model_LinearSVC.ipynb` | ⏳ Pending |
-| `hist_gradient_boosting` | Gradient Boosting | `IT25103066` | `HistGradientBoostingClassifier` | `IT25103066_Model_HistGradientBoosting.ipynb` | ⏳ Pending |
-| `mlp` | Multi-Layer Perceptron | `IT25103132` | `MLPClassifier` | `IT25103132_Model_MLP.ipynb` | ⏳ Pending |
+The group comparison ranks one primary model per member; additional models are reported as baselines.
+
+| Model Key | Model Label | Member ID | Role | Algorithm | Notebook Link | Delivery Status |
+| :--- | :--- | :--- | :---: | :--- | :--- | :---: |
+| `decision_tree` | Decision Tree | `IT25102877` | Baseline | `DecisionTreeClassifier` | [`IT25102877_Model_DecisionTree.ipynb`](notebooks/IT25102877_Model_DecisionTree.ipynb) | ✅ Delivered |
+| `random_forest` | Random Forest | `IT25102877` | Primary | `RandomForestClassifier` | [`IT25102877_Model_RandomForest.ipynb`](notebooks/IT25102877_Model_RandomForest.ipynb) | ✅ Delivered |
+| `naive_bayes` | Multinomial Naive Bayes | `IT25102549` | Primary | `MultinomialNB` | `IT25102549_Model_NaiveBayes.ipynb` | ⏳ Pending |
+| `logistic_regression` | Logistic Regression | `IT25102550` | Primary | `LogisticRegression` | `IT25102550_Model_LogisticRegression.ipynb` | ⏳ Pending |
+| `linear_svc` | Linear Support Vector Machine | `IT25102631` | Primary | `LinearSVC` | `IT25102631_Model_LinearSVC.ipynb` | ⏳ Pending |
+| `hist_gradient_boosting` | Gradient Boosting | `IT25103066` | Primary | `HistGradientBoostingClassifier` | `IT25103066_Model_HistGradientBoosting.ipynb` | ⏳ Pending |
+| `mlp` | Multi-Layer Perceptron | `IT25103132` | Primary | `MLPClassifier` | `IT25103132_Model_MLP.ipynb` | ⏳ Pending |
+
+**Current standardized primary delivery:** 1 of 6 (`random_forest`). The delivered `decision_tree` artifact is an additional baseline and does not increase primary-model progress.
 
 ### 2. Execution Run Order
 
