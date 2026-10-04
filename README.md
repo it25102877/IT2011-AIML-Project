@@ -124,6 +124,7 @@ IT2011-AIML-Project/
 │   ├── test_evaluation.py                             # Saved-result schema and comparison checks
 │   └── test_protocol.py                               # Shared teammate protocol checks
 ├── requirements.txt                                   # Reproducible dependencies
+├── requirements-lock.txt                              # Exact versions that reproduce the submitted numbers
 └── docs/                                              # SLIIT Assignment Specification & Rubric PDFs
     ├── Group Assignment Specification.pdf
     ├── Progress Review I - Data Preprocessing and EDA.pdf
