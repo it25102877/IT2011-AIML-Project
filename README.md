@@ -208,10 +208,39 @@ Phase 2 focuses on multi-class emotion classification benchmarking across the gr
 
 ### 4. How to Add Your Model to the Comparison
 
-To ensure seamless integration into `Phase2_Model_Comparison.ipynb`, each member's model notebook must adhere to the standardized group protocol:
-- **Identical Split:** Use `make_split(df, test_size=0.2, random_state=42)` from `src.data_prep`.
-- **Identical 5 Folds:** Partition training groups using `get_cv(5)` from `src.data_prep`.
-- **Results Persistence:** Append the following code template in the final cells of your notebook to serialize results:
+Python 3.10+ is required. The protocol creates the identical cleaned dataset, movie-grouped split, five shared CV folds, metrics, fingerprints, and baselines for every member. The test set is used only inside `finalize_model()` and can be evaluated only once per context.
+
+#### Quick path
+
+This working example uses a dummy estimator; replace it, the parameter grid, and the metadata with your model:
+
+```python
+import time
+from sklearn.dummy import DummyClassifier
+from sklearn.model_selection import GridSearchCV
+from sklearn.pipeline import Pipeline
+from src.protocol import SCORING, finalize_model, standard_setup
+ctx = standard_setup()
+pipe = Pipeline([("prep", ctx.build_preprocessor()), ("clf", DummyClassifier())])
+start = time.perf_counter()
+search = GridSearchCV(pipe, {"clf__strategy": ["most_frequent"]}, scoring=SCORING, refit="macro_f1", cv=ctx.cv_splits); search.fit(ctx.X_train, ctx.y_train)
+finalize_model(ctx, model_key="logistic_regression", member_id="IT25102550", model_label="Quick Path Test", algorithm="DummyClassifier", preprocessing="Shared full pipeline", search=search, elapsed_seconds=time.perf_counter() - start)
+```
+
+For Keras, PyTorch, or Colab workflows, return validation predictions from one fold function and pass the single final test prediction array to the protocol:
+
+```python
+from src.protocol import cv_scores_from_folds, finalize_model, fold_scores_for, standard_setup
+ctx = standard_setup()
+macro, accuracy, weighted = fold_scores_for(ctx, fit_predict)
+cv_scores = cv_scores_from_folds(macro, accuracy, weighted)
+y_pred = predict_final_test_once()
+finalize_model(ctx, model_key="mlp", member_id="IT25103132", model_label="MLP", algorithm="Keras MLP", preprocessing="Shared fold-safe preprocessing", y_pred=y_pred, cv_scores=cv_scores, n_configs=1, tuning_method="ManualSearch", elapsed_seconds=elapsed_seconds, best_params=best_params)
+```
+
+#### Advanced: manual template
+
+To integrate manually into `Phase2_Model_Comparison.ipynb`, every notebook must still use the identical split and folds and serialize the shared result schema.
 
 Copy the setup sections (data, split, SPLIT_INFO, CV folds and CV_FINGERPRINTS, SCORING, BASELINES) and the Step 5 test-evaluation cell (which creates test_metrics and predictions_df) from notebooks/IT25102877_Model_DecisionTree.ipynb first, so every name used in this template exists. Set elapsed_time to the number of seconds your search took.
 
