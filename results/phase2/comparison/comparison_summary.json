@@ -13,17 +13,34 @@
     "test_macro_f1": 0.19421056492629904,
     "test_accuracy": 0.2728966159577771
   },
-  "statistically_tied_with_best": [
-    "Decision Tree"
+  "statistically_tied_with_best": [],
+  "roles": {
+    "naive_bayes": "primary",
+    "logistic_regression": "primary",
+    "linear_svc": "primary",
+    "random_forest": "primary",
+    "hist_gradient_boosting": "primary",
+    "mlp": "primary",
+    "decision_tree": "baseline"
+  },
+  "primary_models_delivered": 1,
+  "primary_models_expected": 6,
+  "best_primary_model": {
+    "model_key": "random_forest",
+    "model_label": "Random Forest",
+    "test_macro_f1": 0.19421056492629904,
+    "test_accuracy": 0.2728966159577771
+  },
+  "tied_primary_models": [],
+  "baseline_models": [
+    "decision_tree"
   ],
   "rankings": {
     "cv_macro_f1_ranking": [
-      "Decision Tree",
       "Random Forest"
     ],
     "test_macro_f1_ranking": [
-      "Random Forest",
-      "Decision Tree"
+      "Random Forest"
     ]
   },
   "generated_artifacts": {
