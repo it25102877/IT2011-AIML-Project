@@ -1,0 +1,3222 @@
+movie_name,y_true,y_pred
+Heat,disgust,fear
+Heat,disgust,anger
+Heat,disgust,optimism
+Heat,disgust,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Leaving Las Vegas,sadness,sadness
+Chungking Express,joy,sadness
+Chungking Express,joy,joy
+Chungking Express,joy,joy
+Chungking Express,joy,sadness
+Chungking Express,joy,joy
+Chungking Express,joy,joy
+Chungking Express,joy,sadness
+Before Sunrise,sadness,joy
+Before Sunrise,sadness,sadness
+Before Sunrise,sadness,sadness
+Before Sunrise,sadness,sadness
+Before Sunrise,sadness,sadness
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,anger
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,anger
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,anger
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,fear
+Exit to Eden,anticipation,anticipation
+Exit to Eden,anticipation,disgust
+Exit to Eden,anticipation,fear
+Exit to Eden,anticipation,anticipation
+Junior,anticipation,joy
+Junior,anticipation,joy
+Junior,anticipation,disgust
+Junior,anticipation,joy
+Junior,anticipation,disgust
+Junior,anticipation,joy
+Junior,anticipation,sadness
+Junior,anticipation,anticipation
+Junior,anticipation,disgust
+Junior,anticipation,optimism
+Junior,anticipation,sadness
+Junior,anticipation,disgust
+Junior,anticipation,joy
+Junior,anticipation,joy
+Junior,anticipation,sadness
+Junior,anticipation,joy
+Junior,anticipation,joy
+Junior,anticipation,disgust
+Junior,anticipation,joy
+Junior,anticipation,joy
+The Crow,joy,optimism
+The Crow,joy,fear
+The Crow,joy,optimism
+The Crow,joy,optimism
+The Crow,joy,optimism
+The Crow,joy,fear
+The Crow,joy,fear
+The Crow,joy,fear
+The Crow,joy,fear
+The Crow,joy,optimism
+Speed,sadness,anticipation
+Speed,sadness,optimism
+Speed,sadness,fear
+Speed,sadness,fear
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,fear
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,sadness
+Highlander: The Final Dimension,optimism,fear
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,optimism
+Highlander: The Final Dimension,optimism,sadness
+Naked,fear,sadness
+Naked,fear,disgust
+Naked,fear,disgust
+Naked,fear,sadness
+Naked,fear,sadness
+Naked,fear,anger
+Naked,fear,sadness
+Naked,fear,anger
+Naked,fear,sadness
+Naked,fear,optimism
+Naked,fear,sadness
+No Escape,anticipation,optimism
+No Escape,anticipation,optimism
+No Escape,anticipation,sadness
+No Escape,anticipation,anger
+No Escape,anticipation,sadness
+No Escape,anticipation,sadness
+No Escape,anticipation,sadness
+No Escape,anticipation,optimism
+No Escape,anticipation,sadness
+No Escape,anticipation,optimism
+No Escape,anticipation,optimism
+No Escape,anticipation,optimism
+No Escape,anticipation,sadness
+No Escape,anticipation,sadness
+No Escape,anticipation,sadness
+No Escape,anticipation,anger
+Robin Hood: Men in Tights,disgust,anger
+Robin Hood: Men in Tights,disgust,anticipation
+Robin Hood: Men in Tights,disgust,anger
+Robin Hood: Men in Tights,disgust,disgust
+Robin Hood: Men in Tights,disgust,disgust
+Robin Hood: Men in Tights,disgust,anger
+Robin Hood: Men in Tights,disgust,anger
+Robin Hood: Men in Tights,disgust,joy
+Robin Hood: Men in Tights,disgust,joy
+Robin Hood: Men in Tights,disgust,joy
+Robin Hood: Men in Tights,disgust,joy
+Robin Hood: Men in Tights,disgust,joy
+Robin Hood: Men in Tights,disgust,sadness
+Chasers,anger,joy
+Pretty Woman,sadness,disgust
+Pretty Woman,sadness,optimism
+Pretty Woman,sadness,sadness
+Pretty Woman,sadness,anticipation
+Pretty Woman,sadness,disgust
+Pretty Woman,sadness,anger
+Pretty Woman,sadness,anger
+Pretty Woman,sadness,joy
+Pretty Woman,sadness,joy
+Pretty Woman,sadness,anticipation
+Pretty Woman,sadness,anticipation
+Pretty Woman,sadness,joy
+All Dogs Go to Heaven 2,sadness,optimism
+Ransom,fear,optimism
+Ransom,fear,anger
+Ransom,fear,fear
+Ransom,fear,fear
+Ransom,fear,sadness
+Ransom,fear,fear
+Ransom,fear,optimism
+Ransom,fear,fear
+Ransom,fear,fear
+Ransom,fear,fear
+Ransom,fear,optimism
+Ransom,fear,fear
+Ransom,fear,fear
+Ransom,fear,fear
+Ransom,fear,fear
+Ransom,fear,fear
+Ransom,fear,fear
+Ransom,fear,anger
+The Apartment,sadness,sadness
+The Apartment,sadness,sadness
+The Apartment,sadness,sadness
+The Apartment,sadness,disgust
+The Apartment,sadness,joy
+The Apartment,sadness,sadness
+The Apartment,sadness,anticipation
+The Apartment,sadness,sadness
+The Apartment,sadness,sadness
+The Apartment,sadness,sadness
+The Apartment,sadness,anticipation
+The Apartment,sadness,sadness
+The Apartment,sadness,sadness
+Manon of the Spring,sadness,anticipation
+Manon of the Spring,sadness,anticipation
+Manon of the Spring,sadness,anticipation
+Manon of the Spring,sadness,anticipation
+Cinema Paradiso,joy,joy
+Cinema Paradiso,joy,sadness
+Cinema Paradiso,joy,joy
+Cinema Paradiso,joy,sadness
+Cinema Paradiso,joy,joy
+Cinema Paradiso,joy,joy
+Cinema Paradiso,joy,joy
+Cinema Paradiso,joy,disgust
+Cinema Paradiso,joy,sadness
+Cinema Paradiso,joy,sadness
+Cinema Paradiso,joy,sadness
+The Princess Bride,optimism,joy
+The Princess Bride,optimism,joy
+The Princess Bride,optimism,joy
+The Princess Bride,optimism,joy
+The Princess Bride,optimism,optimism
+The Princess Bride,optimism,joy
+The Princess Bride,optimism,joy
+The Princess Bride,optimism,joy
+Brazil,sadness,optimism
+Brazil,sadness,fear
+Brazil,sadness,optimism
+Brazil,sadness,optimism
+Brazil,sadness,optimism
+Brazil,sadness,optimism
+Brazil,sadness,optimism
+Brazil,sadness,optimism
+Brazil,sadness,optimism
+Brazil,sadness,optimism
+Wings of Desire,joy,anticipation
+Wings of Desire,joy,sadness
+Wings of Desire,joy,sadness
+Wings of Desire,joy,sadness
+Wings of Desire,joy,sadness
+Wings of Desire,joy,sadness
+Wings of Desire,joy,sadness
+Wings of Desire,joy,sadness
+Wings of Desire,joy,joy
+Wings of Desire,joy,sadness
+Wings of Desire,joy,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,joy
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,sadness
+When Harry Met Sally...,fear,joy
+Carrie,sadness,fear
+Carrie,sadness,anger
+Carrie,sadness,fear
+Carrie,sadness,optimism
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,anger
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Carrie,sadness,fear
+Grease,joy,joy
+Grease,joy,anticipation
+Grease,joy,anger
+Grease,joy,joy
+Grease,joy,joy
+Grease,joy,anticipation
+Grease,joy,joy
+Sprung,anticipation,anticipation
+Sprung,anticipation,disgust
+Sprung,anticipation,joy
+Sprung,anticipation,sadness
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,optimism
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,anger
+Speed 2: Cruise Control,anger,fear
+Speed 2: Cruise Control,anger,anger
+Speed 2: Cruise Control,anger,anger
+Speed 2: Cruise Control,anger,anger
+Speed 2: Cruise Control,anger,anger
+Speed 2: Cruise Control,anger,anger
+Speed 2: Cruise Control,anger,anger
+The Assignment,anticipation,optimism
+The Assignment,anticipation,fear
+The Assignment,anticipation,fear
+The Assignment,anticipation,anger
+The Assignment,anticipation,anger
+The Assignment,anticipation,anger
+The Assignment,anticipation,fear
+The Assignment,anticipation,anger
+The Assignment,anticipation,anger
+The Assignment,anticipation,fear
+The Assignment,anticipation,anger
+The Assignment,anticipation,anger
+The Assignment,anticipation,anger
+The Assignment,anticipation,fear
+The Assignment,anticipation,fear
+A Smile Like Yours,joy,anger
+A Smile Like Yours,joy,joy
+A Smile Like Yours,joy,anticipation
+A Smile Like Yours,joy,anger
+A Smile Like Yours,joy,joy
+A Smile Like Yours,joy,sadness
+Good Will Hunting,optimism,optimism
+Good Will Hunting,optimism,anticipation
+Good Will Hunting,optimism,sadness
+Good Will Hunting,optimism,anticipation
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,sadness
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Dark City,anger,optimism
+Cavalcade,optimism,anticipation
+Metropolis,optimism,sadness
+Metropolis,optimism,anticipation
+Metropolis,optimism,optimism
+Metropolis,optimism,optimism
+Metropolis,optimism,sadness
+Metropolis,optimism,sadness
+Metropolis,optimism,sadness
+Metropolis,optimism,sadness
+Metropolis,optimism,optimism
+Metropolis,optimism,sadness
+Metropolis,optimism,optimism
+Metropolis,optimism,optimism
+Metropolis,optimism,sadness
+Metropolis,optimism,sadness
+Out of the Past,fear,fear
+Out of the Past,fear,fear
+Out of the Past,fear,anticipation
+Out of the Past,fear,fear
+Out of the Past,fear,fear
+Out of the Past,fear,fear
+Out of the Past,fear,fear
+Out of the Past,fear,fear
+Out of the Past,fear,fear
+Out of the Past,fear,anticipation
+Out of the Past,fear,fear
+Out of the Past,fear,fear
+Out of the Past,fear,fear
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,anticipation
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,anticipation
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,sadness
+Doctor Zhivago,sadness,anticipation
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,joy
+Lady and the Tramp,joy,anticipation
+Popeye,joy,anticipation
+Popeye,joy,joy
+Popeye,joy,joy
+Popeye,joy,joy
+Popeye,joy,anticipation
+Popeye,joy,anticipation
+Popeye,joy,anticipation
+Popeye,joy,joy
+Popeye,joy,anticipation
+Popeye,joy,joy
+Popeye,joy,anticipation
+Popeye,joy,anticipation
+Popeye,joy,anticipation
+Popeye,joy,anticipation
+Popeye,joy,joy
+Popeye,joy,anticipation
+Popeye,joy,joy
+Popeye,joy,anticipation
+Popeye,joy,anticipation
+Popeye,joy,joy
+The Allnighter,joy,anger
+The Allnighter,joy,joy
+The Allnighter,joy,joy
+The Allnighter,joy,anticipation
+The Allnighter,joy,joy
+The Allnighter,joy,joy
+The Allnighter,joy,joy
+The Allnighter,joy,anticipation
+The Allnighter,joy,joy
+Indecent Proposal,anticipation,anticipation
+Indecent Proposal,anticipation,sadness
+Indecent Proposal,anticipation,anticipation
+Indecent Proposal,anticipation,sadness
+Indecent Proposal,anticipation,anger
+Indecent Proposal,anticipation,optimism
+Indecent Proposal,anticipation,anticipation
+Indecent Proposal,anticipation,anticipation
+Indecent Proposal,anticipation,anticipation
+Indecent Proposal,anticipation,anticipation
+Indecent Proposal,anticipation,anticipation
+Indecent Proposal,anticipation,sadness
+Indecent Proposal,anticipation,sadness
+Indecent Proposal,anticipation,sadness
+Indecent Proposal,anticipation,optimism
+Indecent Proposal,anticipation,anticipation
+Indecent Proposal,anticipation,sadness
+Indecent Proposal,anticipation,sadness
+Edward Scissorhands,sadness,joy
+Edward Scissorhands,sadness,anticipation
+Edward Scissorhands,sadness,anticipation
+Edward Scissorhands,sadness,anticipation
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,joy
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+Edward Scissorhands,sadness,sadness
+You've Got Mail,joy,joy
+You've Got Mail,joy,sadness
+You've Got Mail,joy,anticipation
+You've Got Mail,joy,joy
+You've Got Mail,joy,sadness
+You've Got Mail,joy,sadness
+You've Got Mail,joy,joy
+You've Got Mail,joy,anticipation
+You've Got Mail,joy,joy
+You've Got Mail,joy,anticipation
+You've Got Mail,joy,joy
+Patch Adams,optimism,anticipation
+Patch Adams,optimism,optimism
+Patch Adams,optimism,anticipation
+Patch Adams,optimism,anticipation
+Patch Adams,optimism,sadness
+Patch Adams,optimism,sadness
+Patch Adams,optimism,sadness
+Patch Adams,optimism,sadness
+Patch Adams,optimism,sadness
+Patch Adams,optimism,anticipation
+Patch Adams,optimism,anger
+Gloria,sadness,fear
+Cruel Intentions,anticipation,disgust
+Cruel Intentions,anticipation,sadness
+Cruel Intentions,anticipation,sadness
+Cruel Intentions,anticipation,sadness
+Cruel Intentions,anticipation,joy
+Cruel Intentions,anticipation,sadness
+Cruel Intentions,anticipation,sadness
+Cruel Intentions,anticipation,anticipation
+Forces of Nature,sadness,anticipation
+Forces of Nature,sadness,joy
+Forces of Nature,sadness,sadness
+Forces of Nature,sadness,joy
+Forces of Nature,sadness,anticipation
+Forces of Nature,sadness,joy
+Forces of Nature,sadness,joy
+Forces of Nature,sadness,joy
+Forces of Nature,sadness,joy
+Forces of Nature,sadness,joy
+Forces of Nature,sadness,sadness
+Forces of Nature,sadness,fear
+Forces of Nature,sadness,fear
+The Monster,sadness,joy
+The Monster,sadness,anticipation
+The Monster,sadness,anticipation
+The Monster,sadness,anticipation
+The Monster,sadness,anger
+The Monster,sadness,sadness
+The Monster,sadness,anger
+The Monster,sadness,anticipation
+The Monster,sadness,anger
+The Monster,sadness,joy
+The Monster,sadness,joy
+The Monster,sadness,joy
+The Monster,sadness,joy
+The Monster,sadness,sadness
+The Monster,sadness,sadness
+Runaway Bride,sadness,joy
+Runaway Bride,sadness,optimism
+Runaway Bride,sadness,joy
+Runaway Bride,sadness,disgust
+Runaway Bride,sadness,sadness
+Runaway Bride,sadness,anger
+Runaway Bride,sadness,anticipation
+Runaway Bride,sadness,anger
+Runaway Bride,sadness,joy
+Runaway Bride,sadness,anticipation
+Runaway Bride,sadness,joy
+Runaway Bride,sadness,joy
+Runaway Bride,sadness,joy
+Runaway Bride,sadness,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,sadness
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Big,fear,joy
+Drive Me Crazy,sadness,joy
+Drive Me Crazy,sadness,joy
+Drive Me Crazy,sadness,joy
+Drive Me Crazy,sadness,sadness
+Drive Me Crazy,sadness,anticipation
+Drive Me Crazy,sadness,sadness
+Drive Me Crazy,sadness,anticipation
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,anticipation
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,anticipation
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,fear
+The Guardian,sadness,sadness
+The Shop Around the Corner,sadness,sadness
+The Shop Around the Corner,sadness,joy
+The Shop Around the Corner,sadness,joy
+The Shop Around the Corner,sadness,sadness
+The Shop Around the Corner,sadness,sadness
+The Shop Around the Corner,sadness,sadness
+The Shop Around the Corner,sadness,joy
+The Shop Around the Corner,sadness,joy
+The Shop Around the Corner,sadness,joy
+The Shop Around the Corner,sadness,anger
+The Shop Around the Corner,sadness,sadness
+The Shop Around the Corner,sadness,joy
+The Last Picture Show,sadness,optimism
+The Last Picture Show,sadness,anticipation
+The Last Picture Show,sadness,disgust
+The Last Picture Show,sadness,anticipation
+The Last Picture Show,sadness,anticipation
+The Last Picture Show,sadness,anticipation
+The Last Picture Show,sadness,sadness
+The Last Picture Show,sadness,anticipation
+City Lights,sadness,sadness
+City Lights,sadness,sadness
+City Lights,sadness,sadness
+City Lights,sadness,disgust
+City Lights,sadness,sadness
+City Lights,sadness,sadness
+City Lights,sadness,sadness
+City Lights,sadness,sadness
+City Lights,sadness,sadness
+Who's That Girl,sadness,anticipation
+Who's That Girl,sadness,anticipation
+Who's That Girl,sadness,optimism
+Who's That Girl,sadness,disgust
+Who's That Girl,sadness,anticipation
+Who's That Girl,sadness,anticipation
+Who's That Girl,sadness,anger
+Who's That Girl,sadness,anticipation
+Who's That Girl,sadness,disgust
+Who's That Girl,sadness,joy
+Who's That Girl,sadness,sadness
+Who's That Girl,sadness,anticipation
+Who's That Girl,sadness,anticipation
+Modern Times,sadness,sadness
+Modern Times,sadness,anticipation
+Modern Times,sadness,sadness
+Modern Times,sadness,sadness
+Modern Times,sadness,sadness
+Modern Times,sadness,sadness
+Modern Times,sadness,anticipation
+Modern Times,sadness,sadness
+Modern Times,sadness,sadness
+El Dorado,optimism,optimism
+The Virgin Suicides,fear,disgust
+The Virgin Suicides,fear,anticipation
+The Virgin Suicides,fear,joy
+The Virgin Suicides,fear,joy
+The Virgin Suicides,fear,sadness
+The Virgin Suicides,fear,sadness
+The Virgin Suicides,fear,anticipation
+The Virgin Suicides,fear,sadness
+The Virgin Suicides,fear,joy
+The Flintstones in Viva Rock Vegas,joy,joy
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,sadness
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,sadness
+The Flintstones in Viva Rock Vegas,joy,optimism
+The Flintstones in Viva Rock Vegas,joy,joy
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+Inferno,sadness,fear
+White Christmas,joy,anticipation
+White Christmas,joy,optimism
+White Christmas,joy,sadness
+White Christmas,joy,sadness
+White Christmas,joy,anticipation
+White Christmas,joy,joy
+White Christmas,joy,anticipation
+White Christmas,joy,anticipation
+White Christmas,joy,joy
+White Christmas,joy,sadness
+White Christmas,joy,joy
+White Christmas,joy,joy
+White Christmas,joy,sadness
+White Christmas,joy,anticipation
+House Party 2,anticipation,joy
+House Party 2,anticipation,anger
+House Party 2,anticipation,joy
+House Party 2,anticipation,anticipation
+House Party 2,anticipation,anger
+House Party 2,anticipation,anger
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,joy
+Coyote Ugly,joy,anticipation
+Coyote Ugly,joy,joy
+Pajama Party,optimism,joy
+Pajama Party,optimism,joy
+Pajama Party,optimism,joy
+Pajama Party,optimism,joy
+Pajama Party,optimism,anger
+Pajama Party,optimism,joy
+Bedazzled,sadness,joy
+Bedazzled,sadness,joy
+Bedazzled,sadness,joy
+Bedazzled,sadness,joy
+Bedazzled,sadness,sadness
+Bedazzled,sadness,disgust
+Bedazzled,sadness,disgust
+Bedazzled,sadness,sadness
+Bedazzled,sadness,sadness
+Bedazzled,sadness,sadness
+Bedazzled,sadness,joy
+Chocolat,sadness,disgust
+Cast Away,sadness,joy
+Cast Away,sadness,sadness
+Cast Away,sadness,sadness
+Cast Away,sadness,joy
+Cast Away,sadness,joy
+Cast Away,sadness,joy
+Cast Away,sadness,optimism
+Cast Away,sadness,optimism
+Cast Away,sadness,joy
+Cast Away,sadness,sadness
+Cast Away,sadness,sadness
+Cast Away,sadness,sadness
+The Family Man,sadness,joy
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,sadness
+The Family Man,sadness,joy
+The Family Man,sadness,joy
+Annie,sadness,joy
+Annie,sadness,optimism
+Annie,sadness,joy
+Annie,sadness,optimism
+Annie,sadness,optimism
+Annie,sadness,joy
+Annie,sadness,optimism
+Annie,sadness,joy
+Annie,sadness,optimism
+Annie,sadness,joy
+Annie,sadness,joy
+Annie,sadness,joy
+Annie,sadness,joy
+Annie,sadness,joy
+Annie,sadness,joy
+Annie,sadness,joy
+Annie,sadness,joy
+Annie,sadness,optimism
+Annie,sadness,joy
+Sweet November,optimism,anticipation
+Sweet November,optimism,sadness
+Sweet November,optimism,sadness
+Sweet November,optimism,joy
+Sweet November,optimism,optimism
+Sweet November,optimism,sadness
+Sweet November,optimism,anticipation
+Sweet November,optimism,sadness
+Sweet November,optimism,sadness
+Sweet November,optimism,sadness
+Sweet November,optimism,sadness
+Sweet November,optimism,sadness
+The Mexican,disgust,sadness
+The Mexican,disgust,anger
+The Mexican,disgust,anticipation
+The Mexican,disgust,anger
+The Mexican,disgust,anticipation
+The Mexican,disgust,anticipation
+The Mexican,disgust,anticipation
+The Mexican,disgust,anger
+The Mexican,disgust,anticipation
+The Mexican,disgust,anticipation
+The Mexican,disgust,sadness
+The Mexican,disgust,anticipation
+The Mexican,disgust,sadness
+The Mexican,disgust,anticipation
+The Mexican,disgust,anticipation
+The Mexican,disgust,sadness
+The Mexican,disgust,anticipation
+The Mexican,disgust,fear
+Say It Isn't So,sadness,anger
+Say It Isn't So,sadness,joy
+Say It Isn't So,sadness,joy
+Say It Isn't So,sadness,joy
+Say It Isn't So,sadness,disgust
+Say It Isn't So,sadness,joy
+Say It Isn't So,sadness,anger
+Say It Isn't So,sadness,anger
+Say It Isn't So,sadness,anger
+Say It Isn't So,sadness,joy
+Say It Isn't So,sadness,anger
+Say It Isn't So,sadness,anger
+Say It Isn't So,sadness,disgust
+Say It Isn't So,sadness,sadness
+Say It Isn't So,sadness,anticipation
+Say It Isn't So,sadness,sadness
+The Body,fear,fear
+Wolves,anticipation,joy
+Wolves,anticipation,anticipation
+Wolves,anticipation,fear
+Wolves,anticipation,anger
+Wolves,anticipation,optimism
+Wolves,anticipation,joy
+Wolves,anticipation,sadness
+Wolves,anticipation,fear
+Wolves,anticipation,sadness
+Wolves,anticipation,optimism
+Wolves,anticipation,fear
+Wolves,anticipation,fear
+Wolves,anticipation,anticipation
+Wolves,anticipation,fear
+Moon Over Parador,disgust,sadness
+American Ninja,anticipation,fear
+American Ninja,anticipation,anger
+American Ninja,anticipation,anger
+American Ninja,anticipation,anger
+American Ninja,anticipation,fear
+American Ninja,anticipation,fear
+American Ninja,anticipation,fear
+American Ninja,anticipation,anger
+Her Alibi,anticipation,sadness
+Her Alibi,anticipation,anticipation
+Her Alibi,anticipation,disgust
+Her Alibi,anticipation,anticipation
+Her Alibi,anticipation,anticipation
+Her Alibi,anticipation,sadness
+Her Alibi,anticipation,fear
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+Bubble Boy,joy,sadness
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+Bubble Boy,joy,joy
+The Musketeer,anticipation,joy
+The Musketeer,anticipation,anger
+The Musketeer,anticipation,joy
+The Musketeer,anticipation,fear
+The Musketeer,anticipation,anger
+The Musketeer,anticipation,sadness
+The Musketeer,anticipation,joy
+The Musketeer,anticipation,anger
+The Musketeer,anticipation,anger
+The Musketeer,anticipation,anger
+The Musketeer,anticipation,joy
+The Musketeer,anticipation,joy
+The Musketeer,anticipation,optimism
+The Musketeer,anticipation,fear
+The Musketeer,anticipation,joy
+The Musketeer,anticipation,anger
+The Musketeer,anticipation,anger
+The Musketeer,anticipation,anger
+The Musketeer,anticipation,sadness
+The Glass House,optimism,sadness
+The Glass House,optimism,sadness
+The Glass House,optimism,optimism
+The Glass House,optimism,sadness
+The Glass House,optimism,anger
+The Glass House,optimism,optimism
+The Glass House,optimism,sadness
+The Glass House,optimism,sadness
+The Glass House,optimism,anger
+The Glass House,optimism,sadness
+The Glass House,optimism,sadness
+The Glass House,optimism,sadness
+The Glass House,optimism,anger
+The Glass House,optimism,disgust
+The Glass House,optimism,sadness
+Shallow Hal,sadness,anger
+Shallow Hal,sadness,anger
+Shallow Hal,sadness,anticipation
+Shallow Hal,sadness,sadness
+Shallow Hal,sadness,disgust
+Shallow Hal,sadness,fear
+Shallow Hal,sadness,disgust
+Shallow Hal,sadness,sadness
+Shallow Hal,sadness,optimism
+Shallow Hal,sadness,sadness
+Shallow Hal,sadness,disgust
+Shallow Hal,sadness,sadness
+Shallow Hal,sadness,joy
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,sadness
+Monster's Ball,sadness,joy
+Monster's Ball,sadness,sadness
+The Count of Monte Cristo,anger,joy
+The Count of Monte Cristo,anger,joy
+The Count of Monte Cristo,anger,anger
+The Count of Monte Cristo,anger,joy
+The Count of Monte Cristo,anger,sadness
+The Count of Monte Cristo,anger,joy
+The Last Man,sadness,joy
+The Last Man,sadness,anticipation
+The Last Man,sadness,sadness
+The Last Man,sadness,joy
+The Last Man,sadness,disgust
+The Last Man,sadness,optimism
+The Last Man,sadness,optimism
+The Last Man,sadness,sadness
+The Last Man,sadness,optimism
+The Last Man,sadness,optimism
+The Last Man,sadness,joy
+The Last Man,sadness,sadness
+The Last Man,sadness,disgust
+The Last Man,sadness,anticipation
+The Last Man,sadness,anticipation
+Under the Skin,anticipation,anticipation
+Under the Skin,anticipation,anticipation
+Under the Skin,anticipation,sadness
+Under the Skin,anticipation,optimism
+Under the Skin,anticipation,anticipation
+Under the Skin,anticipation,sadness
+Under the Skin,anticipation,sadness
+Under the Skin,anticipation,optimism
+Under the Skin,anticipation,sadness
+Under the Skin,anticipation,anticipation
+Under the Skin,anticipation,sadness
+Under the Skin,anticipation,optimism
+40 Days and 40 Nights,sadness,disgust
+40 Days and 40 Nights,sadness,optimism
+40 Days and 40 Nights,sadness,anger
+40 Days and 40 Nights,sadness,disgust
+40 Days and 40 Nights,sadness,anger
+40 Days and 40 Nights,sadness,anger
+40 Days and 40 Nights,sadness,anger
+40 Days and 40 Nights,sadness,optimism
+40 Days and 40 Nights,sadness,disgust
+40 Days and 40 Nights,sadness,joy
+40 Days and 40 Nights,sadness,disgust
+40 Days and 40 Nights,sadness,anger
+40 Days and 40 Nights,sadness,anticipation
+40 Days and 40 Nights,sadness,anticipation
+40 Days and 40 Nights,sadness,anger
+40 Days and 40 Nights,sadness,anger
+40 Days and 40 Nights,sadness,optimism
+The Aviator,anger,joy
+The Aviator,anger,sadness
+The Aviator,anger,joy
+The Aviator,anger,joy
+The Aviator,anger,joy
+The Aviator,anger,sadness
+The Aviator,anger,sadness
+The Aviator,anger,sadness
+The Aviator,anger,joy
+The Aviator,anger,joy
+The Aviator,anger,joy
+The Aviator,anger,joy
+The Aviator,anger,sadness
+The Aviator,anger,sadness
+The Aviator,anger,sadness
+The Aviator,anger,joy
+The Aviator,anger,joy
+The Aviator,anger,sadness
+The Aviator,anger,sadness
+The Aviator,anger,sadness
+Mr. Deeds,joy,disgust
+Mr. Deeds,joy,disgust
+Mr. Deeds,joy,disgust
+Mr. Deeds,joy,optimism
+Mr. Deeds,joy,sadness
+Mr. Deeds,joy,optimism
+Mr. Deeds,joy,disgust
+Mr. Deeds,joy,joy
+Mo' Money,anger,anticipation
+Mo' Money,anger,anger
+Mo' Money,anger,anticipation
+Mo' Money,anger,anticipation
+Mo' Money,anger,anticipation
+Mo' Money,anger,anticipation
+Two Weeks Notice,anger,joy
+Two Weeks Notice,anger,anger
+Two Weeks Notice,anger,anger
+Two Weeks Notice,anger,joy
+Two Weeks Notice,anger,anger
+Two Weeks Notice,anger,anger
+Two Weeks Notice,anger,anger
+Two Weeks Notice,anger,anticipation
+Two Weeks Notice,anger,anticipation
+Two Weeks Notice,anger,anger
+Two Weeks Notice,anger,anger
+Two Weeks Notice,anger,joy
+Two Weeks Notice,anger,anger
+A Guy Thing,sadness,anticipation
+A Guy Thing,sadness,sadness
+A Guy Thing,sadness,anger
+A Guy Thing,sadness,joy
+A Guy Thing,sadness,anticipation
+A Guy Thing,sadness,sadness
+A Guy Thing,sadness,anticipation
+A Guy Thing,sadness,joy
+How to Lose a Guy in 10 Days,joy,optimism
+How to Lose a Guy in 10 Days,joy,anticipation
+How to Lose a Guy in 10 Days,joy,sadness
+How to Lose a Guy in 10 Days,joy,joy
+How to Lose a Guy in 10 Days,joy,sadness
+How to Lose a Guy in 10 Days,joy,anticipation
+How to Lose a Guy in 10 Days,joy,joy
+How to Lose a Guy in 10 Days,joy,joy
+How to Lose a Guy in 10 Days,joy,joy
+How to Lose a Guy in 10 Days,joy,joy
+How to Lose a Guy in 10 Days,joy,sadness
+The Undefeated,optimism,optimism
+The Undefeated,optimism,anger
+The Undefeated,optimism,optimism
+The Undefeated,optimism,disgust
+The Undefeated,optimism,disgust
+The Undefeated,optimism,sadness
+The Undefeated,optimism,anticipation
+The Undefeated,optimism,anger
+The Undefeated,optimism,anticipation
+The Undefeated,optimism,anticipation
+The Undefeated,optimism,disgust
+The Undefeated,optimism,optimism
+The Undefeated,optimism,disgust
+The Undefeated,optimism,disgust
+The Undefeated,optimism,optimism
+The Undefeated,optimism,anticipation
+The Undefeated,optimism,anticipation
+The Undefeated,optimism,disgust
+The Undefeated,optimism,optimism
+The Rules of the Game,joy,sadness
+The Rules of the Game,joy,anger
+The Rules of the Game,joy,joy
+The Rules of the Game,joy,anticipation
+The Rules of the Game,joy,sadness
+The Rules of the Game,joy,sadness
+The Rules of the Game,joy,sadness
+The Rules of the Game,joy,sadness
+The Rules of the Game,joy,sadness
+The Rules of the Game,joy,sadness
+The Rules of the Game,joy,sadness
+The Rules of the Game,joy,sadness
+Intolerable Cruelty,anticipation,anticipation
+Intolerable Cruelty,anticipation,joy
+Intolerable Cruelty,anticipation,anger
+Intolerable Cruelty,anticipation,anticipation
+Intolerable Cruelty,anticipation,anticipation
+Intolerable Cruelty,anticipation,anticipation
+Intolerable Cruelty,anticipation,anticipation
+Intolerable Cruelty,anticipation,anticipation
+Intolerable Cruelty,anticipation,anticipation
+Intolerable Cruelty,anticipation,sadness
+Damage,optimism,sadness
+Damage,optimism,optimism
+Damage,optimism,anger
+Damage,optimism,sadness
+Damage,optimism,sadness
+Damage,optimism,sadness
+Damage,optimism,joy
+Damage,optimism,sadness
+Damage,optimism,sadness
+King Ralph,disgust,joy
+King Ralph,disgust,joy
+King Ralph,disgust,joy
+King Ralph,disgust,anticipation
+King Ralph,disgust,sadness
+King Ralph,disgust,joy
+King Ralph,disgust,joy
+King Ralph,disgust,anticipation
+King Ralph,disgust,joy
+King Ralph,disgust,anticipation
+King Ralph,disgust,joy
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,joy
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,sadness
+A Woman Under the Influence,sadness,sadness
+Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+Metalstorm: The Destruction of Jared-Syn,fear,fear
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,fear
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,sadness
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,fear
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,sadness
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Metalstorm: The Destruction of Jared-Syn,fear,optimism
+Love Don't Cost a Thing,anger,joy
+Love Don't Cost a Thing,anger,sadness
+Love Don't Cost a Thing,anger,joy
+Love Don't Cost a Thing,anger,joy
+Love Don't Cost a Thing,anger,anticipation
+Love Don't Cost a Thing,anger,joy
+Love Don't Cost a Thing,anger,joy
+Love Don't Cost a Thing,anger,joy
+Love Don't Cost a Thing,anger,anticipation
+Cheaper by the Dozen,joy,joy
+Cheaper by the Dozen,joy,joy
+Cheaper by the Dozen,joy,sadness
+Cheaper by the Dozen,joy,optimism
+Cheaper by the Dozen,joy,anticipation
+Cheaper by the Dozen,joy,anticipation
+Cheaper by the Dozen,joy,joy
+Cheaper by the Dozen,joy,anger
+Cheaper by the Dozen,joy,joy
+Cheaper by the Dozen,joy,joy
+It,joy,joy
+It,joy,joy
+It,joy,joy
+It,joy,sadness
+It,joy,optimism
+It,joy,sadness
+It,joy,anticipation
+It,joy,sadness
+It,joy,sadness
+It,joy,joy
+It,joy,sadness
+It,joy,sadness
+It,joy,sadness
+It,joy,joy
+It,joy,joy
+It,joy,anticipation
+It,joy,anger
+The Dreamers,sadness,sadness
+The Dreamers,sadness,sadness
+The Dreamers,sadness,sadness
+The Dreamers,sadness,disgust
+The Dreamers,sadness,sadness
+The Dreamers,sadness,anticipation
+Hell's Kitchen,sadness,anticipation
+Hell's Kitchen,sadness,anticipation
+Hell's Kitchen,sadness,fear
+Hell's Kitchen,sadness,anticipation
+Hell's Kitchen,sadness,fear
+Hell's Kitchen,sadness,fear
+Hell's Kitchen,sadness,fear
+Hell's Kitchen,sadness,anticipation
+Hell's Kitchen,sadness,anticipation
+Hell's Kitchen,sadness,anticipation
+Hell's Kitchen,sadness,sadness
+Hell's Kitchen,sadness,anticipation
+Swing Shift,optimism,sadness
+Swing Shift,optimism,sadness
+The Girl Next Door,joy,anger
+The Girl Next Door,joy,anticipation
+The Girl Next Door,joy,anger
+The Girl Next Door,joy,joy
+The Girl Next Door,joy,anticipation
+The Girl Next Door,joy,anticipation
+The Girl Next Door,joy,sadness
+The Girl Next Door,joy,anger
+The Girl Next Door,joy,anticipation
+The Girl Next Door,joy,joy
+The Girl Next Door,joy,sadness
+The Girl Next Door,joy,anticipation
+The Girl Next Door,joy,anticipation
+The Girl Next Door,joy,sadness
+The Slugger's Wife,sadness,joy
+The Slugger's Wife,sadness,sadness
+Jack and the Beanstalk,joy,optimism
+Jack and the Beanstalk,joy,joy
+Jack and the Beanstalk,joy,joy
+Jack and the Beanstalk,joy,sadness
+Jack and the Beanstalk,joy,sadness
+Jack and the Beanstalk,joy,sadness
+"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+"Spring, Summer, Fall, Winter... and Spring",sadness,joy
+"Spring, Summer, Fall, Winter... and Spring",sadness,joy
+"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+"Spring, Summer, Fall, Winter... and Spring",sadness,anger
+"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+Moment by Moment,sadness,anticipation
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,sadness
+Moment by Moment,sadness,sadness
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,sadness
+Moment by Moment,sadness,sadness
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,anticipation
+Moment by Moment,sadness,disgust
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,sadness
+Moment by Moment,sadness,joy
+Moment by Moment,sadness,anticipation
+Killing Me Softly,fear,fear
+Killing Me Softly,fear,fear
+Killing Me Softly,fear,fear
+Killing Me Softly,fear,fear
+Killing Me Softly,fear,fear
+Killing Me Softly,fear,fear
+Killing Me Softly,fear,fear
+Killing Me Softly,fear,fear
+Killing Me Softly,fear,fear
+Zandalee,optimism,fear
+Zandalee,optimism,sadness
+Zandalee,optimism,fear
+Zandalee,optimism,sadness
+Zandalee,optimism,sadness
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,fear
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,optimism
+Thunderbirds,sadness,fear
+Thunderbirds,sadness,fear
+The Princess Diaries 2: Royal Engagement,anticipation,anticipation
+The Princess Diaries 2: Royal Engagement,anticipation,joy
+The Princess Diaries 2: Royal Engagement,anticipation,sadness
+The Princess Diaries 2: Royal Engagement,anticipation,joy
+The Princess Diaries 2: Royal Engagement,anticipation,sadness
+The Princess Diaries 2: Royal Engagement,anticipation,joy
+The Princess Diaries 2: Royal Engagement,anticipation,sadness
+The Princess Diaries 2: Royal Engagement,anticipation,joy
+The Princess Diaries 2: Royal Engagement,anticipation,sadness
+The Princess Diaries 2: Royal Engagement,anticipation,joy
+The Princess Diaries 2: Royal Engagement,anticipation,joy
+The Princess Diaries 2: Royal Engagement,anticipation,joy
+The Princess Diaries 2: Royal Engagement,anticipation,joy
+The Princess Diaries 2: Royal Engagement,anticipation,sadness
+The Princess Diaries 2: Royal Engagement,anticipation,sadness
+Surviving Christmas,anger,sadness
+Surviving Christmas,anger,anger
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,sadness
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,sadness
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,joy
+Surviving Christmas,anger,anger
+Closer,disgust,anticipation
+Closer,disgust,sadness
+Closer,disgust,sadness
+Closer,disgust,sadness
+Closer,disgust,sadness
+Closer,disgust,optimism
+Torment,sadness,sadness
+Torment,sadness,anticipation
+Torment,sadness,joy
+Sisters,sadness,fear
+Sisters,sadness,fear
+Sisters,sadness,fear
+Sisters,sadness,anger
+Sisters,sadness,fear
+Sisters,sadness,fear
+Sisters,sadness,fear
+The Foreigner,sadness,fear
+The Foreigner,sadness,anger
+The Foreigner,sadness,fear
+The Foreigner,sadness,sadness
+The Foreigner,sadness,fear
+The Foreigner,sadness,anger
+The Foreigner,sadness,fear
+The Foreigner,sadness,fear
+The Foreigner,sadness,fear
+The Foreigner,sadness,fear
+The Foreigner,sadness,anger
+The Foreigner,sadness,fear
+The Foreigner,sadness,anger
+The Foreigner,sadness,fear
+The Foreigner,sadness,anger
+The Foreigner,sadness,fear
+The Foreigner,sadness,anticipation
+The Foreigner,sadness,sadness
+Spanglish,sadness,disgust
+Spanglish,sadness,optimism
+Spanglish,sadness,disgust
+Spanglish,sadness,anticipation
+Spanglish,sadness,sadness
+Spanglish,sadness,disgust
+Spanglish,sadness,anticipation
+Spanglish,sadness,disgust
+Spanglish,sadness,sadness
+Spanglish,sadness,optimism
+Spanglish,sadness,sadness
+Spanglish,sadness,disgust
+Spanglish,sadness,disgust
+11:11,sadness,joy
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,anger
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,joy
+11:11,sadness,anger
+11:11,sadness,joy
+11:11,sadness,anticipation
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+11:11,sadness,fear
+Once Upon a Honeymoon,anticipation,disgust
+Once Upon a Honeymoon,anticipation,disgust
+Once Upon a Honeymoon,anticipation,anticipation
+Once Upon a Honeymoon,anticipation,anticipation
+Guess Who,joy,anger
+Guess Who,joy,anger
+Guess Who,joy,anger
+Guess Who,joy,anger
+Guess Who,joy,joy
+Guess Who,joy,joy
+Guess Who,joy,joy
+Guess Who,joy,sadness
+Guess Who,joy,sadness
+Guess Who,joy,anger
+Guess Who,joy,sadness
+Guess Who,joy,anger
+Guess Who,joy,anger
+Guess Who,joy,anger
+Guess Who,joy,sadness
+Brothers,sadness,anticipation
+Brothers,sadness,anger
+Brothers,sadness,sadness
+Brothers,sadness,sadness
+Brothers,sadness,sadness
+Brothers,sadness,optimism
+Brothers,sadness,sadness
+Brothers,sadness,sadness
+Brothers,sadness,anticipation
+Brothers,sadness,sadness
+Brothers,sadness,sadness
+Brothers,sadness,optimism
+Brothers,sadness,optimism
+Brothers,sadness,sadness
+Brothers,sadness,sadness
+Brothers,sadness,sadness
+Brothers,sadness,anticipation
+King's Ransom,anticipation,sadness
+King's Ransom,anticipation,anticipation
+King's Ransom,anticipation,anger
+King's Ransom,anticipation,anger
+King's Ransom,anticipation,anger
+King's Ransom,anticipation,anger
+King's Ransom,anticipation,anger
+King's Ransom,anticipation,anticipation
+King's Ransom,anticipation,anger
+King's Ransom,anticipation,anger
+Unleashed,joy,fear
+Unleashed,joy,fear
+Unleashed,joy,fear
+Unleashed,joy,fear
+Unleashed,joy,fear
+Unleashed,joy,fear
+Unleashed,joy,fear
+Unleashed,joy,anger
+Unleashed,joy,fear
+Unleashed,joy,optimism
+Unleashed,joy,fear
+Unleashed,joy,fear
+Unleashed,joy,anger
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,sadness
+Kicking & Screaming,sadness,anticipation
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,anticipation
+Kicking & Screaming,sadness,sadness
+Kicking & Screaming,sadness,sadness
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,anticipation
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,sadness
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,joy
+Kicking & Screaming,sadness,sadness
+Kicking & Screaming,sadness,anticipation
+Kicking & Screaming,sadness,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+9 Songs,anticipation,joy
+The Uninvited,sadness,sadness
+The Uninvited,sadness,fear
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,fear
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+The Uninvited,sadness,sadness
+Coronado,anticipation,optimism
+Coronado,anticipation,fear
+Coronado,anticipation,sadness
+Coronado,anticipation,anger
+Coronado,anticipation,fear
+Coronado,anticipation,fear
+Coronado,anticipation,sadness
+Coronado,anticipation,fear
+Coronado,anticipation,fear
+Coronado,anticipation,sadness
+Coronado,anticipation,sadness
+Kiss Kiss Bang Bang,anger,fear
+Kiss Kiss Bang Bang,anger,fear
+Kiss Kiss Bang Bang,anger,fear
+Kiss Kiss Bang Bang,anger,fear
+Kiss Kiss Bang Bang,anger,anticipation
+Kiss Kiss Bang Bang,anger,fear
+Kiss Kiss Bang Bang,anger,fear
+Kiss Kiss Bang Bang,anger,fear
+Kiss Kiss Bang Bang,anger,anger
+Kiss Kiss Bang Bang,anger,fear
+Kiss Kiss Bang Bang,anger,fear
+Pride & Prejudice,optimism,joy
+Pride & Prejudice,optimism,anticipation
+Pride & Prejudice,optimism,joy
+Pride & Prejudice,optimism,sadness
+Pride & Prejudice,optimism,anticipation
+Pride & Prejudice,optimism,sadness
+Pride & Prejudice,optimism,sadness
+Pride & Prejudice,optimism,sadness
+Pride & Prejudice,optimism,optimism
+Pride & Prejudice,optimism,sadness
+Pride & Prejudice,optimism,sadness
+Pride & Prejudice,optimism,anticipation
+"Yours, Mine & Ours",sadness,anticipation
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,disgust
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+"Yours, Mine & Ours",sadness,joy
+Dirty Love,sadness,optimism
+Dirty Love,sadness,sadness
+Dirty Love,sadness,disgust
+Dirty Love,sadness,anger
+Dirty Love,sadness,disgust
+Dirty Love,sadness,anger
+Dirty Love,sadness,joy
+Dirty Love,sadness,anticipation
+Dirty Love,sadness,optimism
+Dirty Love,sadness,optimism
+Dirty Love,sadness,sadness
+Dirty Love,sadness,optimism
+Dirty Love,sadness,anticipation
+Dirty Love,sadness,disgust
+Dirty Love,sadness,disgust
+Dirty Love,sadness,optimism
+Dirty Love,sadness,optimism
+Dirty Love,sadness,anticipation
+Dirty Love,sadness,joy
+Dirty Love,sadness,anticipation
+Dirty Love,sadness,anticipation
+Dirty Love,sadness,anticipation
+Dirty Love,sadness,disgust
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,optimism
+Failure to Launch,optimism,joy
+Failure to Launch,optimism,disgust
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,sadness
+Failure to Launch,optimism,anger
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,anticipation
+Failure to Launch,optimism,sadness
+Failure to Launch,optimism,sadness
+The Break-Up,disgust,sadness
+The Break-Up,disgust,joy
+The Break-Up,disgust,joy
+The Break-Up,disgust,anger
+The Break-Up,disgust,joy
+The Break-Up,disgust,joy
+The Break-Up,disgust,anticipation
+The Break-Up,disgust,disgust
+The Break-Up,disgust,joy
+The Break-Up,disgust,joy
+The Break-Up,disgust,sadness
+The Break-Up,disgust,joy
+The Break-Up,disgust,anticipation
+The Break-Up,disgust,sadness
+The Break-Up,disgust,sadness
+The Break-Up,disgust,sadness
+The Break-Up,disgust,sadness
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,anger
+"You, Me and Dupree",sadness,anticipation
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,anger
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,joy
+"You, Me and Dupree",sadness,anticipation
+"You, Me and Dupree",sadness,joy
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,joy
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,sadness
+"You, Me and Dupree",sadness,joy
+"You, Me and Dupree",sadness,joy
+"You, Me and Dupree",sadness,joy
+My Super Ex-Girlfriend,anger,sadness
+My Super Ex-Girlfriend,anger,optimism
+My Super Ex-Girlfriend,anger,disgust
+My Super Ex-Girlfriend,anger,optimism
+My Super Ex-Girlfriend,anger,joy
+My Super Ex-Girlfriend,anger,joy
+My Super Ex-Girlfriend,anger,sadness
+My Super Ex-Girlfriend,anger,sadness
+My Super Ex-Girlfriend,anger,sadness
+My Super Ex-Girlfriend,anger,sadness
+My Super Ex-Girlfriend,anger,optimism
+My Super Ex-Girlfriend,anger,sadness
+My Super Ex-Girlfriend,anger,sadness
+My Super Ex-Girlfriend,anger,sadness
+My Super Ex-Girlfriend,anger,optimism
+My Super Ex-Girlfriend,anger,fear
+My Super Ex-Girlfriend,anger,fear
+My Super Ex-Girlfriend,anger,optimism
+End Game,anticipation,sadness
+End Game,anticipation,anticipation
+End Game,anticipation,sadness
+End Game,anticipation,sadness
+End Game,anticipation,sadness
+End Game,anticipation,disgust
+End Game,anticipation,sadness
+End Game,anticipation,sadness
+End Game,anticipation,disgust
+End Game,anticipation,sadness
+End Game,anticipation,sadness
+End Game,anticipation,anticipation
+End Game,anticipation,anticipation
+End Game,anticipation,anticipation
+Loch Ness,anticipation,joy
+Loch Ness,anticipation,anticipation
+Material Girls,sadness,anticipation
+Material Girls,sadness,sadness
+Material Girls,sadness,anticipation
+Material Girls,sadness,anticipation
+Material Girls,sadness,anger
+Material Girls,sadness,anticipation
+Material Girls,sadness,disgust
+Material Girls,sadness,anticipation
+Material Girls,sadness,optimism
+Material Girls,sadness,anger
+Material Girls,sadness,joy
+Material Girls,sadness,sadness
+Material Girls,sadness,anticipation
+Material Girls,sadness,sadness
+Material Girls,sadness,disgust
+Material Girls,sadness,anticipation
+Material Girls,sadness,anticipation
+Material Girls,sadness,anger
+Material Girls,sadness,joy
+Material Girls,sadness,anticipation
+Material Girls,sadness,optimism
+Material Girls,sadness,anticipation
+Material Girls,sadness,sadness
+Material Girls,sadness,anticipation
+Material Girls,sadness,anticipation
+Stomp the Yard,anticipation,anticipation
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,joy
+Stomp the Yard,anticipation,anticipation
+Daddy's Little Girls,joy,sadness
+Daddy's Little Girls,joy,sadness
+Daddy's Little Girls,joy,joy
+Daddy's Little Girls,joy,sadness
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,joy
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,joy
+Music and Lyrics,joy,joy
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,joy
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,joy
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,anticipation
+Music and Lyrics,joy,optimism
+The Host,fear,anticipation
+The Host,fear,sadness
+The Host,fear,sadness
+The Host,fear,sadness
+The Host,fear,anticipation
+The Host,fear,anticipation
+The Host,fear,anger
+The Host,fear,sadness
+The Host,fear,joy
+The Host,fear,anticipation
+The Host,fear,sadness
+The Host,fear,anger
+The Host,fear,anger
+The Host,fear,sadness
+The Host,fear,anticipation
+The Host,fear,sadness
+The Host,fear,sadness
+The Host,fear,anticipation
+The Host,fear,anger
+The Host,fear,anticipation
+The Host,fear,sadness
+Mr. Woodcock,sadness,anger
+Mr. Woodcock,sadness,joy
+Mr. Woodcock,sadness,disgust
+Mr. Woodcock,sadness,sadness
+Mr. Woodcock,sadness,disgust
+Mr. Woodcock,sadness,joy
+Mr. Woodcock,sadness,joy
+Mr. Woodcock,sadness,joy
+Mr. Woodcock,sadness,anticipation
+Mr. Woodcock,sadness,sadness
+Mr. Woodcock,sadness,sadness
+Mr. Woodcock,sadness,anger
+Mr. Woodcock,sadness,anticipation
+Mr. Woodcock,sadness,joy
+Mr. Woodcock,sadness,joy
+Mr. Woodcock,sadness,sadness
+Good Luck Chuck,optimism,anger
+Good Luck Chuck,optimism,joy
+Good Luck Chuck,optimism,sadness
+Good Luck Chuck,optimism,anger
+Good Luck Chuck,optimism,sadness
+Good Luck Chuck,optimism,anticipation
+Good Luck Chuck,optimism,anger
+Good Luck Chuck,optimism,disgust
+Good Luck Chuck,optimism,anger
+Good Luck Chuck,optimism,anger
+Good Luck Chuck,optimism,sadness
+Good Luck Chuck,optimism,sadness
+Good Luck Chuck,optimism,anticipation
+Good Luck Chuck,optimism,optimism
+Good Luck Chuck,optimism,disgust
+Good Luck Chuck,optimism,sadness
+Good Luck Chuck,optimism,sadness
+Good Luck Chuck,optimism,disgust
+Good Luck Chuck,optimism,disgust
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Dan in Real Life,sadness,sadness
+Blonde Ambition,disgust,joy
+Blonde Ambition,disgust,sadness
+Blonde Ambition,disgust,optimism
+Blonde Ambition,disgust,joy
+Blonde Ambition,disgust,sadness
+Blonde Ambition,disgust,joy
+Blonde Ambition,disgust,anticipation
+Blonde Ambition,disgust,optimism
+Blonde Ambition,disgust,sadness
+Blonde Ambition,disgust,anticipation
+Blonde Ambition,disgust,disgust
+Blonde Ambition,disgust,joy
+Blonde Ambition,disgust,joy
+Blonde Ambition,disgust,anger
+Blonde Ambition,disgust,anticipation
+Blonde Ambition,disgust,sadness
+Blonde Ambition,disgust,joy
+Blonde Ambition,disgust,joy
+Blonde Ambition,disgust,joy
+Blonde Ambition,disgust,sadness
+Blonde Ambition,disgust,joy
+Sex and the City,sadness,joy
+Sex and the City,sadness,joy
+Sex and the City,sadness,sadness
+Sex and the City,sadness,joy
+Sex and the City,sadness,sadness
+Sex and the City,sadness,sadness
+Sex and the City,sadness,disgust
+Sex and the City,sadness,sadness
+Sex and the City,sadness,sadness
+Sex and the City,sadness,anticipation
+Sex and the City,sadness,sadness
+Sex and the City,sadness,sadness
+Sex and the City,sadness,anticipation
+Sex and the City,sadness,sadness
+Sex and the City,sadness,sadness
+Sex and the City,sadness,anticipation
+Sex and the City,sadness,sadness
+Sex and the City,sadness,joy
+Mamma Mia!,joy,anticipation
+Mamma Mia!,joy,anticipation
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,sadness
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,anticipation
+Mamma Mia!,joy,anticipation
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+Mamma Mia!,joy,joy
+A Moment to Remember,sadness,sadness
+A Moment to Remember,sadness,sadness
+A Moment to Remember,sadness,sadness
+A Moment to Remember,sadness,sadness
+A Moment to Remember,sadness,sadness
+A Moment to Remember,sadness,sadness
+A Moment to Remember,sadness,joy
+A Moment to Remember,sadness,sadness
+A Moment to Remember,sadness,optimism
+A Moment to Remember,sadness,joy
+Let the Right One In,sadness,anticipation
+Let the Right One In,sadness,sadness
+Let the Right One In,sadness,anticipation
+Let the Right One In,sadness,sadness
+Let the Right One In,sadness,sadness
+Let the Right One In,sadness,sadness
+Sunflower,sadness,optimism
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,joy
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,joy
+Nick and Norah's Infinite Playlist,joy,joy
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,joy
+Nick and Norah's Infinite Playlist,joy,anticipation
+Nick and Norah's Infinite Playlist,joy,joy
+The Duchess,sadness,joy
+The Duchess,sadness,anticipation
+The Duchess,sadness,joy
+The Duchess,sadness,joy
+The Duchess,sadness,sadness
+The Duchess,sadness,sadness
+The Duchess,sadness,anticipation
+The Duchess,sadness,sadness
+The Duchess,sadness,joy
+The Duchess,sadness,joy
+The Duchess,sadness,sadness
+The Duchess,sadness,anticipation
+The Duchess,sadness,sadness
+The Duchess,sadness,sadness
+The Duchess,sadness,sadness
+The Duchess,sadness,sadness
+The Duchess,sadness,sadness
+The Duchess,sadness,sadness
+The Duchess,sadness,joy
+The Duchess,sadness,joy
+The Duchess,sadness,joy
+Doubt,sadness,anticipation
+Doubt,sadness,sadness
+Doubt,sadness,anticipation
+Doubt,sadness,anticipation
+Doubt,sadness,optimism
+Doubt,sadness,anticipation
+Doubt,sadness,optimism
+Doubt,sadness,anticipation
+Doubt,sadness,anticipation
+Doubt,sadness,optimism
+Doubt,sadness,anticipation
+Doubt,sadness,anticipation
+Doubt,sadness,sadness
+Doubt,sadness,sadness
+The Reader,sadness,sadness
+The Reader,sadness,anticipation
+The Reader,sadness,sadness
+The Reader,sadness,sadness
+The Reader,sadness,sadness
+The Reader,sadness,sadness
+The Reader,sadness,sadness
+The Reader,sadness,joy
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+The Curious Case of Benjamin Button,optimism,fear
+Yes Man,anticipation,optimism
+Yes Man,anticipation,anger
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,disgust
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,joy
+Yes Man,anticipation,sadness
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,sadness
+Yes Man,anticipation,sadness
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,disgust
+Yes Man,anticipation,anger
+Yes Man,anticipation,sadness
+Yes Man,anticipation,anticipation
+Yes Man,anticipation,joy
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,sadness
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,anger
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,optimism
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,sadness
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,joy
+Confessions of a Shopaholic,sadness,sadness
+Confessions of a Shopaholic,sadness,sadness
+Confessions of a Shopaholic,sadness,joy
+Euphoria,optimism,optimism
+Euphoria,optimism,optimism
+Euphoria,optimism,optimism
+Euphoria,optimism,joy
+Euphoria,optimism,anticipation
+Euphoria,optimism,optimism
+Euphoria,optimism,anticipation
+Euphoria,optimism,sadness
+Euphoria,optimism,joy
+Euphoria,optimism,joy
+Euphoria,optimism,anger
+Euphoria,optimism,joy
+Euphoria,optimism,sadness
+Euphoria,optimism,anticipation
+Euphoria,optimism,sadness
+Euphoria,optimism,anger
+Ghosts of Girlfriends Past,sadness,sadness
+Ghosts of Girlfriends Past,sadness,sadness
+Ghosts of Girlfriends Past,sadness,sadness
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,disgust
+Ghosts of Girlfriends Past,sadness,sadness
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,optimism
+Ghosts of Girlfriends Past,sadness,sadness
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,joy
+Ghosts of Girlfriends Past,sadness,sadness
+Ghosts of Girlfriends Past,sadness,sadness
+Ghosts of Girlfriends Past,sadness,joy
+Public Enemies,anticipation,optimism
+Public Enemies,anticipation,fear
+Public Enemies,anticipation,fear
+Public Enemies,anticipation,anticipation
+Public Enemies,anticipation,anticipation
+Public Enemies,anticipation,anger
+Public Enemies,anticipation,optimism
+Public Enemies,anticipation,fear
+Public Enemies,anticipation,fear
+Public Enemies,anticipation,anger
+Public Enemies,anticipation,optimism
+Public Enemies,anticipation,anticipation
+Public Enemies,anticipation,optimism
+Public Enemies,anticipation,anticipation
+Public Enemies,anticipation,optimism
+Public Enemies,anticipation,optimism
+Public Enemies,anticipation,fear
+Public Enemies,anticipation,anticipation
+Public Enemies,anticipation,anticipation
+Public Enemies,anticipation,sadness
+Shiver,joy,fear
+Shiver,joy,disgust
+Shiver,joy,fear
+Obsessed,sadness,disgust
+Obsessed,sadness,sadness
+Obsessed,sadness,sadness
+Obsessed,sadness,anticipation
+Obsessed,sadness,anticipation
+Obsessed,sadness,optimism
+Obsessed,sadness,disgust
+Obsessed,sadness,fear
+Obsessed,sadness,sadness
+Obsessed,sadness,anticipation
+Obsessed,sadness,sadness
+Obsessed,sadness,anticipation
+Obsessed,sadness,sadness
+Obsessed,sadness,sadness
+Obsessed,sadness,optimism
+Obsessed,sadness,sadness
+Obsessed,sadness,optimism
+Obsessed,sadness,optimism
+Obsessed,sadness,fear
+Obsessed,sadness,fear
+Obsessed,sadness,sadness
+Adam,sadness,sadness
+Adam,sadness,anticipation
+Adam,sadness,sadness
+Adam,sadness,joy
+Adam,sadness,joy
+Adam,sadness,sadness
+Adam,sadness,anticipation
+Adam,sadness,sadness
+Adam,sadness,anticipation
+Adam,sadness,sadness
+Adam,sadness,sadness
+Adam,sadness,sadness
+Adam,sadness,sadness
+Adam,sadness,sadness
+Adam,sadness,joy
+Adam,sadness,sadness
+Adam,sadness,joy
+Adam,sadness,sadness
+Adam,sadness,sadness
+Adam,sadness,sadness
+Adam,sadness,joy
+Miss March,sadness,anger
+Miss March,sadness,joy
+Miss March,sadness,joy
+Miss March,sadness,joy
+Miss March,sadness,joy
+Miss March,sadness,joy
+Miss March,sadness,joy
+Miss March,sadness,joy
+Miss March,sadness,disgust
+Miss March,sadness,joy
+Miss March,sadness,sadness
+Miss March,sadness,anticipation
+Miss March,sadness,anger
+Miss March,sadness,joy
+Miss March,sadness,anger
+Miss March,sadness,joy
+Meet the Browns,joy,sadness
+Meet the Browns,joy,joy
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,anger
+Meet the Browns,joy,disgust
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,sadness
+Meet the Browns,joy,disgust
+Meet the Browns,joy,sadness
+The Invention of Lying,anticipation,joy
+The Invention of Lying,anticipation,joy
+The Invention of Lying,anticipation,sadness
+The Invention of Lying,anticipation,sadness
+The Invention of Lying,anticipation,joy
+The Invention of Lying,anticipation,sadness
+The Invention of Lying,anticipation,fear
+The Invention of Lying,anticipation,optimism
+The Invention of Lying,anticipation,sadness
+The Invention of Lying,anticipation,joy
+The Invention of Lying,anticipation,disgust
+The Invention of Lying,anticipation,fear
+The Invention of Lying,anticipation,fear
+The Invention of Lying,anticipation,sadness
+The Invention of Lying,anticipation,sadness
+The Invention of Lying,anticipation,sadness
+The Invention of Lying,anticipation,joy
+All About Steve,joy,anticipation
+All About Steve,joy,anticipation
+All About Steve,joy,optimism
+All About Steve,joy,optimism
+All About Steve,joy,anticipation
+All About Steve,joy,sadness
+All About Steve,joy,anticipation
+All About Steve,joy,joy
+All About Steve,joy,sadness
+All About Steve,joy,joy
+All About Steve,joy,anticipation
+All About Steve,joy,anticipation
+All About Steve,joy,optimism
+All About Steve,joy,disgust
+All About Steve,joy,anger
+All About Steve,joy,sadness
+All About Steve,joy,anticipation
+All About Steve,joy,optimism
+All About Steve,joy,anger
+All About Steve,joy,optimism
+All About Steve,joy,optimism
+All About Steve,joy,disgust
+All About Steve,joy,sadness
+All About Steve,joy,optimism
+Sleep Dealer,fear,optimism
+Sleep Dealer,fear,sadness
+Sleep Dealer,fear,sadness
+Doghouse,optimism,sadness
+Doghouse,optimism,anticipation
+Doghouse,optimism,anticipation
+Doghouse,optimism,optimism
+Doghouse,optimism,joy
+Doghouse,optimism,anticipation
+Doghouse,optimism,optimism
+Doghouse,optimism,anticipation
+Doghouse,optimism,optimism
+Doghouse,optimism,optimism
+Doghouse,optimism,disgust
+Doghouse,optimism,joy
+Doghouse,optimism,sadness
+Doghouse,optimism,anger
+Doghouse,optimism,joy
+Doghouse,optimism,optimism
+Doghouse,optimism,optimism
+Doghouse,optimism,joy
+Doghouse,optimism,optimism
+Doghouse,optimism,anticipation
+Doghouse,optimism,anger
+Doghouse,optimism,anger
+Doghouse,optimism,disgust
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Nine,sadness,joy
+Bart Got a Room,sadness,sadness
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Lucky: No Time for Love,fear,joy
+Our Family Wedding,sadness,anticipation
+Our Family Wedding,sadness,disgust
+Our Family Wedding,sadness,sadness
+Our Family Wedding,sadness,joy
+Our Family Wedding,sadness,joy
+Our Family Wedding,sadness,disgust
+Our Family Wedding,sadness,sadness
+Our Family Wedding,sadness,sadness
+Our Family Wedding,sadness,joy
+Our Family Wedding,sadness,optimism
+Our Family Wedding,sadness,joy
+Our Family Wedding,sadness,anticipation
+Our Family Wedding,sadness,joy
+Our Family Wedding,sadness,joy
+Our Family Wedding,sadness,anticipation
+Our Family Wedding,sadness,sadness
+Our Family Wedding,sadness,anticipation
+Our Family Wedding,sadness,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,fear
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,fear
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,fear
+Mark of the Devil,anticipation,fear
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,joy
+Mark of the Devil,anticipation,fear
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,fear
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,sadness
+Mark of the Devil,anticipation,anger
+Mark of the Devil,anticipation,anger
+Mark of the Devil,anticipation,fear
+Mark of the Devil,anticipation,fear
+The Last Song,sadness,anticipation
+The Last Song,sadness,anticipation
+The Last Song,sadness,optimism
+The Last Song,sadness,joy
+The Last Song,sadness,anticipation
+The Last Song,sadness,joy
+The Last Song,sadness,joy
+The Last Song,sadness,anticipation
+The Last Song,sadness,anticipation
+The Last Song,sadness,sadness
+The Last Song,sadness,sadness
+The Last Song,sadness,sadness
+The Last Song,sadness,joy
+The Last Song,sadness,joy
+The Last Song,sadness,joy
+The Last Song,sadness,anticipation
+The Last Song,sadness,sadness
+The Last Song,sadness,sadness
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,disgust
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,sadness
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,sadness
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,sadness
+Sex and the City 2,sadness,sadness
+Sex and the City 2,sadness,sadness
+Sex and the City 2,sadness,sadness
+Sex and the City 2,sadness,anticipation
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,sadness
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,sadness
+Sex and the City 2,sadness,optimism
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,anticipation
+Sex and the City 2,sadness,joy
+Sex and the City 2,sadness,disgust
+Sex and the City 2,sadness,joy
+Betrayal,sadness,disgust
+Betrayal,sadness,anticipation
+Machete,sadness,anger
+Machete,sadness,disgust
+Machete,sadness,anger
+Machete,sadness,disgust
+Machete,sadness,anger
+Machete,sadness,disgust
+Machete,sadness,optimism
+Machete,sadness,sadness
+Machete,sadness,anger
+Machete,sadness,optimism
+Machete,sadness,optimism
+Machete,sadness,sadness
+Machete,sadness,optimism
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,sadness
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,sadness
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,sadness
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,sadness
+Eat Pray Love,sadness,sadness
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,anticipation
+Eat Pray Love,sadness,optimism
+The Mirror,fear,sadness
+The Mirror,fear,sadness
+The Mirror,fear,anger
+The Mirror,fear,anticipation
+The Mirror,fear,anticipation
+The Mirror,fear,sadness
+The Mirror,fear,sadness
+Ceremony,sadness,sadness
+Ceremony,sadness,joy
+Wrecked,anticipation,anticipation
+Wrecked,anticipation,anticipation
+Wrecked,anticipation,anticipation
+Wrecked,anticipation,anticipation
+Wrecked,anticipation,anticipation
+Wrecked,anticipation,anticipation
+Wrecked,anticipation,optimism
+Wrecked,anticipation,anticipation
+Wrecked,anticipation,optimism
+Warrior,anticipation,fear
+Warrior,anticipation,optimism
+Warrior,anticipation,sadness
+Warrior,anticipation,anticipation
+Warrior,anticipation,optimism
+Warrior,anticipation,anticipation
+Warrior,anticipation,fear
+Warrior,anticipation,anticipation
+Warrior,anticipation,anticipation
+Warrior,anticipation,optimism
+Warrior,anticipation,optimism
+Warrior,anticipation,sadness
+Tomboy,joy,disgust
+Tomboy,joy,anticipation
+Tomboy,joy,joy
+Tomboy,joy,anticipation
+Tomboy,joy,anticipation
+Tomboy,joy,sadness
+Tomboy,joy,anger
+Tomboy,joy,anticipation
+Girl Walks Into a Bar,joy,anger
+Girl Walks Into a Bar,joy,anger
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,joy
+The Vow,sadness,sadness
+The Vow,sadness,joy
+The Vow,sadness,optimism
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+The Vow,sadness,sadness
+Silence,sadness,joy
+Silence,sadness,joy
+Silence,sadness,sadness
+Silence,sadness,anticipation
+Silence,sadness,sadness
+Silence,sadness,sadness
+Silence,sadness,sadness
+Silence,sadness,anger
+Silence,sadness,sadness
+Silence,sadness,anticipation
+Gone,sadness,sadness
+Gone,sadness,sadness
+Gone,sadness,anticipation
+Gone,sadness,optimism
+Gone,sadness,fear
+Gone,sadness,sadness
+Gone,sadness,sadness
+Gone,sadness,sadness
+Gone,sadness,optimism
+Gone,sadness,sadness
+Gone,sadness,optimism
+Gone,sadness,fear
+Gone,sadness,sadness
+Gone,sadness,anticipation
+Gone,sadness,sadness
+Gone,sadness,sadness
+Gone,sadness,anticipation
+Gone,sadness,fear
+Gone,sadness,anger
+Gone,sadness,optimism
+Gone,sadness,anticipation
+Gone,sadness,sadness
+Gone,sadness,optimism
+This Means War,anger,anger
+This Means War,anger,fear
+This Means War,anger,anger
+This Means War,anger,sadness
+This Means War,anger,sadness
+This Means War,anger,anger
+This Means War,anger,joy
+This Means War,anger,anger
+This Means War,anger,disgust
+This Means War,anger,sadness
+This Means War,anger,anger
+This Means War,anger,sadness
+This Means War,anger,sadness
+This Means War,anger,joy
+This Means War,anger,anger
+This Means War,anger,sadness
+The Five-Year Engagement,sadness,anger
+The Five-Year Engagement,sadness,joy
+The Five-Year Engagement,sadness,anger
+The Five-Year Engagement,sadness,anger
+The Five-Year Engagement,sadness,sadness
+The Five-Year Engagement,sadness,anticipation
+The Five-Year Engagement,sadness,sadness
+The Five-Year Engagement,sadness,sadness
+The Five-Year Engagement,sadness,sadness
+The Five-Year Engagement,sadness,joy
+The Five-Year Engagement,sadness,sadness
+The Five-Year Engagement,sadness,optimism
+The Five-Year Engagement,sadness,anticipation
+The Five-Year Engagement,sadness,sadness
+The Five-Year Engagement,sadness,joy
+The Five-Year Engagement,sadness,disgust
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,joy
+The Lucky One,anticipation,anticipation
+The Lucky One,anticipation,joy
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,anticipation
+The Lucky One,anticipation,joy
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,joy
+The Lucky One,anticipation,sadness
+The Lucky One,anticipation,sadness
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,anticipation
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,anticipation
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,anticipation
+Pitch Perfect,joy,anticipation
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,joy
+Pitch Perfect,joy,joy
+That's My Boy,sadness,disgust
+That's My Boy,sadness,disgust
+That's My Boy,sadness,joy
+That's My Boy,sadness,optimism
+That's My Boy,sadness,anticipation
+That's My Boy,sadness,anticipation
+That's My Boy,sadness,joy
+That's My Boy,sadness,disgust
+That's My Boy,sadness,anger
+That's My Boy,sadness,disgust
+That's My Boy,sadness,optimism
+That's My Boy,sadness,disgust
+That's My Boy,sadness,disgust
+That's My Boy,sadness,disgust
+That's My Boy,sadness,optimism
+That's My Boy,sadness,optimism
+That's My Boy,sadness,disgust
+That's My Boy,sadness,optimism
+That's My Boy,sadness,sadness
+That's My Boy,sadness,optimism
+Lay the Favorite,joy,sadness
+Lay the Favorite,joy,sadness
+Lay the Favorite,joy,sadness
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,disgust
+Lay the Favorite,joy,optimism
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,anger
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,sadness
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,anger
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,sadness
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,sadness
+Lay the Favorite,joy,optimism
+Lay the Favorite,joy,anticipation
+Lay the Favorite,joy,anticipation
+Silent Night,sadness,optimism
+Silent Night,sadness,anticipation
+Silent Night,sadness,optimism
+Silent Night,sadness,optimism
+Silent Night,sadness,fear
+Silent Night,sadness,fear
+Silent Night,sadness,sadness
+Silent Night,sadness,optimism
+Silent Night,sadness,optimism
+Silent Night,sadness,optimism
+Silent Night,sadness,fear
+Lucy,joy,optimism
+Lucy,joy,anger
+Lucy,joy,sadness
+Lucy,joy,optimism
+Lucy,joy,anticipation
+Lucy,joy,sadness
+Lucy,joy,anticipation
+Lucy,joy,optimism
+Lucy,joy,sadness
+Lucy,joy,sadness
+Lucy,joy,anticipation
+Lucy,joy,sadness
+Lucy,joy,anticipation
+Lucy,joy,anticipation
+Lucy,joy,optimism
+Lucy,joy,anticipation
+Lucy,joy,sadness
+Lucy,joy,optimism
+Side Effects,optimism,anticipation
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Side Effects,optimism,anger
+Side Effects,optimism,sadness
+Side Effects,optimism,sadness
+Safe Haven,fear,anticipation
+Safe Haven,fear,anticipation
+Safe Haven,fear,anticipation
+Safe Haven,fear,sadness
+Safe Haven,fear,sadness
+Safe Haven,fear,anticipation
+Safe Haven,fear,sadness
+Safe Haven,fear,anticipation
+Safe Haven,fear,optimism
+Safe Haven,fear,anticipation
+Safe Haven,fear,anticipation
+Safe Haven,fear,anticipation
+Safe Haven,fear,sadness
+Safe Haven,fear,anticipation
+Safe Haven,fear,sadness
+Safe Haven,fear,sadness
+Safe Haven,fear,fear
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,joy
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+Admission,fear,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,anticipation
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,optimism
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+To the Wonder,sadness,sadness
+The Mortal Instruments: City of Bones,fear,fear
+The Mortal Instruments: City of Bones,fear,sadness
+The Mortal Instruments: City of Bones,fear,sadness
+The Mortal Instruments: City of Bones,fear,sadness
+The Mortal Instruments: City of Bones,fear,anticipation
+The Mortal Instruments: City of Bones,fear,sadness
+The Mortal Instruments: City of Bones,fear,optimism
+The Mortal Instruments: City of Bones,fear,optimism
+The Mortal Instruments: City of Bones,fear,fear
+The Mortal Instruments: City of Bones,fear,optimism
+The Mortal Instruments: City of Bones,fear,sadness
+The Mortal Instruments: City of Bones,fear,optimism
+The Mortal Instruments: City of Bones,fear,sadness
+The Mortal Instruments: City of Bones,fear,sadness
+The Mortal Instruments: City of Bones,fear,sadness
+The Mortal Instruments: City of Bones,fear,optimism
+The Mortal Instruments: City of Bones,fear,optimism
+Prisoners,anticipation,disgust
+Prisoners,anticipation,anticipation
+Prisoners,anticipation,sadness
+Prisoners,anticipation,sadness
+Prisoners,anticipation,optimism
+Prisoners,anticipation,optimism
+Prisoners,anticipation,anticipation
+Prisoners,anticipation,anticipation
+Prisoners,anticipation,sadness
+Prisoners,anticipation,optimism
+Prisoners,anticipation,anticipation
+Prisoners,anticipation,sadness
+Prisoners,anticipation,sadness
+Prisoners,anticipation,optimism
+Prisoners,anticipation,sadness
+I Will Follow You Into the Dark,sadness,fear
+I Will Follow You Into the Dark,sadness,fear
+I Will Follow You Into the Dark,sadness,fear
+I Will Follow You Into the Dark,sadness,fear
+Just Wright,sadness,optimism
+Just Wright,sadness,joy
+Just Wright,sadness,sadness
+Just Wright,sadness,sadness
+Just Wright,sadness,anger
+Just Wright,sadness,anger
+Just Wright,sadness,sadness
+Just Wright,sadness,sadness
+Just Wright,sadness,anticipation
+Just Wright,sadness,sadness
+Just Wright,sadness,sadness
+Just Wright,sadness,sadness
+The Cosmonaut,sadness,optimism
+The Cosmonaut,sadness,optimism
+The Cosmonaut,sadness,sadness
+The Cosmonaut,sadness,sadness
+The Cosmonaut,sadness,anticipation
+Sextette,anger,joy
+Sextette,anger,joy
+Sextette,anger,joy
+Today,sadness,anticipation
+Today,sadness,anticipation
+Today,sadness,anger
+Today,sadness,sadness
+Today,sadness,sadness
+The Fault in Our Stars,optimism,optimism
+The Fault in Our Stars,optimism,sadness
+The Fault in Our Stars,optimism,optimism
+The Fault in Our Stars,optimism,sadness
+The Fault in Our Stars,optimism,sadness
+The Fault in Our Stars,optimism,sadness
+The Fault in Our Stars,optimism,sadness
+The Fault in Our Stars,optimism,joy
+The Fault in Our Stars,optimism,anticipation
+The Fault in Our Stars,optimism,joy
+The Fault in Our Stars,optimism,joy
+The Fault in Our Stars,optimism,optimism
+The Fault in Our Stars,optimism,anticipation
+The Fault in Our Stars,optimism,sadness
+The Fault in Our Stars,optimism,anticipation
+The Fault in Our Stars,optimism,sadness
+Very Good Girls,anticipation,sadness
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,sadness
+Very Good Girls,anticipation,sadness
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,sadness
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,sadness
+Very Good Girls,anticipation,sadness
+Very Good Girls,anticipation,optimism
+Very Good Girls,anticipation,anticipation
+Very Good Girls,anticipation,joy
+They Came Together,joy,joy
+They Came Together,joy,optimism
+They Came Together,joy,optimism
+They Came Together,joy,joy
+They Came Together,joy,anticipation
+They Came Together,joy,disgust
+They Came Together,joy,sadness
+They Came Together,joy,anticipation
+They Came Together,joy,anticipation
+They Came Together,joy,anger
+They Came Together,joy,sadness
+They Came Together,joy,optimism
+They Came Together,joy,optimism
+They Came Together,joy,anticipation
+They Came Together,joy,disgust
+The Giver,optimism,optimism
+The Giver,optimism,optimism
+The Giver,optimism,anticipation
+The Giver,optimism,optimism
+The Giver,optimism,sadness
+The Giver,optimism,optimism
+The Giver,optimism,optimism
+The Giver,optimism,optimism
+The Giver,optimism,optimism
+The Giver,optimism,optimism
+The Giver,optimism,anticipation
+The Giver,optimism,optimism
+The Giver,optimism,joy
+The Giver,optimism,optimism
+The Giver,optimism,optimism
+The Giver,optimism,optimism
+The Giver,optimism,sadness
+The Giver,optimism,optimism
+The Giver,optimism,optimism
+The Giver,optimism,sadness
+The Giver,optimism,optimism
+Bad Johnson,joy,disgust
+Bad Johnson,joy,disgust
+Bad Johnson,joy,sadness
+Bad Johnson,joy,optimism
+Bad Johnson,joy,sadness
+Bad Johnson,joy,disgust
+Bad Johnson,joy,joy
+Bad Johnson,joy,sadness
+Bad Johnson,joy,sadness
+Bad Johnson,joy,fear
+Bad Johnson,joy,joy
+Bad Johnson,joy,sadness
+Bad Johnson,joy,fear
+Bad Johnson,joy,sadness
+Bad Johnson,joy,sadness
+Bad Johnson,joy,sadness
+Bad Johnson,joy,sadness
+Bad Johnson,joy,sadness
+Bad Johnson,joy,disgust
+Bad Johnson,joy,sadness
+"Love, Rosie",sadness,joy
+"Love, Rosie",sadness,joy
+"Love, Rosie",sadness,optimism
+"Love, Rosie",sadness,optimism
+"Love, Rosie",sadness,anticipation
+"Love, Rosie",sadness,sadness
+"Love, Rosie",sadness,anger
+"Love, Rosie",sadness,anticipation
+"Love, Rosie",sadness,joy
+"Love, Rosie",sadness,sadness
+"Love, Rosie",sadness,joy
+"Love, Rosie",sadness,sadness
+Sex Ed,sadness,joy
+Sex Ed,sadness,optimism
+Sex Ed,sadness,sadness
+The Longest Week,optimism,sadness
+The Longest Week,optimism,anticipation
+The Longest Week,optimism,sadness
+The Longest Week,optimism,sadness
+The Longest Week,optimism,sadness
+The Longest Week,optimism,sadness
+The Longest Week,optimism,anticipation
+The Longest Week,optimism,sadness
+The Longest Week,optimism,sadness
+The Longest Week,optimism,sadness
+The Longest Week,optimism,sadness
+The Longest Week,optimism,sadness
+The Longest Week,optimism,anger
+Fishtales,sadness,optimism
+Fishtales,sadness,joy
+Fishtales,sadness,optimism
+Fishtales,sadness,optimism
+Fishtales,sadness,optimism
+Fishtales,sadness,optimism
+Fishtales,sadness,optimism
+Fishtales,sadness,optimism
+Swinging with the Finkels,sadness,joy
+Swinging with the Finkels,sadness,joy
+Swinging with the Finkels,sadness,joy
+Swinging with the Finkels,sadness,joy
+Swinging with the Finkels,sadness,sadness
+Swinging with the Finkels,sadness,sadness
+Swinging with the Finkels,sadness,joy
+Swinging with the Finkels,sadness,joy
+Swinging with the Finkels,sadness,sadness
+Swinging with the Finkels,sadness,sadness
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,optimism
+Popstar,sadness,anticipation
+Popstar,sadness,joy
+Popstar,sadness,sadness
+Popstar,sadness,joy
+Popstar,sadness,joy
+Popstar,sadness,joy
+Results,sadness,sadness
+Results,sadness,optimism
+Results,sadness,sadness
+Results,sadness,sadness
+Results,sadness,disgust
+Results,sadness,sadness
+Results,sadness,anticipation
+Results,sadness,sadness
+Results,sadness,optimism
+Results,sadness,anticipation
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,sadness
+Paper Towns,optimism,sadness
+Paper Towns,optimism,sadness
+Paper Towns,optimism,sadness
+Paper Towns,optimism,sadness
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,sadness
+Paper Towns,optimism,optimism
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,sadness
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,sadness
+Paper Towns,optimism,sadness
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,anticipation
+Paper Towns,optimism,optimism
+Paper Towns,optimism,sadness
+Paper Towns,optimism,sadness
+The Color of Time,joy,anticipation
+The Color of Time,joy,joy
+The Color of Time,joy,joy
+The Color of Time,joy,sadness
+The Color of Time,joy,sadness
+Seven Minutes in Heaven,joy,sadness
+Seven Minutes in Heaven,joy,sadness
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,sadness
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,disgust
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,sadness
+The Mad Monster,anger,fear
+The Mad Monster,anger,fear
+The Mad Monster,anger,anger
+The Mad Monster,anger,sadness
+The Mad Monster,anger,anger
+The Mad Monster,anger,fear
+Morgan,fear,joy
+Morgan,fear,disgust
+Morgan,fear,anger
+Morgan,fear,optimism
+Morgan,fear,anticipation
+Morgan,fear,anticipation
+Morgan,fear,sadness
+Morgan,fear,anger
+Morgan,fear,optimism
+Morgan,fear,optimism
+Morgan,fear,sadness
+Morgan,fear,anticipation
+Morgan,fear,optimism
+Morgan,fear,sadness
+Morgan,fear,sadness
+Morgan,fear,sadness
+Morgan,fear,sadness
+Morgan,fear,anticipation
+Morgan,fear,anticipation
+Morgan,fear,sadness
+Morgan,fear,sadness
+Morgan,fear,optimism
+Morgan,fear,sadness
+Bottoms Up,optimism,disgust
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,sadness
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,sadness
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,anticipation
+Bottoms Up,optimism,anger
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,optimism
+Bottoms Up,optimism,anticipation
+Bottoms Up,optimism,anticipation
+Bottoms Up,optimism,anticipation
+Bottoms Up,optimism,sadness
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,joy
+Bottoms Up,optimism,sadness
+Private Number,sadness,anticipation
+Christian Mingle,optimism,sadness
+Christian Mingle,optimism,anticipation
+Christian Mingle,optimism,fear
+Christian Mingle,optimism,fear
+Christian Mingle,optimism,anticipation
+Christian Mingle,optimism,anger
+Christian Mingle,optimism,optimism
+Christian Mingle,optimism,optimism
+Fascination,sadness,fear
+Fascination,sadness,fear
+Fascination,sadness,fear
+Fascination,sadness,fear
+Fascination,sadness,fear
+Fascination,sadness,fear
+Fascination,sadness,anger
+Fascination,sadness,anger
+Fascination,sadness,fear
+Fascination,sadness,anger
+Fascination,sadness,joy
+Fascination,sadness,joy
+Fascination,sadness,anger
+Fascination,sadness,joy
+Fascination,sadness,fear
+Fascination,sadness,fear
+Fascination,sadness,joy
+Fascination,sadness,fear
+Fascination,sadness,joy
+Fascination,sadness,fear
+Fascination,sadness,anticipation
+Fascination,sadness,joy
+Find Me,anticipation,anger
+Find Me,anticipation,fear
+Find Me,anticipation,fear
+Women of the Prehistoric Planet,sadness,optimism
+Women of the Prehistoric Planet,sadness,optimism
+Women of the Prehistoric Planet,sadness,anticipation
+Women of the Prehistoric Planet,sadness,fear
+Women of the Prehistoric Planet,sadness,optimism
+Women of the Prehistoric Planet,sadness,disgust
+Women of the Prehistoric Planet,sadness,optimism
+Women of the Prehistoric Planet,sadness,optimism
+Women of the Prehistoric Planet,sadness,disgust
+Women of the Prehistoric Planet,sadness,optimism
+Women of the Prehistoric Planet,sadness,optimism
+Women of the Prehistoric Planet,sadness,optimism
+Women of the Prehistoric Planet,sadness,disgust
+Room,sadness,fear
+Room,sadness,sadness
+Room,sadness,sadness
+Room,sadness,sadness
+Room,sadness,sadness
+Room,sadness,optimism
+Room,sadness,anticipation
+Room,sadness,sadness
+Room,sadness,anger
+Room,sadness,sadness
+Room,sadness,sadness
+Room,sadness,optimism
+Room,sadness,optimism
+Room,sadness,optimism
+3-Day Weekend,joy,anticipation
+3-Day Weekend,joy,sadness
+Air,optimism,fear
+Air,optimism,fear
+Air,optimism,fear
+Air,optimism,sadness
+Air,optimism,fear
+Air,optimism,fear
+Air,optimism,anger
+Air,optimism,anticipation
+Fuga de cerebros 2,anticipation,fear
+Meet Market,joy,disgust
+Meet Market,joy,joy
+Meet Market,joy,joy
+Meet Market,joy,anger
+Miss Conception,anticipation,joy
+Miss Conception,anticipation,sadness
+Miss Conception,anticipation,joy
+Miss Conception,anticipation,sadness
+Miss Conception,anticipation,anticipation
+Miss Conception,anticipation,joy
+Miss Conception,anticipation,joy
+Miss Conception,anticipation,joy
+Miss Conception,anticipation,joy
+The Perfect Date,joy,disgust
+The Perfect Date,joy,joy
+The Perfect Date,joy,sadness
+The Perfect Date,joy,joy
+The Perfect Date,joy,joy
+The Perfect Date,joy,anticipation
+The Perfect Date,joy,joy
+The Perfect Date,joy,anticipation
+The Perfect Date,joy,joy
+The Perfect Date,joy,sadness
+The Perfect Date,joy,anger
+The Perfect Date,joy,joy
+The Perfect Date,joy,joy
+The Perfect Date,joy,joy
+The Perfect Date,joy,disgust
+The Perfect Date,joy,sadness
+The Perfect Date,joy,joy
+The Perfect Date,joy,anticipation
+The Perfect Date,joy,joy
+The Perfect Date,joy,joy
+The Perfect Date,joy,joy
+Hacker's Game,joy,sadness
+Hacker's Game,joy,fear
+Hacker's Game,joy,joy
+Homeland,anger,optimism
+Homeland,anger,sadness
+Homeland,anger,optimism
+Homeland,anger,sadness
+Homeland,anger,anticipation
+Homeland,anger,sadness
+Homeland,anger,optimism
+Homeland,anger,optimism
+Homeland,anger,optimism
+Jaanam Samjha Karo,joy,optimism
+Zoolander 2,fear,anticipation
+Zoolander 2,fear,anger
+Zoolander 2,fear,sadness
+Zoolander 2,fear,anticipation
+Zoolander 2,fear,optimism
+Zoolander 2,fear,optimism
+Zoolander 2,fear,joy
+Zoolander 2,fear,disgust
+Zoolander 2,fear,disgust
+Zoolander 2,fear,anger
+Zoolander 2,fear,optimism
+Zoolander 2,fear,anticipation
+Zoolander 2,fear,disgust
+Zoolander 2,fear,disgust
+Zoolander 2,fear,disgust
+Zoolander 2,fear,anger
+Zoolander 2,fear,optimism
+Zoolander 2,fear,disgust
+Zoolander 2,fear,sadness
+Zoolander 2,fear,joy
+Zoolander 2,fear,anticipation
+Zoolander 2,fear,anger
+Zoolander 2,fear,anger
+Zoolander 2,fear,sadness
+Zoolander 2,fear,anger
+Qayamat: City Under Threat,fear,fear
+Qayamat: City Under Threat,fear,anger
+Qayamat: City Under Threat,fear,optimism
+Qayamat: City Under Threat,fear,fear
+Taarzan: The Wonder Car,sadness,anger
+Taarzan: The Wonder Car,sadness,sadness
+Taarzan: The Wonder Car,sadness,sadness
+Naina,sadness,anger
+Naina,sadness,fear
+Thank You,joy,joy
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,joy
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,joy
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,anger
+Thank You,joy,sadness
+Shuddh Desi Romance,joy,joy
+Shuddh Desi Romance,joy,joy
+Shuddh Desi Romance,joy,sadness
+Shuddh Desi Romance,joy,anger
+Shuddh Desi Romance,joy,sadness
+Shuddh Desi Romance,joy,joy
+Shuddh Desi Romance,joy,sadness
+Shuddh Desi Romance,joy,sadness
+Shuddh Desi Romance,joy,sadness
+Shuddh Desi Romance,joy,joy
+Shuddh Desi Romance,joy,sadness
+Shuddh Desi Romance,joy,sadness
+Get a Job,sadness,joy
+Get a Job,sadness,sadness
+Get a Job,sadness,joy
+Get a Job,sadness,sadness
+Get a Job,sadness,joy
+Get a Job,sadness,optimism
+Get a Job,sadness,disgust
+Get a Job,sadness,optimism
+Get a Job,sadness,joy
+Get a Job,sadness,joy
+Get a Job,sadness,joy
+Get a Job,sadness,anticipation
+Get a Job,sadness,anticipation
+Get a Job,sadness,anger
+Get a Job,sadness,anticipation
+Get a Job,sadness,anticipation
+Get a Job,sadness,disgust
+Get a Job,sadness,anticipation
+Get a Job,sadness,sadness
+Get a Job,sadness,sadness
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,anger
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,optimism
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,fear
+The Girl in the Photographs,disgust,optimism
+The Girl in the Photographs,disgust,anticipation
+The Girl in the Photographs,disgust,anticipation
+The Girl in the Photographs,disgust,optimism
+The Girl in the Photographs,disgust,fear
+11/11/11,sadness,fear
+11/11/11,sadness,fear
+11/11/11,sadness,fear
+11/11/11,sadness,joy
+11/11/11,sadness,sadness
+11/11/11,sadness,fear
+11/11/11,sadness,joy
+11/11/11,sadness,fear
+11/11/11,sadness,fear
+The Forbidden Dance,joy,fear
+The Forbidden Dance,joy,joy
+The Forbidden Dance,joy,anger
+The Forbidden Dance,joy,optimism
+The Forbidden Dance,joy,joy
+The Forbidden Dance,joy,anticipation
+The Forbidden Dance,joy,joy
+The Forbidden Dance,joy,anticipation
+The Intervention,anticipation,sadness
+The Intervention,anticipation,anticipation
+Your Name.,sadness,sadness
+Your Name.,sadness,joy
+Your Name.,sadness,joy
+Your Name.,sadness,joy
+Your Name.,sadness,joy
+Housefull,sadness,anger
+Housefull,sadness,joy
+Housefull,sadness,sadness
+Housefull,sadness,sadness
+Housefull,sadness,joy
+Housefull,sadness,joy
+Housefull,sadness,anger
+Kajraare,sadness,joy
+Kajraare,sadness,sadness
+Kajraare,sadness,sadness
+Awakening,optimism,anticipation
+Awakening,optimism,disgust
+Awakening,optimism,fear
+Last Woman on Earth,sadness,disgust
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,disgust
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,optimism
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,optimism
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,anticipation
+Last Woman on Earth,sadness,disgust
+Last Woman on Earth,sadness,sadness
+Last Woman on Earth,sadness,optimism
+Last Woman on Earth,sadness,optimism
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+The She-Creature,fear,fear
+Nude on the Moon,anticipation,optimism
+Nude on the Moon,anticipation,optimism
+Nude on the Moon,anticipation,disgust
+Nude on the Moon,anticipation,optimism
+Nude on the Moon,anticipation,disgust
