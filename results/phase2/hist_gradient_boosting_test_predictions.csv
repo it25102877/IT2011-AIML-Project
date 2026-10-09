@@ -1,0 +1,3222 @@
+row_id,review_id,movie_name,y_true,y_pred
+0,b1cc2fdd7ea690d3,Heat,disgust,fear
+1,18f54ac07d7303a8,Heat,disgust,anger
+2,3b9bfeddcc235cd5,Heat,disgust,optimism
+3,7570bd4d71bef853,Heat,disgust,sadness
+4,4261055e54b1d9be,Leaving Las Vegas,sadness,sadness
+5,98253bdefa1c6091,Leaving Las Vegas,sadness,sadness
+6,7308de7fde93ca96,Leaving Las Vegas,sadness,sadness
+7,3a8c26015c263497,Leaving Las Vegas,sadness,sadness
+8,aa73f7001a2f4219,Leaving Las Vegas,sadness,sadness
+9,c9d695558bbbaa56,Leaving Las Vegas,sadness,sadness
+10,fd0c828d6ae5afe3,Leaving Las Vegas,sadness,sadness
+11,b6895ced905d4a03,Leaving Las Vegas,sadness,sadness
+12,d93f640e8c1ac17e,Leaving Las Vegas,sadness,sadness
+13,8ec07b40ca13e5b9,Leaving Las Vegas,sadness,sadness
+14,0d1466fefb902a38,Leaving Las Vegas,sadness,sadness
+15,87eaea42968af31b,Chungking Express,joy,sadness
+16,ab9e8eb74c4ef657,Chungking Express,joy,joy
+17,a1cd50f078ba64a0,Chungking Express,joy,joy
+18,5388e4d55254784e,Chungking Express,joy,sadness
+19,1ed4d4dfebc2de74,Chungking Express,joy,joy
+20,4e8d89a67c1a2381,Chungking Express,joy,joy
+21,c7e28d93d8838011,Chungking Express,joy,sadness
+22,3e1368c8893dcbca,Before Sunrise,sadness,joy
+23,93d6da9bf3209287,Before Sunrise,sadness,sadness
+24,46a20786bd61d72f,Before Sunrise,sadness,sadness
+25,737165c3dcb463e0,Before Sunrise,sadness,sadness
+26,0e183f4989c749f4,Before Sunrise,sadness,sadness
+27,267b0ca1b4a616c8,Exit to Eden,anticipation,anticipation
+28,db09ad611e578fbd,Exit to Eden,anticipation,anticipation
+29,35e3c869afdb1cdc,Exit to Eden,anticipation,anger
+30,e82b25be3bf807a7,Exit to Eden,anticipation,anticipation
+31,bfe71f7043cb5791,Exit to Eden,anticipation,anticipation
+32,665d2271f1df75ea,Exit to Eden,anticipation,anger
+33,16847d396df1f08f,Exit to Eden,anticipation,anticipation
+34,449c53c80d714707,Exit to Eden,anticipation,anticipation
+35,8c885b1496fb4bf2,Exit to Eden,anticipation,anticipation
+36,d7a67643bd0f45ad,Exit to Eden,anticipation,anger
+37,64b75fe47d36d690,Exit to Eden,anticipation,anticipation
+38,d1bfb8f467f4ab34,Exit to Eden,anticipation,fear
+39,282802bf488fc3e0,Exit to Eden,anticipation,anticipation
+40,72188b5bfe3a3288,Exit to Eden,anticipation,disgust
+41,112e23b625d86663,Exit to Eden,anticipation,fear
+42,39b0427e42773c2f,Exit to Eden,anticipation,anticipation
+43,ccc7145a97fd5e05,Junior,anticipation,joy
+44,698ad6d6e9788724,Junior,anticipation,joy
+45,6b0a92d20ee3317f,Junior,anticipation,disgust
+46,c1f4304d5671b04f,Junior,anticipation,joy
+47,a7d2f81e16480046,Junior,anticipation,disgust
+48,1c53db6062dd276e,Junior,anticipation,joy
+49,795ee4600d18ac10,Junior,anticipation,sadness
+50,1fae99430cb57845,Junior,anticipation,anticipation
+51,8baa09be912ecb83,Junior,anticipation,disgust
+52,798d005628414183,Junior,anticipation,optimism
+53,004a6ed8f600ebf9,Junior,anticipation,sadness
+54,9808d3f35e5a7dde,Junior,anticipation,disgust
+55,5d361ba07ccbdaf0,Junior,anticipation,joy
+56,45b7a5ac6cb8b1dc,Junior,anticipation,joy
+57,c7dda9e7395f7cde,Junior,anticipation,sadness
+58,9cec8ad138b6d1ef,Junior,anticipation,joy
+59,1d95b620a3b30bef,Junior,anticipation,joy
+60,5694894ebc68dcbf,Junior,anticipation,disgust
+61,175321e67d37c711,Junior,anticipation,joy
+62,32376afe6d621c66,Junior,anticipation,joy
+63,65bed9c9f9c734a1,The Crow,joy,optimism
+64,2e52a6b17e562469,The Crow,joy,fear
+65,870f6feb7b7fa2d8,The Crow,joy,optimism
+66,432afdbcfc5bde0e,The Crow,joy,optimism
+67,7fa056ebd75baf47,The Crow,joy,optimism
+68,e0fbd4f8262dca72,The Crow,joy,fear
+69,123edbed524a2713,The Crow,joy,fear
+70,47e6adc47710fd43,The Crow,joy,fear
+71,b17df3a2218b3edc,The Crow,joy,fear
+72,fd83c85e5b309af3,The Crow,joy,optimism
+73,fb86907b902a7ad4,Speed,sadness,anticipation
+74,b56558dc7474f3be,Speed,sadness,optimism
+75,b53a5291a7d3d76c,Speed,sadness,fear
+76,81bf7d4234f21395,Speed,sadness,fear
+77,09e58ec02ed6685e,Highlander: The Final Dimension,optimism,optimism
+78,fc2b62ff9adfd965,Highlander: The Final Dimension,optimism,fear
+79,14dc1c8d3127eb17,Highlander: The Final Dimension,optimism,optimism
+80,cbfb3cbb7178a1bc,Highlander: The Final Dimension,optimism,optimism
+81,5e38d5ca9b42a8e1,Highlander: The Final Dimension,optimism,optimism
+82,8234476d8ff4bb17,Highlander: The Final Dimension,optimism,optimism
+83,356d8a84a592b6b6,Highlander: The Final Dimension,optimism,sadness
+84,4673dd6083183d8b,Highlander: The Final Dimension,optimism,fear
+85,fe6d9073964f17f1,Highlander: The Final Dimension,optimism,optimism
+86,94080adc8a539bd2,Highlander: The Final Dimension,optimism,optimism
+87,c5b0544c6c9c23b1,Highlander: The Final Dimension,optimism,optimism
+88,9c1cd9dfd25a835b,Highlander: The Final Dimension,optimism,optimism
+89,f4c999f741dda53b,Highlander: The Final Dimension,optimism,optimism
+90,55ccd314f9b1cb91,Highlander: The Final Dimension,optimism,sadness
+91,3a39a46eb3f7d23d,Naked,fear,sadness
+92,51819342fcbc1e51,Naked,fear,disgust
+93,9184e23b852d9390,Naked,fear,disgust
+94,c5e32c4ed7e510d3,Naked,fear,sadness
+95,4c76e5a495d38521,Naked,fear,sadness
+96,e1ea52b9d70211ec,Naked,fear,anger
+97,e53260dbb08b0519,Naked,fear,sadness
+98,939c05c2981ea65d,Naked,fear,anger
+99,bff6e09ee92537e4,Naked,fear,sadness
+100,baeb71170c1d1837,Naked,fear,optimism
+101,0a2c437305e11ebb,Naked,fear,sadness
+102,2a60cec363e47ca4,No Escape,anticipation,optimism
+103,8db0b7ccdcb0fdec,No Escape,anticipation,optimism
+104,bc3a16ebe5c405d8,No Escape,anticipation,sadness
+105,3cfd7b03288fff89,No Escape,anticipation,anger
+106,5f45897fdddec4be,No Escape,anticipation,sadness
+107,5de35770e7f70ca4,No Escape,anticipation,sadness
+108,220a50db6b4ae5f0,No Escape,anticipation,sadness
+109,68165b84d33baa0f,No Escape,anticipation,optimism
+110,2eac3cd7531ca1b2,No Escape,anticipation,sadness
+111,6ceb4411d6dc97b5,No Escape,anticipation,optimism
+112,a852180f98d84683,No Escape,anticipation,optimism
+113,b6edd5d033892b2a,No Escape,anticipation,optimism
+114,2f42d8d44f23249d,No Escape,anticipation,sadness
+115,05658b3fb15eb625,No Escape,anticipation,sadness
+116,b2903667fe869301,No Escape,anticipation,sadness
+117,6644da4a8fcda6ea,No Escape,anticipation,anger
+118,ee9041e16eda2ac8,Robin Hood: Men in Tights,disgust,anger
+119,6dcc9b71ccb4efdb,Robin Hood: Men in Tights,disgust,anticipation
+120,9d135e77c2c261a5,Robin Hood: Men in Tights,disgust,anger
+121,b3a6fc2bed8d1f0f,Robin Hood: Men in Tights,disgust,disgust
+122,7756c10219ed8107,Robin Hood: Men in Tights,disgust,disgust
+123,484c8d3279a42b65,Robin Hood: Men in Tights,disgust,anger
+124,4ff23f2d37eb3280,Robin Hood: Men in Tights,disgust,anger
+125,2a4545e7757e37b2,Robin Hood: Men in Tights,disgust,joy
+126,6242de6ba1cb0f50,Robin Hood: Men in Tights,disgust,joy
+127,a505b0b63f200873,Robin Hood: Men in Tights,disgust,joy
+128,4f1ed0136f40569f,Robin Hood: Men in Tights,disgust,joy
+129,649fecf84301df94,Robin Hood: Men in Tights,disgust,joy
+130,fa1ea3257df42887,Robin Hood: Men in Tights,disgust,sadness
+131,777c5554c12c7c48,Chasers,anger,joy
+132,990b48d608742c62,Pretty Woman,sadness,disgust
+133,352e1b4506bcf735,Pretty Woman,sadness,optimism
+134,370880348abcf6f7,Pretty Woman,sadness,sadness
+135,c73652ff28a067cf,Pretty Woman,sadness,anticipation
+136,27f93aaf23a926a9,Pretty Woman,sadness,disgust
+137,0d82e0e5efd08fa3,Pretty Woman,sadness,anger
+138,f95941a7229e0582,Pretty Woman,sadness,anger
+139,342076465adc3add,Pretty Woman,sadness,joy
+140,220301eb1df25312,Pretty Woman,sadness,joy
+141,36963d5f97569f33,Pretty Woman,sadness,anticipation
+142,276421a0525ac47f,Pretty Woman,sadness,anticipation
+143,764e5b19147be1b8,Pretty Woman,sadness,joy
+144,03ca54878008d10c,All Dogs Go to Heaven 2,sadness,optimism
+145,d8008668c7ebec4e,Ransom,fear,optimism
+146,87b8f4cdf1164ae2,Ransom,fear,anger
+147,a9ec3f8667e5e7ef,Ransom,fear,fear
+148,c62d83138c515c02,Ransom,fear,fear
+149,4876cffa17913594,Ransom,fear,sadness
+150,3b9ee3ba20168b4a,Ransom,fear,fear
+151,f670cd4d4c24d080,Ransom,fear,optimism
+152,7b03fbc3f1b3f273,Ransom,fear,fear
+153,eeb4e17c2566e715,Ransom,fear,fear
+154,3c8071920d67bafc,Ransom,fear,fear
+155,f45d99d3adfbe7a8,Ransom,fear,optimism
+156,cfa743174e35d490,Ransom,fear,fear
+157,0da53bdb1c7e6421,Ransom,fear,fear
+158,caa5818d6201f768,Ransom,fear,fear
+159,f2c59577958f6db8,Ransom,fear,fear
+160,a7587d72b731a065,Ransom,fear,fear
+161,2e4be9e7cffb4a15,Ransom,fear,fear
+162,4deef2b0b1dfcbae,Ransom,fear,anger
+163,c86f7d17b86db941,The Apartment,sadness,sadness
+164,5544939f767b84b6,The Apartment,sadness,sadness
+165,cdd0b90ec331c781,The Apartment,sadness,sadness
+166,0c88159445ac9501,The Apartment,sadness,disgust
+167,c05cbe04960d3b2d,The Apartment,sadness,joy
+168,52afa0aa759f311a,The Apartment,sadness,sadness
+169,cf65b562b93100ee,The Apartment,sadness,anticipation
+170,3f69bf20c3fbb31e,The Apartment,sadness,sadness
+171,1534698f677fef35,The Apartment,sadness,sadness
+172,e1adbd8610c4fc69,The Apartment,sadness,sadness
+173,c045cf4f52afb468,The Apartment,sadness,anticipation
+174,99b4544b1534ac8c,The Apartment,sadness,sadness
+175,961342c9e3f0f365,The Apartment,sadness,sadness
+176,488ca02b593105d1,Manon of the Spring,sadness,anticipation
+177,a1b8534f0123d73c,Manon of the Spring,sadness,anticipation
+178,8a9569f59e081b7e,Manon of the Spring,sadness,anticipation
+179,e60d798416492706,Manon of the Spring,sadness,anticipation
+180,8c7711abac8e8b1c,Cinema Paradiso,joy,joy
+181,6e00a0db5fea0b44,Cinema Paradiso,joy,sadness
+182,018eeb07b0c46c8a,Cinema Paradiso,joy,joy
+183,2cecb1dab08ce0c1,Cinema Paradiso,joy,sadness
+184,b0e6497e11c9ead7,Cinema Paradiso,joy,joy
+185,1522cca2340f47db,Cinema Paradiso,joy,joy
+186,8cd16cf570c9a868,Cinema Paradiso,joy,joy
+187,432e52d6f0d59a8a,Cinema Paradiso,joy,disgust
+188,3e60e3f4b0968590,Cinema Paradiso,joy,sadness
+189,db98a7e342d67d3d,Cinema Paradiso,joy,sadness
+190,3472082609e9fab8,Cinema Paradiso,joy,sadness
+191,30931b4636500700,The Princess Bride,optimism,joy
+192,8f7082b280447451,The Princess Bride,optimism,joy
+193,89947bb80e91758d,The Princess Bride,optimism,joy
+194,2babcf8c713d27f1,The Princess Bride,optimism,joy
+195,a10cabb66b8e6464,The Princess Bride,optimism,optimism
+196,8af30747fe854cd0,The Princess Bride,optimism,joy
+197,8e93a68bfb2cafe4,The Princess Bride,optimism,joy
+198,f1f7d36abc47a712,The Princess Bride,optimism,joy
+199,1b576488c0fcfd13,Brazil,sadness,optimism
+200,daebb3d7378e4220,Brazil,sadness,fear
+201,2097240b2317cc22,Brazil,sadness,optimism
+202,41e80c32798521d6,Brazil,sadness,optimism
+203,2ec6bee235e8934f,Brazil,sadness,optimism
+204,35da4176cb15861c,Brazil,sadness,optimism
+205,799fc17e06e9d3d7,Brazil,sadness,optimism
+206,a1ee7175d8ee5ffe,Brazil,sadness,optimism
+207,c9cf03c1008b3f9d,Brazil,sadness,optimism
+208,65b6501ea15a2faa,Brazil,sadness,optimism
+209,9859c57c9eb0b3a4,Wings of Desire,joy,anticipation
+210,04eb5791627b27a6,Wings of Desire,joy,sadness
+211,0b2bf3a82032db99,Wings of Desire,joy,sadness
+212,c823b3b0a5397dae,Wings of Desire,joy,sadness
+213,8b57544ce2b8443e,Wings of Desire,joy,sadness
+214,e0b55f8c4dfaf856,Wings of Desire,joy,sadness
+215,7e84be1c0e1368cb,Wings of Desire,joy,sadness
+216,bdd25dfd2c3171ba,Wings of Desire,joy,sadness
+217,1daaa3b65972b212,Wings of Desire,joy,joy
+218,031821d996be20a6,Wings of Desire,joy,sadness
+219,1e6c50c339f8bb7d,Wings of Desire,joy,sadness
+220,bee40771a91aabef,When Harry Met Sally...,fear,sadness
+221,da0daef0dcc3d89f,When Harry Met Sally...,fear,sadness
+222,f02c60ba18e62e10,When Harry Met Sally...,fear,sadness
+223,30831f78d72f8862,When Harry Met Sally...,fear,joy
+224,a5cfaa452bdf1698,When Harry Met Sally...,fear,sadness
+225,c753b029243c64eb,When Harry Met Sally...,fear,sadness
+226,a3935a1821560bcf,When Harry Met Sally...,fear,sadness
+227,a5dc6842edd93c37,When Harry Met Sally...,fear,sadness
+228,3ff15217c1d3611c,When Harry Met Sally...,fear,sadness
+229,47a36d8d43b750c6,When Harry Met Sally...,fear,sadness
+230,5dbb397f40582870,When Harry Met Sally...,fear,sadness
+231,2f211860667cce64,When Harry Met Sally...,fear,sadness
+232,964182bf7f3ad1d2,When Harry Met Sally...,fear,sadness
+233,407113c2579afd1d,When Harry Met Sally...,fear,joy
+234,a8b79ac55b107c2c,Carrie,sadness,fear
+235,bc43708d7694e06c,Carrie,sadness,anger
+236,f7bef241a06faad5,Carrie,sadness,fear
+237,efc4a4d9fa54e8b0,Carrie,sadness,optimism
+238,a5736c8aec88a02f,Carrie,sadness,fear
+239,f99e6ad429e6a639,Carrie,sadness,fear
+240,78caada305b1b7b0,Carrie,sadness,fear
+241,c3845d5a6479cdae,Carrie,sadness,fear
+242,188020d9ab5e15f9,Carrie,sadness,fear
+243,3d0317cb7db84e36,Carrie,sadness,fear
+244,3300c318c39442df,Carrie,sadness,fear
+245,6d3124876be33536,Carrie,sadness,fear
+246,75012b3a3183f8f4,Carrie,sadness,fear
+247,9ed562c5a5ee8a1e,Carrie,sadness,anger
+248,6e720e7b1d1f0bbf,Carrie,sadness,fear
+249,cb52c9bbe530c62d,Carrie,sadness,fear
+250,801ce9f5c91bd222,Carrie,sadness,fear
+251,7f8cd8510b53dfb6,Carrie,sadness,fear
+252,02a4079a41f070c8,Grease,joy,joy
+253,499aaa9bbe723d49,Grease,joy,anticipation
+254,161d40481d1920fc,Grease,joy,anger
+255,3e52879b51467077,Grease,joy,joy
+256,64a34c6cd1d248b3,Grease,joy,joy
+257,c1f956cfcbd7dcb5,Grease,joy,anticipation
+258,faeb67fd5bba82a9,Grease,joy,joy
+259,acd21db6f1b45b15,Sprung,anticipation,anticipation
+260,4275ddeea199c079,Sprung,anticipation,disgust
+261,eb9ac759d40210d5,Sprung,anticipation,joy
+262,df08aa3d56240844,Sprung,anticipation,sadness
+263,52cc06f3bf72f73d,Speed 2: Cruise Control,anger,fear
+264,0277e51d68ed033a,Speed 2: Cruise Control,anger,optimism
+265,53564c8a800d7ad6,Speed 2: Cruise Control,anger,fear
+266,623e2889d7867e24,Speed 2: Cruise Control,anger,fear
+267,34bafb9bd54eec36,Speed 2: Cruise Control,anger,fear
+268,ac45bdc279f41a2f,Speed 2: Cruise Control,anger,fear
+269,5b605e0700a2ceae,Speed 2: Cruise Control,anger,fear
+270,24da204b711ec619,Speed 2: Cruise Control,anger,fear
+271,e5d1c48973f960da,Speed 2: Cruise Control,anger,fear
+272,f36d67a9e19a6ec2,Speed 2: Cruise Control,anger,fear
+273,5916052560906ba4,Speed 2: Cruise Control,anger,fear
+274,5a2093a76722dcec,Speed 2: Cruise Control,anger,fear
+275,732b8e4276168d60,Speed 2: Cruise Control,anger,fear
+276,e205f554f8e28caa,Speed 2: Cruise Control,anger,fear
+277,a1500ee848089cff,Speed 2: Cruise Control,anger,fear
+278,757c6a5b841d9ec0,Speed 2: Cruise Control,anger,anger
+279,245131704e59c27f,Speed 2: Cruise Control,anger,fear
+280,7333a91755200afa,Speed 2: Cruise Control,anger,anger
+281,315d9d3c911152e4,Speed 2: Cruise Control,anger,anger
+282,ab8f003d7cd9d157,Speed 2: Cruise Control,anger,anger
+283,961a46d96df87e46,Speed 2: Cruise Control,anger,anger
+284,a8e6427fa36f6a7f,Speed 2: Cruise Control,anger,anger
+285,e1ddd53f6cecef18,Speed 2: Cruise Control,anger,anger
+286,07e3312232a1aaa7,The Assignment,anticipation,optimism
+287,9c10f1eccb2e19df,The Assignment,anticipation,fear
+288,e41c881b53f51b75,The Assignment,anticipation,fear
+289,1a75ff6b1f19b596,The Assignment,anticipation,anger
+290,c4ef7f85b09adb31,The Assignment,anticipation,anger
+291,473bef7a6f2d1c4b,The Assignment,anticipation,anger
+292,b5ca371a92831ce0,The Assignment,anticipation,fear
+293,75aa1625d3dd7f6d,The Assignment,anticipation,anger
+294,7c3e54c19f69ce3f,The Assignment,anticipation,anger
+295,53c37740cf5edfe3,The Assignment,anticipation,fear
+296,0a0aae48b5972c2c,The Assignment,anticipation,anger
+297,c5d55b91d859337b,The Assignment,anticipation,anger
+298,b9356258145fd220,The Assignment,anticipation,anger
+299,c9e8743904cf3d1c,The Assignment,anticipation,fear
+300,bd8d981b48d07fae,The Assignment,anticipation,fear
+301,7ebc5867a984e88b,A Smile Like Yours,joy,anger
+302,0c8dfdb6a487ef2c,A Smile Like Yours,joy,joy
+303,e3a1a852572ecdc1,A Smile Like Yours,joy,anticipation
+304,9657f839994cd0dd,A Smile Like Yours,joy,anger
+305,4fef4d5cbe6a61ba,A Smile Like Yours,joy,joy
+306,97069b907ea5a4e2,A Smile Like Yours,joy,sadness
+307,ed4d2007aa85b7da,Good Will Hunting,optimism,optimism
+308,f628d7ef86bb0d7d,Good Will Hunting,optimism,anticipation
+309,1703a4445e3ea8f2,Good Will Hunting,optimism,sadness
+310,d66cde9a0a3b46ca,Good Will Hunting,optimism,anticipation
+311,feca2d8196e19044,Dark City,anger,optimism
+312,39088d2fe388ebd6,Dark City,anger,optimism
+313,d4d0f2cd190f16e6,Dark City,anger,optimism
+314,b01993e135cacbb0,Dark City,anger,optimism
+315,3f11d44d1cf7e4bc,Dark City,anger,optimism
+316,bf6fd8a774b5d983,Dark City,anger,optimism
+317,70a6ae1063300f2c,Dark City,anger,optimism
+318,8851c2c2fc940321,Dark City,anger,sadness
+319,01d46e34eefcd340,Dark City,anger,optimism
+320,53f2a855ad5b1d49,Dark City,anger,optimism
+321,63e1cc1fa1f7fa5e,Dark City,anger,optimism
+322,8e6ef2c1cfafea87,Dark City,anger,optimism
+323,4b048bf0ae96056b,Dark City,anger,optimism
+324,f040763c890e5e53,Dark City,anger,optimism
+325,30c03c2a3ea39ba9,Cavalcade,optimism,anticipation
+326,b9b4b8b5e69371fb,Metropolis,optimism,sadness
+327,90f87b129d9b9431,Metropolis,optimism,anticipation
+328,02320b38b27dcdbb,Metropolis,optimism,optimism
+329,cf7adf9dded7cab3,Metropolis,optimism,optimism
+330,75ff96f69d8ec08a,Metropolis,optimism,sadness
+331,dea693dbd4b1b3e1,Metropolis,optimism,sadness
+332,3be6e8b3d32ce818,Metropolis,optimism,sadness
+333,157208538aaa644f,Metropolis,optimism,sadness
+334,9e9dc9b02c1fae89,Metropolis,optimism,optimism
+335,8d072a531c1d4d2f,Metropolis,optimism,sadness
+336,eda71da1d7c51e2c,Metropolis,optimism,optimism
+337,a95ad6ddb64e0431,Metropolis,optimism,optimism
+338,95d970890347982b,Metropolis,optimism,sadness
+339,4dbad5305577ba66,Metropolis,optimism,sadness
+340,0a1abe36c058c168,Out of the Past,fear,fear
+341,29b082980abc0c14,Out of the Past,fear,fear
+342,12a258adeaf187ce,Out of the Past,fear,anticipation
+343,56a8d4cf6d2d9b6b,Out of the Past,fear,fear
+344,a4db4f0977da02b2,Out of the Past,fear,fear
+345,7ef2be7ca611ef51,Out of the Past,fear,fear
+346,c9a7b844b2e21e5b,Out of the Past,fear,fear
+347,c35c2891f742e162,Out of the Past,fear,fear
+348,bd4af2ee478ad807,Out of the Past,fear,fear
+349,4f135be59a046696,Out of the Past,fear,anticipation
+350,967d3602fa4a900f,Out of the Past,fear,fear
+351,0ad820972646622c,Out of the Past,fear,fear
+352,e0e03107524824fb,Out of the Past,fear,fear
+353,863aaa8a6de6371a,Doctor Zhivago,sadness,sadness
+354,ec4757ee733793d7,Doctor Zhivago,sadness,anticipation
+355,185f230ac8e8ac40,Doctor Zhivago,sadness,sadness
+356,f58f6f3bbc18874d,Doctor Zhivago,sadness,sadness
+357,b5d74b96b3d9ace3,Doctor Zhivago,sadness,sadness
+358,ec7f033adcff163d,Doctor Zhivago,sadness,sadness
+359,2ec624da01d5d2e4,Doctor Zhivago,sadness,sadness
+360,5921f08f2064a036,Doctor Zhivago,sadness,sadness
+361,6d70158e5e484642,Doctor Zhivago,sadness,sadness
+362,1aba346871724aa8,Doctor Zhivago,sadness,anticipation
+363,10612cafe0aa173a,Doctor Zhivago,sadness,sadness
+364,c0dd62563d8e0556,Doctor Zhivago,sadness,sadness
+365,4bba8863f896699d,Doctor Zhivago,sadness,sadness
+366,65a35927c54afcb4,Doctor Zhivago,sadness,anticipation
+367,17eb69d235bfde39,Lady and the Tramp,joy,joy
+368,92be6971e223a0e9,Lady and the Tramp,joy,joy
+369,f7bb8c4dbffa64d2,Lady and the Tramp,joy,joy
+370,9e37ab07fd3a52a5,Lady and the Tramp,joy,joy
+371,be57d427eb89a696,Lady and the Tramp,joy,joy
+372,a4484b9120382498,Lady and the Tramp,joy,joy
+373,01134f42641e9a78,Lady and the Tramp,joy,joy
+374,0bc55bb97bc67cdf,Lady and the Tramp,joy,joy
+375,a6a9757bd3ce73a4,Lady and the Tramp,joy,joy
+376,10cabab446897054,Lady and the Tramp,joy,anticipation
+377,afd98f77468c9b44,Popeye,joy,anticipation
+378,ac070265ca6426a6,Popeye,joy,joy
+379,f3f801f76bf1642d,Popeye,joy,joy
+380,146c08512db738d6,Popeye,joy,joy
+381,82be32d0268fa207,Popeye,joy,anticipation
+382,cdcf94c969547ea3,Popeye,joy,anticipation
+383,3d8deff2966bb15f,Popeye,joy,anticipation
+384,0dd3753d8d6839c5,Popeye,joy,joy
+385,fb8b49170324cf4e,Popeye,joy,anticipation
+386,5cb7295416e65313,Popeye,joy,joy
+387,cba2ce5d0eb9d1a9,Popeye,joy,anticipation
+388,eef2d21fe9bacffb,Popeye,joy,anticipation
+389,a5ed10ad92f7ca83,Popeye,joy,anticipation
+390,8da9a738d86e69d0,Popeye,joy,anticipation
+391,77a2c1188af87471,Popeye,joy,joy
+392,7edf637244537115,Popeye,joy,anticipation
+393,1b04fd54fd7a3c47,Popeye,joy,joy
+394,f524f26cee7f4ab7,Popeye,joy,anticipation
+395,f0de0ec5e7a9c469,Popeye,joy,anticipation
+396,5e5f6e405c5cb5f2,Popeye,joy,joy
+397,fc62b2255c873de9,The Allnighter,joy,anger
+398,e570e77ff5446aef,The Allnighter,joy,joy
+399,9a3d079c3c0e2150,The Allnighter,joy,joy
+400,beb636d1d4377563,The Allnighter,joy,anticipation
+401,48b6bccc7367dbd2,The Allnighter,joy,joy
+402,a4e2cf02a5b422b7,The Allnighter,joy,joy
+403,dfe50117884f27f1,The Allnighter,joy,joy
+404,bf777008e1acd32c,The Allnighter,joy,anticipation
+405,0b7fc1918187e926,The Allnighter,joy,joy
+406,22af0adea9fd99b0,Indecent Proposal,anticipation,anticipation
+407,804f84573205babc,Indecent Proposal,anticipation,sadness
+408,2410f38dd936c90e,Indecent Proposal,anticipation,anticipation
+409,1c9f8241c3eb7bd4,Indecent Proposal,anticipation,sadness
+410,564d04c3f2e4fb62,Indecent Proposal,anticipation,anger
+411,dc291d07c9d6e915,Indecent Proposal,anticipation,optimism
+412,6501483970158d1a,Indecent Proposal,anticipation,anticipation
+413,446ce51b6421002e,Indecent Proposal,anticipation,anticipation
+414,1eafd7b4935e98f3,Indecent Proposal,anticipation,anticipation
+415,aaef1b9b9ad91bfb,Indecent Proposal,anticipation,anticipation
+416,7fc534796b5c5887,Indecent Proposal,anticipation,anticipation
+417,326d5609dcc06317,Indecent Proposal,anticipation,sadness
+418,9774eef1c4e7b88f,Indecent Proposal,anticipation,sadness
+419,8b9166ef56615f79,Indecent Proposal,anticipation,sadness
+420,19f68896bb23800e,Indecent Proposal,anticipation,optimism
+421,a2c9a1d55bec1f95,Indecent Proposal,anticipation,anticipation
+422,ce684cf516c6ad50,Indecent Proposal,anticipation,sadness
+423,a5c9c15f06b34c42,Indecent Proposal,anticipation,sadness
+424,23f463263b0cfe19,Edward Scissorhands,sadness,joy
+425,67e7f497a0e7e8ed,Edward Scissorhands,sadness,anticipation
+426,2e9a12a4e796971d,Edward Scissorhands,sadness,anticipation
+427,739b56f038893a22,Edward Scissorhands,sadness,anticipation
+428,3bf727a356f0f1e8,Edward Scissorhands,sadness,sadness
+429,7240ec3b2c07869b,Edward Scissorhands,sadness,sadness
+430,668cc9808de0331f,Edward Scissorhands,sadness,sadness
+431,f870fe64013d8512,Edward Scissorhands,sadness,joy
+432,4ec2f53ec5a9aa2d,Edward Scissorhands,sadness,sadness
+433,b2813df464f7981d,Edward Scissorhands,sadness,sadness
+434,205899980197e94b,Edward Scissorhands,sadness,sadness
+435,8cea0efbe803ad05,Edward Scissorhands,sadness,sadness
+436,2dac7ba33900cd33,Edward Scissorhands,sadness,sadness
+437,430a9deab9fee554,Edward Scissorhands,sadness,sadness
+438,fc15259f5426f34b,Edward Scissorhands,sadness,sadness
+439,3148361f2a7e4758,Edward Scissorhands,sadness,sadness
+440,545cf74273ebd7b9,Edward Scissorhands,sadness,sadness
+441,fa1fc1799fa6f896,Edward Scissorhands,sadness,sadness
+442,03e8649b1a268f2b,Edward Scissorhands,sadness,sadness
+443,b63aa4aad4273ad0,Edward Scissorhands,sadness,sadness
+444,aa87e91066cafb66,Edward Scissorhands,sadness,sadness
+445,4af69da9ae94bbe8,Edward Scissorhands,sadness,sadness
+446,1f6afcfa3e523164,You've Got Mail,joy,joy
+447,7f2052650b29b3bc,You've Got Mail,joy,sadness
+448,1407bdb152a6fa53,You've Got Mail,joy,anticipation
+449,a8d7904cbc7e5947,You've Got Mail,joy,joy
+450,2af80dd8c71583e5,You've Got Mail,joy,sadness
+451,948215d983dc61b3,You've Got Mail,joy,sadness
+452,c9fd03c3f8ff29ff,You've Got Mail,joy,joy
+453,4f0dd34b601f26b6,You've Got Mail,joy,anticipation
+454,ad44b36e415a5571,You've Got Mail,joy,joy
+455,0691d64d5b28b630,You've Got Mail,joy,anticipation
+456,6c807de04437202c,You've Got Mail,joy,joy
+457,5780e54d17750329,Patch Adams,optimism,anticipation
+458,211f7f342ce6489c,Patch Adams,optimism,optimism
+459,0afc95ac27132450,Patch Adams,optimism,anticipation
+460,09b6d54523f63b40,Patch Adams,optimism,anticipation
+461,11615286aa87649a,Patch Adams,optimism,sadness
+462,a5a1b92778024ac4,Patch Adams,optimism,sadness
+463,e53d03f4232b1f27,Patch Adams,optimism,sadness
+464,29b58c07b0dd9254,Patch Adams,optimism,sadness
+465,7bbb995f7816620f,Patch Adams,optimism,sadness
+466,91db90394b12a877,Patch Adams,optimism,anticipation
+467,b6144257460dc247,Patch Adams,optimism,anger
+468,a8ad51a5ad6d00d7,Gloria,sadness,fear
+469,3c984b7200faee2b,Cruel Intentions,anticipation,disgust
+470,ae70437e4f419a2f,Cruel Intentions,anticipation,sadness
+471,53bcb9df85fffae8,Cruel Intentions,anticipation,sadness
+472,e52949fbdf06685b,Cruel Intentions,anticipation,sadness
+473,3230d4a6513000f9,Cruel Intentions,anticipation,joy
+474,c801140818034d68,Cruel Intentions,anticipation,sadness
+475,46642c02deab0f66,Cruel Intentions,anticipation,sadness
+476,eadf0322fbb0ffa2,Cruel Intentions,anticipation,anticipation
+477,4cb3b3726acef3ad,Forces of Nature,sadness,anticipation
+478,ca9c2fa52fece2df,Forces of Nature,sadness,joy
+479,c9a28e84b107f557,Forces of Nature,sadness,sadness
+480,a6062441aed8e1b5,Forces of Nature,sadness,joy
+481,c41c10289e17c62c,Forces of Nature,sadness,anticipation
+482,070e8fcf76a14d0c,Forces of Nature,sadness,joy
+483,92ecca3ae9749820,Forces of Nature,sadness,joy
+484,9c0062e13fa3eeb3,Forces of Nature,sadness,joy
+485,c3e9316ea9346673,Forces of Nature,sadness,joy
+486,8efd230c7f589638,Forces of Nature,sadness,joy
+487,c7b539d4f54fcf64,Forces of Nature,sadness,sadness
+488,7d857575e174f551,Forces of Nature,sadness,fear
+489,de98da3c9425bcdf,Forces of Nature,sadness,fear
+490,f91ba584c2c522f7,The Monster,sadness,joy
+491,9f4b62377e6adeb2,The Monster,sadness,anticipation
+492,d98d66c1a854433e,The Monster,sadness,anticipation
+493,a91e6a5e76940d01,The Monster,sadness,anticipation
+494,e4d1d9e7bb627f3e,The Monster,sadness,anger
+495,148be66aa40c10ce,The Monster,sadness,sadness
+496,c6c7a372e4682068,The Monster,sadness,anger
+497,fadd2f9e1b42ed19,The Monster,sadness,anticipation
+498,7b74e1cfaf0ae436,The Monster,sadness,anger
+499,af6d5b930ce3c415,The Monster,sadness,joy
+500,cfd1190cfc17651f,The Monster,sadness,joy
+501,16001af3f3ddfd16,The Monster,sadness,joy
+502,3d3e6e735698b105,The Monster,sadness,joy
+503,423aed205adbb855,The Monster,sadness,sadness
+504,d7ab3aa62d6d2bed,The Monster,sadness,sadness
+505,306b9875c179507a,Runaway Bride,sadness,joy
+506,f6ebf5652356f034,Runaway Bride,sadness,optimism
+507,045fbbbfbc78289a,Runaway Bride,sadness,joy
+508,73de504cda144b48,Runaway Bride,sadness,disgust
+509,8d1971b52c020e84,Runaway Bride,sadness,sadness
+510,71cab99454f20562,Runaway Bride,sadness,anger
+511,1e9742082fe43063,Runaway Bride,sadness,anticipation
+512,535ca8ca4b2e8927,Runaway Bride,sadness,anger
+513,9bd4cfc4bd36ee7b,Runaway Bride,sadness,joy
+514,6500837e7fea97d8,Runaway Bride,sadness,anticipation
+515,da272a88ad84ddca,Runaway Bride,sadness,joy
+516,3e82c3f2580c5878,Runaway Bride,sadness,joy
+517,5d954d4d5cf61a5a,Runaway Bride,sadness,joy
+518,05b17c13251d23ed,Runaway Bride,sadness,joy
+519,725566ad2274b561,Big,fear,joy
+520,7877ca7a9c7a8232,Big,fear,joy
+521,b24e75ce770c6d67,Big,fear,joy
+522,d353a34007340dc9,Big,fear,sadness
+523,18f752bfdbf596ac,Big,fear,joy
+524,fd7df8228aa13326,Big,fear,joy
+525,3293af1f971a709d,Big,fear,joy
+526,ba25590d8fe33e4a,Big,fear,joy
+527,20b729932c982171,Big,fear,joy
+528,eeb7c121b380a565,Big,fear,joy
+529,dc6799684a1e9438,Big,fear,joy
+530,b8c71d89081d72f3,Big,fear,joy
+531,e94a59453fb5c567,Big,fear,joy
+532,11f0adf58e45e7eb,Big,fear,joy
+533,bb4d174dd71935b6,Big,fear,joy
+534,1d978487907706f6,Drive Me Crazy,sadness,joy
+535,b7aee31a67d7841c,Drive Me Crazy,sadness,joy
+536,e725aaf2540a3a50,Drive Me Crazy,sadness,joy
+537,4cb5d56f29b95b35,Drive Me Crazy,sadness,sadness
+538,5096581b59cd804d,Drive Me Crazy,sadness,anticipation
+539,2be203c0597464a7,Drive Me Crazy,sadness,sadness
+540,8c01be222df5a4ed,Drive Me Crazy,sadness,anticipation
+541,0e2d960e07506a0f,The Guardian,sadness,fear
+542,030c32510bec2714,The Guardian,sadness,fear
+543,b749fee30e7f3564,The Guardian,sadness,fear
+544,d05242600a1421ec,The Guardian,sadness,fear
+545,a8ac4f86382f89cb,The Guardian,sadness,fear
+546,19d3519039de9528,The Guardian,sadness,fear
+547,90e23de9f470d28f,The Guardian,sadness,fear
+548,b20f6cbc3da25518,The Guardian,sadness,fear
+549,ded839e42d7f3a70,The Guardian,sadness,fear
+550,92c9feb13c2dca16,The Guardian,sadness,anticipation
+551,ac85891a88ff6f6b,The Guardian,sadness,fear
+552,5dc158025ed5db6d,The Guardian,sadness,fear
+553,48b66cfcd8cfca33,The Guardian,sadness,fear
+554,95587a65ce1aecdf,The Guardian,sadness,fear
+555,cb9a34e42be6664a,The Guardian,sadness,anticipation
+556,3e976d2bdec45b5d,The Guardian,sadness,fear
+557,471419bafd2b084d,The Guardian,sadness,fear
+558,a5fe98cc0129755e,The Guardian,sadness,fear
+559,ef97d7b5de4779b9,The Guardian,sadness,fear
+560,3d218c281d687f9c,The Guardian,sadness,fear
+561,0737f8a047722a23,The Guardian,sadness,fear
+562,0171751172c1402f,The Guardian,sadness,sadness
+563,1bdaa3965e685aef,The Shop Around the Corner,sadness,sadness
+564,290848aa9c72279b,The Shop Around the Corner,sadness,joy
+565,dc32193f810f6084,The Shop Around the Corner,sadness,joy
+566,1bec7f3dc8601ef0,The Shop Around the Corner,sadness,sadness
+567,738cf6ab689a8a03,The Shop Around the Corner,sadness,sadness
+568,fab76ce9c7eaa3ce,The Shop Around the Corner,sadness,sadness
+569,45ce05b38a327ff3,The Shop Around the Corner,sadness,joy
+570,a2c4b9f1413cddd3,The Shop Around the Corner,sadness,joy
+571,c67cbd2f5fa38c9f,The Shop Around the Corner,sadness,joy
+572,0f174d8e236c712d,The Shop Around the Corner,sadness,anger
+573,f79d2f0c127417be,The Shop Around the Corner,sadness,sadness
+574,f42f6b8362cf1bfb,The Shop Around the Corner,sadness,joy
+575,b9b57c9e6953ef0d,The Last Picture Show,sadness,optimism
+576,4823bb95a6ee5dda,The Last Picture Show,sadness,anticipation
+577,4b01104350cc6024,The Last Picture Show,sadness,disgust
+578,8153ad137f42d6e9,The Last Picture Show,sadness,anticipation
+579,6b6b08223f6d5d56,The Last Picture Show,sadness,anticipation
+580,4a8fa63d62b9a756,The Last Picture Show,sadness,anticipation
+581,92c5c24b8da608d3,The Last Picture Show,sadness,sadness
+582,9fa74e66f533cb2d,The Last Picture Show,sadness,anticipation
+583,ea75d6a4bb8ac55a,City Lights,sadness,sadness
+584,bbe8b93f91156440,City Lights,sadness,sadness
+585,5b37782544657f22,City Lights,sadness,sadness
+586,a059889ec6e55ee4,City Lights,sadness,disgust
+587,ef2026d9cca92e56,City Lights,sadness,sadness
+588,9bed904522fca03a,City Lights,sadness,sadness
+589,a15cac7ec8aa095e,City Lights,sadness,sadness
+590,603985e99ec6642c,City Lights,sadness,sadness
+591,c675f6131bbabe35,City Lights,sadness,sadness
+592,31cdf5ccd987ed52,Who's That Girl,sadness,anticipation
+593,c597e508f66332a4,Who's That Girl,sadness,anticipation
+594,a61d86b1014aa48b,Who's That Girl,sadness,optimism
+595,5d8c75183a667e27,Who's That Girl,sadness,disgust
+596,1ded99280ca814f2,Who's That Girl,sadness,anticipation
+597,9c16334dbe2c08ef,Who's That Girl,sadness,anticipation
+598,9903a36b53a1f50e,Who's That Girl,sadness,anger
+599,e38dc32c2c8d4a5d,Who's That Girl,sadness,anticipation
+600,6efe555a2fe888bd,Who's That Girl,sadness,disgust
+601,f9f22e1b7f1c70cb,Who's That Girl,sadness,joy
+602,ede9269dcbdfddf6,Who's That Girl,sadness,sadness
+603,f8be6627aaec238f,Who's That Girl,sadness,anticipation
+604,4d3f5b88e0ff2bed,Who's That Girl,sadness,anticipation
+605,971aa196c6b71dd8,Modern Times,sadness,sadness
+606,983949e3d88ced4c,Modern Times,sadness,anticipation
+607,fc4e186aece3decc,Modern Times,sadness,sadness
+608,f72b77478b600a3e,Modern Times,sadness,sadness
+609,68079cb85861a56c,Modern Times,sadness,sadness
+610,63c948bff3a21024,Modern Times,sadness,sadness
+611,7f96ae9fa64b598e,Modern Times,sadness,anticipation
+612,79dd19f2d7c97504,Modern Times,sadness,sadness
+613,3b509582a44ec9a7,Modern Times,sadness,sadness
+614,d18b23a3af894530,El Dorado,optimism,optimism
+615,29ec0a7d645637af,The Virgin Suicides,fear,disgust
+616,e009405843c49a43,The Virgin Suicides,fear,anticipation
+617,2e5b17f22cba042f,The Virgin Suicides,fear,joy
+618,238464de6b08b111,The Virgin Suicides,fear,joy
+619,0f4110660dc4d598,The Virgin Suicides,fear,sadness
+620,86105d2e9d6cc16f,The Virgin Suicides,fear,sadness
+621,27ad3879d5690409,The Virgin Suicides,fear,anticipation
+622,5bc71c6674b73e3d,The Virgin Suicides,fear,sadness
+623,494006e65f66cba3,The Virgin Suicides,fear,joy
+624,94bd4fdb3a4b0b4d,The Flintstones in Viva Rock Vegas,joy,joy
+625,0ed8a526393dfd2b,The Flintstones in Viva Rock Vegas,joy,optimism
+626,e8a8614373da010e,The Flintstones in Viva Rock Vegas,joy,optimism
+627,38f4cc40c1ba3499,The Flintstones in Viva Rock Vegas,joy,optimism
+628,3e26a903c83a1e1f,The Flintstones in Viva Rock Vegas,joy,optimism
+629,b8ecd867c792a713,The Flintstones in Viva Rock Vegas,joy,optimism
+630,bbec9e954d3fd02e,The Flintstones in Viva Rock Vegas,joy,optimism
+631,1deb409bdf129560,The Flintstones in Viva Rock Vegas,joy,optimism
+632,c801bb31f26eabe6,The Flintstones in Viva Rock Vegas,joy,optimism
+633,6318ca1264c5403d,The Flintstones in Viva Rock Vegas,joy,optimism
+634,6389d10ee2f5b2a0,The Flintstones in Viva Rock Vegas,joy,optimism
+635,e2232735ad7961bc,The Flintstones in Viva Rock Vegas,joy,sadness
+636,c48161de22105095,The Flintstones in Viva Rock Vegas,joy,optimism
+637,b6e296ffed061f51,The Flintstones in Viva Rock Vegas,joy,optimism
+638,824e819bd5d2ffa6,The Flintstones in Viva Rock Vegas,joy,optimism
+639,cce172eb235002bf,The Flintstones in Viva Rock Vegas,joy,optimism
+640,3371e873bd98e921,The Flintstones in Viva Rock Vegas,joy,optimism
+641,b8b105300c8afdb4,The Flintstones in Viva Rock Vegas,joy,optimism
+642,9eb66aff7fe4c970,The Flintstones in Viva Rock Vegas,joy,optimism
+643,b6cc004a8dec4beb,The Flintstones in Viva Rock Vegas,joy,optimism
+644,2142ded4b100f6ec,The Flintstones in Viva Rock Vegas,joy,sadness
+645,f5cf1262633c0fc9,The Flintstones in Viva Rock Vegas,joy,optimism
+646,3089e6aefbb676f7,The Flintstones in Viva Rock Vegas,joy,joy
+647,35e7699cb1098bfe,Inferno,sadness,fear
+648,5c3ddcd5df7ff24b,Inferno,sadness,fear
+649,b63a5e3c5b180e0f,Inferno,sadness,fear
+650,dc6b7b3fb75c8905,Inferno,sadness,fear
+651,97cd6454a8241e2b,Inferno,sadness,fear
+652,399a19a638bfd3ea,Inferno,sadness,fear
+653,4e6c1b2dcf3b4871,Inferno,sadness,fear
+654,e4724f824311a143,Inferno,sadness,fear
+655,934a094510a75b42,Inferno,sadness,fear
+656,66a0838a86cb88b3,Inferno,sadness,fear
+657,a8c22a2f18a5b6be,Inferno,sadness,fear
+658,2cf70cb62120f7e8,Inferno,sadness,fear
+659,d698e5ab5d935bd4,Inferno,sadness,fear
+660,5d859bbf6f6f554e,Inferno,sadness,fear
+661,a71554d39f8ef6e3,Inferno,sadness,fear
+662,ff470c339ccf6e91,Inferno,sadness,fear
+663,01e112b037501286,White Christmas,joy,anticipation
+664,541eb51946f48fe1,White Christmas,joy,optimism
+665,765b9bb44b36cf01,White Christmas,joy,sadness
+666,8c0df4f77a73f5a1,White Christmas,joy,sadness
+667,2b6b19a863c51755,White Christmas,joy,anticipation
+668,f40073c617ec267c,White Christmas,joy,joy
+669,e28c87c1bfc8ff22,White Christmas,joy,anticipation
+670,8deb392fd9817fba,White Christmas,joy,anticipation
+671,2544ac2100c63e0c,White Christmas,joy,joy
+672,ad4bb374f509809b,White Christmas,joy,sadness
+673,fd9f2c3df73db4b6,White Christmas,joy,joy
+674,1186c9e993a28a5f,White Christmas,joy,joy
+675,81ac84cb996864c8,White Christmas,joy,sadness
+676,110a62416107272a,White Christmas,joy,anticipation
+677,be52bfca35256187,House Party 2,anticipation,joy
+678,f96c14e0c9af6643,House Party 2,anticipation,anger
+679,a608f6e76cc3b537,House Party 2,anticipation,joy
+680,55ccae3a9c255e82,House Party 2,anticipation,anticipation
+681,b189090c90d14687,House Party 2,anticipation,anger
+682,e834bb6953067f11,House Party 2,anticipation,anger
+683,a7faf85efad9b946,Coyote Ugly,joy,joy
+684,79d0673f32d00fa0,Coyote Ugly,joy,joy
+685,8a1e248ec64df3a5,Coyote Ugly,joy,joy
+686,e1eb7bed39bdcb47,Coyote Ugly,joy,joy
+687,197ec715e52d2754,Coyote Ugly,joy,joy
+688,3a04f4b35c1a0b47,Coyote Ugly,joy,joy
+689,46e1acdfa72f179a,Coyote Ugly,joy,joy
+690,d812a046ff314829,Coyote Ugly,joy,joy
+691,b629d319fc8ab087,Coyote Ugly,joy,joy
+692,4e44738591d40130,Coyote Ugly,joy,joy
+693,41edc3778afa5e22,Coyote Ugly,joy,anticipation
+694,ae7e5472d71dbaf2,Coyote Ugly,joy,joy
+695,0ac2c5a7b93c74e9,Pajama Party,optimism,joy
+696,8e9f64d7f7ddced7,Pajama Party,optimism,joy
+697,3c25ef2c0725b720,Pajama Party,optimism,joy
+698,f6782f090e2f04fb,Pajama Party,optimism,joy
+699,0e5d0a99c7649aa9,Pajama Party,optimism,anger
+700,5b8af1bad282e176,Pajama Party,optimism,joy
+701,a12aec9190f7d6ac,Bedazzled,sadness,joy
+702,afff4fe074f0922a,Bedazzled,sadness,joy
+703,18e212864ee15b3a,Bedazzled,sadness,joy
+704,70d0d91c1246b874,Bedazzled,sadness,joy
+705,20da9b57cf8e280e,Bedazzled,sadness,sadness
+706,8ea8be23b8a194e5,Bedazzled,sadness,disgust
+707,b987af7f094ccc08,Bedazzled,sadness,disgust
+708,9bd039b249400f5a,Bedazzled,sadness,sadness
+709,091df02db075be2a,Bedazzled,sadness,sadness
+710,2f63e8921662ae1b,Bedazzled,sadness,sadness
+711,fd9498809c23a4a3,Bedazzled,sadness,joy
+712,cca2d36f4bf4354b,Chocolat,sadness,disgust
+713,20ebce4ea87e70bc,Cast Away,sadness,joy
+714,f9ea8ba1fb466292,Cast Away,sadness,sadness
+715,19f5a67b444bcccc,Cast Away,sadness,sadness
+716,dfb4e2e1461b9c19,Cast Away,sadness,joy
+717,3cc219191baa4acc,Cast Away,sadness,joy
+718,403af0d8cb754b51,Cast Away,sadness,joy
+719,bf2697c0b128f95d,Cast Away,sadness,optimism
+720,1b904d466e9ddc49,Cast Away,sadness,optimism
+721,df074d7fbddbbbf8,Cast Away,sadness,joy
+722,e07c19a2d1fa0643,Cast Away,sadness,sadness
+723,a43a2a326138d71c,Cast Away,sadness,sadness
+724,5a1dbec438d39769,Cast Away,sadness,sadness
+725,eb198ac7a3298e1f,The Family Man,sadness,joy
+726,ae233cf1718cba14,The Family Man,sadness,sadness
+727,a162334b2d6c8082,The Family Man,sadness,sadness
+728,a1d6157a10ec0b20,The Family Man,sadness,sadness
+729,575552a3fb5870f2,The Family Man,sadness,sadness
+730,cf5fbac33ddf7747,The Family Man,sadness,sadness
+731,c5af61b15632b131,The Family Man,sadness,sadness
+732,590e050697d330a5,The Family Man,sadness,sadness
+733,47e123d35c02503b,The Family Man,sadness,sadness
+734,87800511d3da37cc,The Family Man,sadness,sadness
+735,d562eb0d50cff59e,The Family Man,sadness,sadness
+736,450f4c4a1e68dd5f,The Family Man,sadness,sadness
+737,ad3299c3e8d48576,The Family Man,sadness,sadness
+738,f63c008a50d5d85d,The Family Man,sadness,joy
+739,3b2408bfd42bc869,The Family Man,sadness,joy
+740,3890ab92c007cff0,Annie,sadness,joy
+741,af394b1e5fae061d,Annie,sadness,optimism
+742,823ddf26be7aa54a,Annie,sadness,joy
+743,1e32dd4377187de7,Annie,sadness,optimism
+744,c8c84ff0b7cb23ea,Annie,sadness,optimism
+745,03b3f38aef43dac1,Annie,sadness,joy
+746,4d6cde2b66a8364f,Annie,sadness,optimism
+747,b1e97d43f216df62,Annie,sadness,joy
+748,3859d678182671da,Annie,sadness,optimism
+749,0a21d49e5563ca7e,Annie,sadness,joy
+750,97903d75b8657199,Annie,sadness,joy
+751,48e17f7214a94cf1,Annie,sadness,joy
+752,27df368f9f8ac5aa,Annie,sadness,joy
+753,bfaa7f2a90c3f88c,Annie,sadness,joy
+754,d7582221bcea159d,Annie,sadness,joy
+755,968688ea3edb30be,Annie,sadness,joy
+756,22bee65b74daaff4,Annie,sadness,joy
+757,dddee4badf93609c,Annie,sadness,optimism
+758,c175a2398ffb999e,Annie,sadness,joy
+759,9a7dedfcdd2d1f65,Sweet November,optimism,anticipation
+760,1fd738abd57ed368,Sweet November,optimism,sadness
+761,bb28d9234fd1e337,Sweet November,optimism,sadness
+762,64bc58626631ea5a,Sweet November,optimism,joy
+763,22a7e30bd234bb28,Sweet November,optimism,optimism
+764,67827f309ffa7476,Sweet November,optimism,sadness
+765,c1c6765036aead72,Sweet November,optimism,anticipation
+766,7a5b144b7389e395,Sweet November,optimism,sadness
+767,ee4d783de320b247,Sweet November,optimism,sadness
+768,65e3857e2080bc0e,Sweet November,optimism,sadness
+769,c29a761e2b6fece0,Sweet November,optimism,sadness
+770,f52e21cbf93a7b0a,Sweet November,optimism,sadness
+771,f7c6bc0ba871c8df,The Mexican,disgust,sadness
+772,7912b9516002c636,The Mexican,disgust,anger
+773,89775818e7ea28fb,The Mexican,disgust,anticipation
+774,0e032bc49a5aec39,The Mexican,disgust,anger
+775,ff9432baa2c306ea,The Mexican,disgust,anticipation
+776,ebad3ed7de53ef9a,The Mexican,disgust,anticipation
+777,1948c45c9496c495,The Mexican,disgust,anticipation
+778,ab33e7e9f5a7b010,The Mexican,disgust,anger
+779,0e5ee0fea633dbb9,The Mexican,disgust,anticipation
+780,f9da9a38f9529338,The Mexican,disgust,anticipation
+781,62a0d42211ed40ff,The Mexican,disgust,sadness
+782,c787496997d39394,The Mexican,disgust,anticipation
+783,aac546dbcae2c5ec,The Mexican,disgust,sadness
+784,81aef5b562dd9443,The Mexican,disgust,anticipation
+785,5d0401f845143f57,The Mexican,disgust,anticipation
+786,382d95eb9e51a972,The Mexican,disgust,sadness
+787,88de1b30cc456f12,The Mexican,disgust,anticipation
+788,83b9837cded3791b,The Mexican,disgust,fear
+789,b64e37be8064d4fd,Say It Isn't So,sadness,anger
+790,1c9bcbb7fcabb596,Say It Isn't So,sadness,joy
+791,5f3200c141a133d5,Say It Isn't So,sadness,joy
+792,5e0766dd5c8791ad,Say It Isn't So,sadness,joy
+793,26a6173977690746,Say It Isn't So,sadness,disgust
+794,d08cca99acf29229,Say It Isn't So,sadness,joy
+795,09012c0358ed91bb,Say It Isn't So,sadness,anger
+796,ba38e4b934215b83,Say It Isn't So,sadness,anger
+797,31df2404075487d1,Say It Isn't So,sadness,anger
+798,84074a435e44c7a4,Say It Isn't So,sadness,joy
+799,4202bf3f946c977d,Say It Isn't So,sadness,anger
+800,daf1bc7172b58e0b,Say It Isn't So,sadness,anger
+801,63e21fa4882c423e,Say It Isn't So,sadness,disgust
+802,36b323091e37fb08,Say It Isn't So,sadness,sadness
+803,57469a78b9bb6996,Say It Isn't So,sadness,anticipation
+804,0d081642cd37d52c,Say It Isn't So,sadness,sadness
+805,b1b0a299329df278,The Body,fear,fear
+806,4a3505cfb1f506e4,Wolves,anticipation,joy
+807,972ed6aa43a8fbd1,Wolves,anticipation,anticipation
+808,6e58068a1230367f,Wolves,anticipation,fear
+809,583f3251a1974a33,Wolves,anticipation,anger
+810,11d6c7d7ab2fc964,Wolves,anticipation,optimism
+811,a922306d4671553f,Wolves,anticipation,joy
+812,1a56631fc1777ac8,Wolves,anticipation,sadness
+813,7c4457e3d5e930ed,Wolves,anticipation,fear
+814,62e7bb66501684b1,Wolves,anticipation,sadness
+815,1f3c47e96ca2ffaf,Wolves,anticipation,optimism
+816,b00edaec2fc07768,Wolves,anticipation,fear
+817,ec562a07c0dd592e,Wolves,anticipation,fear
+818,8ccd52f1a9777005,Wolves,anticipation,anticipation
+819,3c68024eb244752c,Wolves,anticipation,fear
+820,a4d63b8eaf0e67ea,Moon Over Parador,disgust,sadness
+821,8c6901719e18840a,American Ninja,anticipation,fear
+822,c43b2e720ae89c84,American Ninja,anticipation,anger
+823,21ef732f1dfd69f1,American Ninja,anticipation,anger
+824,d1e98833ecff9cbd,American Ninja,anticipation,anger
+825,4422206607954ce6,American Ninja,anticipation,fear
+826,097b9fd0d4686590,American Ninja,anticipation,fear
+827,b6d0d77e5f48fccb,American Ninja,anticipation,fear
+828,ad0e48e2bcb0afce,American Ninja,anticipation,anger
+829,855f3c0b8f24e3a1,Her Alibi,anticipation,sadness
+830,6d1c62f5abffc3bc,Her Alibi,anticipation,anticipation
+831,b7576e6a3a733e69,Her Alibi,anticipation,disgust
+832,cda9bdc994270e63,Her Alibi,anticipation,anticipation
+833,80c60b6583e7eaf4,Her Alibi,anticipation,anticipation
+834,6c783840290dcd83,Her Alibi,anticipation,sadness
+835,4aae8ba9d9ff84a5,Her Alibi,anticipation,fear
+836,9fe10d481e0cb687,Bubble Boy,joy,joy
+837,29b69692cb2f9c0c,Bubble Boy,joy,joy
+838,057a9b12ef9b5a1f,Bubble Boy,joy,joy
+839,04d10d297402c844,Bubble Boy,joy,joy
+840,3fb990b8a6a25fc2,Bubble Boy,joy,joy
+841,4b64e6e3d8a7571c,Bubble Boy,joy,joy
+842,dd35acd68f76e24a,Bubble Boy,joy,joy
+843,dcc6a7ced6905e11,Bubble Boy,joy,joy
+844,226206a09b7f06a7,Bubble Boy,joy,sadness
+845,62527bd68889799a,Bubble Boy,joy,joy
+846,80bf861d0d85ed3b,Bubble Boy,joy,joy
+847,c461fada7bf8dca5,Bubble Boy,joy,joy
+848,68931edc9e98c3ca,The Musketeer,anticipation,joy
+849,4f5c823d247119e8,The Musketeer,anticipation,anger
+850,71904dab2e06e560,The Musketeer,anticipation,joy
+851,28398bae3a0c0ec3,The Musketeer,anticipation,fear
+852,4c622f6fd78a4065,The Musketeer,anticipation,anger
+853,2d330f38a534fa38,The Musketeer,anticipation,sadness
+854,6ef9fda2a5c46766,The Musketeer,anticipation,joy
+855,db62cf9b2b16e499,The Musketeer,anticipation,anger
+856,363a6a9dde216ebc,The Musketeer,anticipation,anger
+857,fb5037ab0b40a432,The Musketeer,anticipation,anger
+858,7573bd20b0bfb62f,The Musketeer,anticipation,joy
+859,e4047f9f930c9c80,The Musketeer,anticipation,joy
+860,df3900864cd0d82c,The Musketeer,anticipation,optimism
+861,dc1219bf62a7e310,The Musketeer,anticipation,fear
+862,073b22210aa05a5e,The Musketeer,anticipation,joy
+863,783bcacd7716a456,The Musketeer,anticipation,anger
+864,cdfa93948b8d72d6,The Musketeer,anticipation,anger
+865,2597788edcbd6d1b,The Musketeer,anticipation,anger
+866,21f9fefe48cc17b2,The Musketeer,anticipation,sadness
+867,1824c501e33cde63,The Glass House,optimism,sadness
+868,e87eebd74a711a02,The Glass House,optimism,sadness
+869,4966fea5ecb6e81d,The Glass House,optimism,optimism
+870,3c04840035cc1dab,The Glass House,optimism,sadness
+871,fbabf28ab430a160,The Glass House,optimism,anger
+872,2b80c302a241da25,The Glass House,optimism,optimism
+873,0a9fb6a094ece55c,The Glass House,optimism,sadness
+874,99efb48cc4d33943,The Glass House,optimism,sadness
+875,4929be55a24ac93a,The Glass House,optimism,anger
+876,0770a1a294a4a85f,The Glass House,optimism,sadness
+877,841e6ec64f64bc43,The Glass House,optimism,sadness
+878,a5f32c8f801b3e0b,The Glass House,optimism,sadness
+879,3a8a31d811b9e2f2,The Glass House,optimism,anger
+880,dec42bd536b31199,The Glass House,optimism,disgust
+881,974da6777de84d28,The Glass House,optimism,sadness
+882,f501d55198491152,Shallow Hal,sadness,anger
+883,14b8bce6fccfdaaa,Shallow Hal,sadness,anger
+884,f84f28a25b52af18,Shallow Hal,sadness,anticipation
+885,d912af6e3cbcd564,Shallow Hal,sadness,sadness
+886,25f2db0ed39a02c5,Shallow Hal,sadness,disgust
+887,bd156c0403d05680,Shallow Hal,sadness,fear
+888,ea29865b7dc76aed,Shallow Hal,sadness,disgust
+889,c9f293129a98859d,Shallow Hal,sadness,sadness
+890,9e81371ce5b269b6,Shallow Hal,sadness,optimism
+891,473a1d195d131640,Shallow Hal,sadness,sadness
+892,42b73bc5fc95d0cd,Shallow Hal,sadness,disgust
+893,29080e701e0b3043,Shallow Hal,sadness,sadness
+894,48c0e6b13efc13a9,Shallow Hal,sadness,joy
+895,192bcc81ddc17356,Monster's Ball,sadness,sadness
+896,b38857106ed746fc,Monster's Ball,sadness,sadness
+897,8babedcf980bcdc6,Monster's Ball,sadness,sadness
+898,2aac4d5e50756386,Monster's Ball,sadness,sadness
+899,d46d147c6ca2522e,Monster's Ball,sadness,sadness
+900,81d6f6e892ee8f93,Monster's Ball,sadness,sadness
+901,db89ac150fd9d7ba,Monster's Ball,sadness,sadness
+902,5f2783bbc18acd7f,Monster's Ball,sadness,sadness
+903,7b92564f5feebdd6,Monster's Ball,sadness,sadness
+904,72198d4ed9f5de65,Monster's Ball,sadness,joy
+905,8f02ca37ae0668e8,Monster's Ball,sadness,sadness
+906,e00a7870596442c2,The Count of Monte Cristo,anger,joy
+907,d979895c9b760458,The Count of Monte Cristo,anger,joy
+908,e3a3da725cf652e6,The Count of Monte Cristo,anger,anger
+909,ebed0a1bc20302c4,The Count of Monte Cristo,anger,joy
+910,774751cf8ddb2f09,The Count of Monte Cristo,anger,sadness
+911,b4ae494acea28cd0,The Count of Monte Cristo,anger,joy
+912,08ffd26f5cb44569,The Last Man,sadness,joy
+913,c3b22eb69d36b155,The Last Man,sadness,anticipation
+914,2ed45c33b3a6d97f,The Last Man,sadness,sadness
+915,1f309304ee8aee8d,The Last Man,sadness,joy
+916,1211185d2c05d4c6,The Last Man,sadness,disgust
+917,5df5f79920d70c78,The Last Man,sadness,optimism
+918,72492983e0cba692,The Last Man,sadness,optimism
+919,1ea9acc2315899cf,The Last Man,sadness,sadness
+920,23c1f8b7a76bf6c9,The Last Man,sadness,optimism
+921,729b4f2fd949c951,The Last Man,sadness,optimism
+922,8923834cd4b2b8c3,The Last Man,sadness,joy
+923,d0db70c2afeb4639,The Last Man,sadness,sadness
+924,261f5e5ae6a862cd,The Last Man,sadness,disgust
+925,3f3268803cdd2914,The Last Man,sadness,anticipation
+926,20ae6df39d32b6cc,The Last Man,sadness,anticipation
+927,2bbdbffb079d95b9,Under the Skin,anticipation,anticipation
+928,c58d55ce80ec63ae,Under the Skin,anticipation,anticipation
+929,e2e89a42bba2c7c9,Under the Skin,anticipation,sadness
+930,7ee0cddd0a8a74fe,Under the Skin,anticipation,optimism
+931,5766c74fb00112a4,Under the Skin,anticipation,anticipation
+932,e708f508d2c10e48,Under the Skin,anticipation,sadness
+933,463acf27921c0c81,Under the Skin,anticipation,sadness
+934,38de92c887f67ddc,Under the Skin,anticipation,optimism
+935,2fc14c24bab6df0e,Under the Skin,anticipation,sadness
+936,e865e4f13f9ab55d,Under the Skin,anticipation,anticipation
+937,974e76588177dbd4,Under the Skin,anticipation,sadness
+938,ff9c820760e66db1,Under the Skin,anticipation,optimism
+939,7c45146a01e33f80,40 Days and 40 Nights,sadness,disgust
+940,df58b27b1293d349,40 Days and 40 Nights,sadness,optimism
+941,e6a2d4898efac615,40 Days and 40 Nights,sadness,anger
+942,f4fd452df17728d9,40 Days and 40 Nights,sadness,disgust
+943,975d2324f3739164,40 Days and 40 Nights,sadness,anger
+944,04a2273dcb66632e,40 Days and 40 Nights,sadness,anger
+945,54dbada151ee4d2a,40 Days and 40 Nights,sadness,anger
+946,efc4d729f66d5b61,40 Days and 40 Nights,sadness,optimism
+947,1a3abf05ba3d882a,40 Days and 40 Nights,sadness,disgust
+948,ef2dcaf5febd7ba2,40 Days and 40 Nights,sadness,joy
+949,268ea4b15506edd4,40 Days and 40 Nights,sadness,disgust
+950,9f1d320b0a125c45,40 Days and 40 Nights,sadness,anger
+951,1594cd0631eec17e,40 Days and 40 Nights,sadness,anticipation
+952,c8be22d4dc5616c6,40 Days and 40 Nights,sadness,anticipation
+953,4ed5777fb363b12d,40 Days and 40 Nights,sadness,anger
+954,3ecffd61da8a9f54,40 Days and 40 Nights,sadness,anger
+955,4873d80d64663fee,40 Days and 40 Nights,sadness,optimism
+956,ebc24cce84f70cd7,The Aviator,anger,joy
+957,d62a2770807ed04c,The Aviator,anger,sadness
+958,327b38be51168d16,The Aviator,anger,joy
+959,12e7ed1f825b10fa,The Aviator,anger,joy
+960,eddb6d8aa5098ff0,The Aviator,anger,joy
+961,d6d39dbbcec7f5e1,The Aviator,anger,sadness
+962,bf2c268ae5cd2c71,The Aviator,anger,sadness
+963,164f66f33365818c,The Aviator,anger,sadness
+964,943aea9fab29975e,The Aviator,anger,joy
+965,d64534ce01049a80,The Aviator,anger,joy
+966,b5fe725502ee381b,The Aviator,anger,joy
+967,b550ab2eb6c0450e,The Aviator,anger,joy
+968,715ceac948869e49,The Aviator,anger,sadness
+969,188883e604ceaf13,The Aviator,anger,sadness
+970,7b756ff404ce18c8,The Aviator,anger,sadness
+971,de5052f9379191b4,The Aviator,anger,joy
+972,62d1579d2c46659a,The Aviator,anger,joy
+973,7327139904abcfe0,The Aviator,anger,sadness
+974,9e98a8ca4c8b4d37,The Aviator,anger,sadness
+975,ba8dbe4727b096b4,The Aviator,anger,sadness
+976,4c823aa490e07011,Mr. Deeds,joy,disgust
+977,339b66ab0c92eb68,Mr. Deeds,joy,disgust
+978,105f65af92dfb4dd,Mr. Deeds,joy,disgust
+979,7a507c9a6de6dd61,Mr. Deeds,joy,optimism
+980,60fe569709eac125,Mr. Deeds,joy,sadness
+981,c22583ca8e92d7bf,Mr. Deeds,joy,optimism
+982,606d5def8553d9aa,Mr. Deeds,joy,disgust
+983,d3662b129a3e1f3a,Mr. Deeds,joy,joy
+984,ca5de8295529a1a7,Mo' Money,anger,anticipation
+985,b6773b366932ee2d,Mo' Money,anger,anger
+986,fd8a85c703afa66c,Mo' Money,anger,anticipation
+987,34e72e1de0051e59,Mo' Money,anger,anticipation
+988,873b346772ed9fdd,Mo' Money,anger,anticipation
+989,503f6b008c584763,Mo' Money,anger,anticipation
+990,044a5c423fa4bdcb,Two Weeks Notice,anger,joy
+991,c2cf60f5adbeaa5c,Two Weeks Notice,anger,anger
+992,2cf275627bc31e8f,Two Weeks Notice,anger,anger
+993,e5114c857cf031b5,Two Weeks Notice,anger,joy
+994,fce16bb17654784d,Two Weeks Notice,anger,anger
+995,fb8aa712db9e1ec6,Two Weeks Notice,anger,anger
+996,e352cc55cab74df3,Two Weeks Notice,anger,anger
+997,2f3e69fce2323b96,Two Weeks Notice,anger,anticipation
+998,360fcfba5e77cf21,Two Weeks Notice,anger,anticipation
+999,c1a909e741b901d3,Two Weeks Notice,anger,anger
+1000,3271fde86cd12e61,Two Weeks Notice,anger,anger
+1001,f45da2fd48c6f219,Two Weeks Notice,anger,joy
+1002,684f92ea97abd69c,Two Weeks Notice,anger,anger
+1003,7a03589f03f285a7,A Guy Thing,sadness,anticipation
+1004,5136694093667e1a,A Guy Thing,sadness,sadness
+1005,c4e981c08e9dba69,A Guy Thing,sadness,anger
+1006,4e9ea90f9f7652f9,A Guy Thing,sadness,joy
+1007,a1a8a99cc303abb8,A Guy Thing,sadness,anticipation
+1008,40da4f7fb3907af8,A Guy Thing,sadness,sadness
+1009,47edb8d27e3c9d7a,A Guy Thing,sadness,anticipation
+1010,90096aa40eebea49,A Guy Thing,sadness,joy
+1011,4692c12a1285bb4f,How to Lose a Guy in 10 Days,joy,optimism
+1012,e2c273c0d13f190f,How to Lose a Guy in 10 Days,joy,anticipation
+1013,bd34a550ceea6857,How to Lose a Guy in 10 Days,joy,sadness
+1014,ef953124bbabf4ab,How to Lose a Guy in 10 Days,joy,joy
+1015,bd7ed76a3ca5e454,How to Lose a Guy in 10 Days,joy,sadness
+1016,44e9a4e5373c5e0d,How to Lose a Guy in 10 Days,joy,anticipation
+1017,1d387796e4bd8e3f,How to Lose a Guy in 10 Days,joy,joy
+1018,a84117a686c467be,How to Lose a Guy in 10 Days,joy,joy
+1019,8ba7245febc1facc,How to Lose a Guy in 10 Days,joy,joy
+1020,467bba45fee32a6b,How to Lose a Guy in 10 Days,joy,joy
+1021,b59e4d3b195ffce8,How to Lose a Guy in 10 Days,joy,sadness
+1022,2b14cecc7c3973f1,The Undefeated,optimism,optimism
+1023,3e9e6f19bd105aca,The Undefeated,optimism,anger
+1024,93f08dbc73fc9399,The Undefeated,optimism,optimism
+1025,307d87f23cd4e140,The Undefeated,optimism,disgust
+1026,e4f32b6ec4adb7ad,The Undefeated,optimism,disgust
+1027,9e47e4e20209af4f,The Undefeated,optimism,sadness
+1028,1c033cfb30ad660d,The Undefeated,optimism,anticipation
+1029,68c4ea5b1f97ee5b,The Undefeated,optimism,anger
+1030,5666f06997d68aa4,The Undefeated,optimism,anticipation
+1031,f95ee1153bc04f5e,The Undefeated,optimism,anticipation
+1032,57b581986e792a11,The Undefeated,optimism,disgust
+1033,d4a990c7001085ce,The Undefeated,optimism,optimism
+1034,3d34300aef3c3603,The Undefeated,optimism,disgust
+1035,01b9355ddfa73814,The Undefeated,optimism,disgust
+1036,c69467381dec1edd,The Undefeated,optimism,optimism
+1037,06cd2c6dbebf2826,The Undefeated,optimism,anticipation
+1038,cd51fb9cff6b1f96,The Undefeated,optimism,anticipation
+1039,724e4cc39c3a281f,The Undefeated,optimism,disgust
+1040,5ffe2abd92487a6c,The Undefeated,optimism,optimism
+1041,153b13ecc03fc657,The Rules of the Game,joy,sadness
+1042,fe2a67389eb082e8,The Rules of the Game,joy,anger
+1043,1007f4f7fdfe1c24,The Rules of the Game,joy,joy
+1044,0bb32dbd3860f357,The Rules of the Game,joy,anticipation
+1045,0b810d5570eed8e1,The Rules of the Game,joy,sadness
+1046,5ffdadfe9f8a117c,The Rules of the Game,joy,sadness
+1047,3b8ddb2c77db506d,The Rules of the Game,joy,sadness
+1048,dec11c46a140b697,The Rules of the Game,joy,sadness
+1049,22f669e1392ac7a0,The Rules of the Game,joy,sadness
+1050,d7f4ffee767d233f,The Rules of the Game,joy,sadness
+1051,db2cd77078958bac,The Rules of the Game,joy,sadness
+1052,c12d34e6eaa1308f,The Rules of the Game,joy,sadness
+1053,19a1d0475a144536,Intolerable Cruelty,anticipation,anticipation
+1054,6ae12f26fae1c8c7,Intolerable Cruelty,anticipation,joy
+1055,44d8854c1514fc3f,Intolerable Cruelty,anticipation,anger
+1056,d52e6e947a17f8cc,Intolerable Cruelty,anticipation,anticipation
+1057,1fc6f1ada16793a2,Intolerable Cruelty,anticipation,anticipation
+1058,96a4dee5ccf565e2,Intolerable Cruelty,anticipation,anticipation
+1059,7d25b18ac1f66777,Intolerable Cruelty,anticipation,anticipation
+1060,66b00ab8228780f4,Intolerable Cruelty,anticipation,anticipation
+1061,53f047ca2e66e40d,Intolerable Cruelty,anticipation,anticipation
+1062,e0412f6e540fdf72,Intolerable Cruelty,anticipation,sadness
+1063,ab29c9bf6acb0ccb,Damage,optimism,sadness
+1064,764214c642079f06,Damage,optimism,optimism
+1065,dadc6cd2857a9395,Damage,optimism,anger
+1066,55bb2f54c458e4af,Damage,optimism,sadness
+1067,2dc10e9c5d8af7fb,Damage,optimism,sadness
+1068,630704d875c2d5a3,Damage,optimism,sadness
+1069,1f60950c9f33075a,Damage,optimism,joy
+1070,111436e457586d35,Damage,optimism,sadness
+1071,908c7135b5059e06,Damage,optimism,sadness
+1072,b703841bd89c253a,King Ralph,disgust,joy
+1073,bcdf1dd8d4d601dc,King Ralph,disgust,joy
+1074,492ce21bf84024b8,King Ralph,disgust,joy
+1075,49764f58f3f705da,King Ralph,disgust,anticipation
+1076,1cb9fd0db85215db,King Ralph,disgust,sadness
+1077,12231f1a598e7a80,King Ralph,disgust,joy
+1078,09b0653e1c67ae5b,King Ralph,disgust,joy
+1079,0ecbaee222f08a5d,King Ralph,disgust,anticipation
+1080,c382f56dea054fea,King Ralph,disgust,joy
+1081,d5f91adc4b75b483,King Ralph,disgust,anticipation
+1082,9fcdde07e52c7587,King Ralph,disgust,joy
+1083,d69a899a29a11193,A Woman Under the Influence,sadness,sadness
+1084,b8414312613256c7,A Woman Under the Influence,sadness,sadness
+1085,da59cae4aed8cb9d,A Woman Under the Influence,sadness,sadness
+1086,47ab76a39ed6a27d,A Woman Under the Influence,sadness,sadness
+1087,ee5742c2d1856070,A Woman Under the Influence,sadness,sadness
+1088,18a427a91bc63fe0,A Woman Under the Influence,sadness,sadness
+1089,a8b07c4eebf70cbd,A Woman Under the Influence,sadness,sadness
+1090,8b5689c1dc8c2a66,A Woman Under the Influence,sadness,joy
+1091,741730d97b4f4ffa,A Woman Under the Influence,sadness,sadness
+1092,aa4d235608a256fb,A Woman Under the Influence,sadness,sadness
+1093,a35ba83df165527a,A Woman Under the Influence,sadness,sadness
+1094,b17e8b3c33cc5ea8,Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+1095,0b090479a14e8422,Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+1096,180c0d1acbc48aed,Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+1097,e07eb5260fdeb1d2,Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+1098,604d6e18b932b965,Metalstorm: The Destruction of Jared-Syn,fear,anticipation
+1099,c017aaddaff3ecd2,Metalstorm: The Destruction of Jared-Syn,fear,fear
+1100,812c65db83eafeca,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1101,13081e29eb845672,Metalstorm: The Destruction of Jared-Syn,fear,fear
+1102,c974474e44d23e8a,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1103,85899b7e77ee1874,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1104,14c5b164d1b90dea,Metalstorm: The Destruction of Jared-Syn,fear,sadness
+1105,fa1d67e04d36752d,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1106,ecf86853d522e54d,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1107,a52399d6fd760d8d,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1108,e7e0530c57781a11,Metalstorm: The Destruction of Jared-Syn,fear,fear
+1109,aad55b14206c08eb,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1110,8ea70acb3cfe0417,Metalstorm: The Destruction of Jared-Syn,fear,sadness
+1111,b5feb28a0dff29c5,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1112,c12ccf15e3008681,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1113,22e80959f97daed1,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1114,49cff0d686474d65,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1115,6fa55b7b82c103ec,Metalstorm: The Destruction of Jared-Syn,fear,optimism
+1116,a86df7a3093e728c,Love Don't Cost a Thing,anger,joy
+1117,b7635fb53cccb261,Love Don't Cost a Thing,anger,sadness
+1118,c1fe632318738ca8,Love Don't Cost a Thing,anger,joy
+1119,1cb2589a2998a829,Love Don't Cost a Thing,anger,joy
+1120,012d00629cb4ed42,Love Don't Cost a Thing,anger,anticipation
+1121,2c6e3c713f10d738,Love Don't Cost a Thing,anger,joy
+1122,c307b4d8bdf7c385,Love Don't Cost a Thing,anger,joy
+1123,9f75ff4aef706547,Love Don't Cost a Thing,anger,joy
+1124,b9ebb7191b7f83d9,Love Don't Cost a Thing,anger,anticipation
+1125,b39c832bff867722,Cheaper by the Dozen,joy,joy
+1126,4b78d61a48a71f2b,Cheaper by the Dozen,joy,joy
+1127,8fbaca8463cba40d,Cheaper by the Dozen,joy,sadness
+1128,fac44ab44a971bd5,Cheaper by the Dozen,joy,optimism
+1129,60650a30d837f5ac,Cheaper by the Dozen,joy,anticipation
+1130,24282101eeed2127,Cheaper by the Dozen,joy,anticipation
+1131,8bdea061d6146fe4,Cheaper by the Dozen,joy,joy
+1132,bd8c8d5c3b60b0ac,Cheaper by the Dozen,joy,anger
+1133,be0911fd987bc6cc,Cheaper by the Dozen,joy,joy
+1134,72fc51b75aade830,Cheaper by the Dozen,joy,joy
+1135,35e5751059e521a8,It,joy,joy
+1136,7bbae3686410cfad,It,joy,joy
+1137,0dddd4ed4a1131cc,It,joy,joy
+1138,dd649e8428e44a94,It,joy,sadness
+1139,b1fae536a2461801,It,joy,optimism
+1140,1756e67fe2dde6c8,It,joy,sadness
+1141,11c5f5ee0c354158,It,joy,anticipation
+1142,4950994328c435b4,It,joy,sadness
+1143,6e0ae192a562d11f,It,joy,sadness
+1144,1cc912f8ffc6537e,It,joy,joy
+1145,c9ab309b067a732d,It,joy,sadness
+1146,8460de165216ca76,It,joy,sadness
+1147,8109d5b580bc8e4a,It,joy,sadness
+1148,daa54ef36a6c766e,It,joy,joy
+1149,b0de7fcd39d6f76a,It,joy,joy
+1150,ee9da5e254cbb90b,It,joy,anticipation
+1151,60e60298aa05801d,It,joy,anger
+1152,0b4b8ece95d7b97f,The Dreamers,sadness,sadness
+1153,11cf1555c02a3a3d,The Dreamers,sadness,sadness
+1154,dcf5127684a8fea0,The Dreamers,sadness,sadness
+1155,c2bb4ca01615fe59,The Dreamers,sadness,disgust
+1156,e7326961adc0deed,The Dreamers,sadness,sadness
+1157,d75a60e75f53a62d,The Dreamers,sadness,anticipation
+1158,1f1203f894a5f322,Hell's Kitchen,sadness,anticipation
+1159,d489c90c2d46c8a8,Hell's Kitchen,sadness,anticipation
+1160,d405097c9981bd16,Hell's Kitchen,sadness,fear
+1161,30118ba15c1ae9f0,Hell's Kitchen,sadness,anticipation
+1162,a3fc9ee7445ce0da,Hell's Kitchen,sadness,fear
+1163,7d73b0ee41702b0b,Hell's Kitchen,sadness,fear
+1164,5613f9a97a15cab0,Hell's Kitchen,sadness,fear
+1165,0588e2390201750c,Hell's Kitchen,sadness,anticipation
+1166,54162ae400144304,Hell's Kitchen,sadness,anticipation
+1167,59ec7782fcf487e3,Hell's Kitchen,sadness,anticipation
+1168,70f011d70a1ae931,Hell's Kitchen,sadness,sadness
+1169,e4019e19e97934c1,Hell's Kitchen,sadness,anticipation
+1170,db1eb6972070ee07,Swing Shift,optimism,sadness
+1171,acb1e93061491953,Swing Shift,optimism,sadness
+1172,56900df6537ff936,The Girl Next Door,joy,anger
+1173,140ae4debc7b0aa6,The Girl Next Door,joy,anticipation
+1174,037c7f623f112f46,The Girl Next Door,joy,anger
+1175,1e30f49b6e1e6eae,The Girl Next Door,joy,joy
+1176,62042cc3a163c203,The Girl Next Door,joy,anticipation
+1177,8d46627f61098b88,The Girl Next Door,joy,anticipation
+1178,a3aa8a86cfb0f996,The Girl Next Door,joy,sadness
+1179,cfe8debba50dce38,The Girl Next Door,joy,anger
+1180,4ab4d19b78057cd8,The Girl Next Door,joy,anticipation
+1181,75cc72de9764a313,The Girl Next Door,joy,joy
+1182,cc9a6afcafc3366c,The Girl Next Door,joy,sadness
+1183,8e217decf77aa48d,The Girl Next Door,joy,anticipation
+1184,b6367abfe2622286,The Girl Next Door,joy,anticipation
+1185,bfe3dfd75c9f57fa,The Girl Next Door,joy,sadness
+1186,6659540df9058b34,The Slugger's Wife,sadness,joy
+1187,7f58b46c15e8c234,The Slugger's Wife,sadness,sadness
+1188,883003045f92616a,Jack and the Beanstalk,joy,optimism
+1189,120b503d00dc1e5d,Jack and the Beanstalk,joy,joy
+1190,a343f830329f50f3,Jack and the Beanstalk,joy,joy
+1191,0c0f881670158676,Jack and the Beanstalk,joy,sadness
+1192,db3a19cfa831d928,Jack and the Beanstalk,joy,sadness
+1193,ae42e55dc528305f,Jack and the Beanstalk,joy,sadness
+1194,8eb2bebcc4003582,"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+1195,420ae5bffd8a4b50,"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+1196,ac9fbfccfe0ba641,"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+1197,bfc1769043e8ff4f,"Spring, Summer, Fall, Winter... and Spring",sadness,joy
+1198,e6997d7e934c21a5,"Spring, Summer, Fall, Winter... and Spring",sadness,joy
+1199,57f7e1cedf147283,"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+1200,21fdc7c4ac657104,"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+1201,8b8357d64c044a12,"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+1202,37d674193c298806,"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+1203,fdeaf8c405cafa83,"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+1204,2a6972acc446da54,"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+1205,beda63cdacfe74e7,"Spring, Summer, Fall, Winter... and Spring",sadness,anger
+1206,8d0e922338019713,"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+1207,c902c15a5f21d921,"Spring, Summer, Fall, Winter... and Spring",sadness,sadness
+1208,44cc34dfd807926c,"Spring, Summer, Fall, Winter... and Spring",sadness,anticipation
+1209,b25b7e6db9db13c4,Moment by Moment,sadness,anticipation
+1210,27bc00856982a855,Moment by Moment,sadness,joy
+1211,0ae0969dcad78aad,Moment by Moment,sadness,sadness
+1212,ee31b3f231b55a0b,Moment by Moment,sadness,sadness
+1213,af592702d53df215,Moment by Moment,sadness,joy
+1214,10685db35597bfbf,Moment by Moment,sadness,joy
+1215,5a0aaf6ff9d0204e,Moment by Moment,sadness,sadness
+1216,260a7cb9db9a24e0,Moment by Moment,sadness,sadness
+1217,73e7019a7cd1d65f,Moment by Moment,sadness,joy
+1218,038739292c76a8b2,Moment by Moment,sadness,joy
+1219,659c90c9536b888c,Moment by Moment,sadness,anticipation
+1220,f01f5eaeb9ebd2fd,Moment by Moment,sadness,disgust
+1221,0b33699f7811964a,Moment by Moment,sadness,joy
+1222,90d89908549fa672,Moment by Moment,sadness,joy
+1223,f1209c735fd9ddc3,Moment by Moment,sadness,joy
+1224,bed424ed62e25bc5,Moment by Moment,sadness,joy
+1225,94a5887fca552417,Moment by Moment,sadness,sadness
+1226,792b157fc2efc72b,Moment by Moment,sadness,joy
+1227,8b9ef1e21a2982ca,Moment by Moment,sadness,anticipation
+1228,b8f25044d550a5a5,Killing Me Softly,fear,fear
+1229,9cf7e3a5094dd96c,Killing Me Softly,fear,fear
+1230,15c558d3131a8555,Killing Me Softly,fear,fear
+1231,3699b772a77e7519,Killing Me Softly,fear,fear
+1232,d87555d84dd9f1b8,Killing Me Softly,fear,fear
+1233,9cd9c57248fda9e1,Killing Me Softly,fear,fear
+1234,8cd22a9214e51fd1,Killing Me Softly,fear,fear
+1235,62fd39a77b2b9712,Killing Me Softly,fear,fear
+1236,9cf87b87c76f607a,Killing Me Softly,fear,fear
+1237,16952cd811082629,Zandalee,optimism,fear
+1238,ef90add6b5f19b34,Zandalee,optimism,sadness
+1239,775d39506963dfff,Zandalee,optimism,fear
+1240,1f060bf234ef3b3e,Zandalee,optimism,sadness
+1241,25cf045b52fa9dd6,Zandalee,optimism,sadness
+1242,7388ba68f8c62cec,Thunderbirds,sadness,optimism
+1243,605311b2ba293f40,Thunderbirds,sadness,optimism
+1244,5f0280987e9c967b,Thunderbirds,sadness,optimism
+1245,5d30573e8d5e310d,Thunderbirds,sadness,optimism
+1246,508429ecc8308d79,Thunderbirds,sadness,optimism
+1247,19447c98824ecf54,Thunderbirds,sadness,optimism
+1248,4eddcde76da5af8e,Thunderbirds,sadness,optimism
+1249,38132f83ec09f06f,Thunderbirds,sadness,optimism
+1250,084128bf7cf125ec,Thunderbirds,sadness,fear
+1251,75c39641c54cd23d,Thunderbirds,sadness,optimism
+1252,3e0f1289b5786aca,Thunderbirds,sadness,optimism
+1253,5a5785e60537cc72,Thunderbirds,sadness,optimism
+1254,f71e7a4add01d2c0,Thunderbirds,sadness,fear
+1255,8f24c3b6878ef5dd,Thunderbirds,sadness,fear
+1256,acf54d6577846af9,The Princess Diaries 2: Royal Engagement,anticipation,anticipation
+1257,37f86223494ea1a3,The Princess Diaries 2: Royal Engagement,anticipation,joy
+1258,f80b31dc830b18c9,The Princess Diaries 2: Royal Engagement,anticipation,sadness
+1259,d582a37409f7aff5,The Princess Diaries 2: Royal Engagement,anticipation,joy
+1260,0ae28a99a0a01d2c,The Princess Diaries 2: Royal Engagement,anticipation,sadness
+1261,d796bacb07c5c9c1,The Princess Diaries 2: Royal Engagement,anticipation,joy
+1262,5fc19d6cf52a0f3f,The Princess Diaries 2: Royal Engagement,anticipation,sadness
+1263,b421f4ee0e924434,The Princess Diaries 2: Royal Engagement,anticipation,joy
+1264,f28541818e27117a,The Princess Diaries 2: Royal Engagement,anticipation,sadness
+1265,53126ea959cbe7b7,The Princess Diaries 2: Royal Engagement,anticipation,joy
+1266,b0a459f680fdd26f,The Princess Diaries 2: Royal Engagement,anticipation,joy
+1267,bfc22495636bb65d,The Princess Diaries 2: Royal Engagement,anticipation,joy
+1268,c0683beb143ed500,The Princess Diaries 2: Royal Engagement,anticipation,joy
+1269,d6b9d0dd3d6b6c4f,The Princess Diaries 2: Royal Engagement,anticipation,sadness
+1270,e5face251ed1d7e8,The Princess Diaries 2: Royal Engagement,anticipation,sadness
+1271,a2646a8822ea1005,Surviving Christmas,anger,sadness
+1272,8d54f7647c59ac55,Surviving Christmas,anger,anger
+1273,cba694959c7d4ce4,Surviving Christmas,anger,joy
+1274,d7905e2eedd80bb6,Surviving Christmas,anger,sadness
+1275,f8d57980b85ed3e9,Surviving Christmas,anger,joy
+1276,6d008e3855401746,Surviving Christmas,anger,sadness
+1277,71e2c4fb4dc56b0a,Surviving Christmas,anger,joy
+1278,008a414f8df37d09,Surviving Christmas,anger,joy
+1279,1fbc8495c6e1dcec,Surviving Christmas,anger,joy
+1280,d13f8236884ef43b,Surviving Christmas,anger,joy
+1281,46f31d95653a4cd6,Surviving Christmas,anger,joy
+1282,a5baeb740b585236,Surviving Christmas,anger,joy
+1283,5861342fbbb0031e,Surviving Christmas,anger,joy
+1284,87c8f60685ef3a7a,Surviving Christmas,anger,joy
+1285,24b8af7aae87684b,Surviving Christmas,anger,anger
+1286,09531aac23d8196d,Closer,disgust,anticipation
+1287,dc69c4c07c56775c,Closer,disgust,sadness
+1288,8a7e725a1ccdb94a,Closer,disgust,sadness
+1289,7150319d7d5c7cbf,Closer,disgust,sadness
+1290,3f3304601b60cb83,Closer,disgust,sadness
+1291,9e63436a0751f53e,Closer,disgust,optimism
+1292,09bc1e5e5b41ecdc,Torment,sadness,sadness
+1293,4115dca1dfc2cc72,Torment,sadness,anticipation
+1294,3bf2671271a13a66,Torment,sadness,joy
+1295,a48e2ae118df94d4,Sisters,sadness,fear
+1296,229d931678c23d0a,Sisters,sadness,fear
+1297,38a9569f54b2dc4d,Sisters,sadness,fear
+1298,13ba458d260c32dd,Sisters,sadness,anger
+1299,5e1a7ded7cd512f8,Sisters,sadness,fear
+1300,a584992192dfdd8d,Sisters,sadness,fear
+1301,50910b34d630f672,Sisters,sadness,fear
+1302,157542469f23d728,The Foreigner,sadness,fear
+1303,af33dc729268b3c2,The Foreigner,sadness,anger
+1304,f511faeebeb9f964,The Foreigner,sadness,fear
+1305,f2bf5995ec481f36,The Foreigner,sadness,sadness
+1306,6e843fe8564c9b32,The Foreigner,sadness,fear
+1307,3b8ab2f6d9a5f5de,The Foreigner,sadness,anger
+1308,c153a41128ed07f0,The Foreigner,sadness,fear
+1309,5d919bb2991f61dc,The Foreigner,sadness,fear
+1310,fc32c3f08f5a3d20,The Foreigner,sadness,fear
+1311,fd74583b5899c6dc,The Foreigner,sadness,fear
+1312,c7fb73a0df2c370b,The Foreigner,sadness,anger
+1313,b35386a3d9247fb6,The Foreigner,sadness,fear
+1314,d180148b5844de1d,The Foreigner,sadness,anger
+1315,e1492bdc91fd1f18,The Foreigner,sadness,fear
+1316,dc389d4f9033918f,The Foreigner,sadness,anger
+1317,8765d8202552a612,The Foreigner,sadness,fear
+1318,2cf41b966b4f5eae,The Foreigner,sadness,anticipation
+1319,3b1f5dd45594b2d6,The Foreigner,sadness,sadness
+1320,1b9adcf0c27807b3,Spanglish,sadness,disgust
+1321,3df6e66e8721a8e6,Spanglish,sadness,optimism
+1322,1cd97d476f91e95f,Spanglish,sadness,disgust
+1323,dfda7abe1a472dfa,Spanglish,sadness,anticipation
+1324,5a6df35f6d93790a,Spanglish,sadness,sadness
+1325,bc7f305e0918a378,Spanglish,sadness,disgust
+1326,acb180ddc9f05216,Spanglish,sadness,anticipation
+1327,d16979c288a59d68,Spanglish,sadness,disgust
+1328,3d39122597e733e7,Spanglish,sadness,sadness
+1329,f761bceb0cdff21f,Spanglish,sadness,optimism
+1330,1540d29b7900aedf,Spanglish,sadness,sadness
+1331,7e2f92e02da0fd7c,Spanglish,sadness,disgust
+1332,75422588701c4f85,Spanglish,sadness,disgust
+1333,75b93d2b41939288,11:11,sadness,joy
+1334,210d15f6651545a8,11:11,sadness,fear
+1335,b8800155256f497c,11:11,sadness,fear
+1336,6ceccebd85aca1f5,11:11,sadness,fear
+1337,84b763dc00b98b90,11:11,sadness,fear
+1338,b2e3a6f1a1819d66,11:11,sadness,fear
+1339,653502712607c9af,11:11,sadness,fear
+1340,8f6325b33ecf01c7,11:11,sadness,fear
+1341,6a65fe8cec0a3e45,11:11,sadness,anger
+1342,b401e2b2e4676cf8,11:11,sadness,fear
+1343,7c2a874621127de8,11:11,sadness,fear
+1344,d772cb65ca529da9,11:11,sadness,joy
+1345,18ab01dfcd0bb1b1,11:11,sadness,anger
+1346,1bbafa6b6f2423cb,11:11,sadness,joy
+1347,aaa3a26e8b2bf750,11:11,sadness,anticipation
+1348,09df2d788f783a60,11:11,sadness,fear
+1349,a2340e62e121f34a,11:11,sadness,fear
+1350,f3efe84b147eebff,11:11,sadness,fear
+1351,f078f3f3f40f6fee,11:11,sadness,fear
+1352,8e3afe62449610da,11:11,sadness,fear
+1353,a84ab3f7ec5c937c,11:11,sadness,fear
+1354,3888bbeff9a89b44,Once Upon a Honeymoon,anticipation,disgust
+1355,900e8fb5529f025a,Once Upon a Honeymoon,anticipation,disgust
+1356,5f641c66b7be4a74,Once Upon a Honeymoon,anticipation,anticipation
+1357,608dcf40a0abbe78,Once Upon a Honeymoon,anticipation,anticipation
+1358,d02d5d1747456511,Guess Who,joy,anger
+1359,61afecc3f0caf9ea,Guess Who,joy,anger
+1360,48fca95d39b2fb99,Guess Who,joy,anger
+1361,877a570319debd44,Guess Who,joy,anger
+1362,80f065d50af4a87f,Guess Who,joy,joy
+1363,61400280738d422a,Guess Who,joy,joy
+1364,6808d2fc94883991,Guess Who,joy,joy
+1365,6f132df85e98b5e4,Guess Who,joy,sadness
+1366,da93e914028bac3a,Guess Who,joy,sadness
+1367,e42f9637396d7d3b,Guess Who,joy,anger
+1368,b1e8b941a8481647,Guess Who,joy,sadness
+1369,33eff7f238e07fcf,Guess Who,joy,anger
+1370,c98f720324f9ae8e,Guess Who,joy,anger
+1371,d0efb3d781c50abe,Guess Who,joy,anger
+1372,6fef4dc7b3e780d4,Guess Who,joy,sadness
+1373,78831dab3c61593d,Brothers,sadness,anticipation
+1374,c23468f25bab3495,Brothers,sadness,anger
+1375,2b2c846c486e1fcf,Brothers,sadness,sadness
+1376,5920816b44b80ce2,Brothers,sadness,sadness
+1377,041fc8e586fd7cba,Brothers,sadness,sadness
+1378,7a14a53a7f1f687a,Brothers,sadness,optimism
+1379,de60f87c44a52fcc,Brothers,sadness,sadness
+1380,c06570d59a70e2f1,Brothers,sadness,sadness
+1381,c09b25ef9b1fb2a6,Brothers,sadness,anticipation
+1382,cbe55857950a1aeb,Brothers,sadness,sadness
+1383,af0c4bc78e0252a6,Brothers,sadness,sadness
+1384,5fd107c48ae9903a,Brothers,sadness,optimism
+1385,62c9e5c5bab66a57,Brothers,sadness,optimism
+1386,18aff3107c1fb469,Brothers,sadness,sadness
+1387,db864921a002c64f,Brothers,sadness,sadness
+1388,f0a8102baaeb27d9,Brothers,sadness,sadness
+1389,14bb99d5d1ec3b21,Brothers,sadness,anticipation
+1390,42aeec177b36ac94,King's Ransom,anticipation,sadness
+1391,994211f00e8db14a,King's Ransom,anticipation,anticipation
+1392,6faf240ee622fe2c,King's Ransom,anticipation,anger
+1393,167fdeee3182677b,King's Ransom,anticipation,anger
+1394,a29009f3e06c4a83,King's Ransom,anticipation,anger
+1395,cd69d36482fbb39c,King's Ransom,anticipation,anger
+1396,791d39478e0ddcb9,King's Ransom,anticipation,anger
+1397,728a8aad8195281b,King's Ransom,anticipation,anticipation
+1398,678dfea99866409e,King's Ransom,anticipation,anger
+1399,d9a2c98b5f1ebc94,King's Ransom,anticipation,anger
+1400,4e61df43daffa4b2,Unleashed,joy,fear
+1401,80c964f4793bee10,Unleashed,joy,fear
+1402,e8c650362871762e,Unleashed,joy,fear
+1403,832465012d3d4a04,Unleashed,joy,fear
+1404,1143bcb908f0f1cf,Unleashed,joy,fear
+1405,99568c4a3d17ed4a,Unleashed,joy,fear
+1406,b28142b5531a8c96,Unleashed,joy,fear
+1407,b30c89d8cf354786,Unleashed,joy,anger
+1408,d01548809c5f9e64,Unleashed,joy,fear
+1409,9949075e173e8b56,Unleashed,joy,optimism
+1410,1456c9ddcb12b115,Unleashed,joy,fear
+1411,c7de464dd06fb6a7,Unleashed,joy,fear
+1412,893beca0f7d6e85e,Unleashed,joy,anger
+1413,904ac750d8a327e4,Kicking & Screaming,sadness,joy
+1414,dffecb38dcc29970,Kicking & Screaming,sadness,joy
+1415,8766b2face1d17c7,Kicking & Screaming,sadness,sadness
+1416,4f009a1ebd4c35d8,Kicking & Screaming,sadness,anticipation
+1417,fbc2239a200b72fb,Kicking & Screaming,sadness,joy
+1418,aabbfe55fcb4ca49,Kicking & Screaming,sadness,anticipation
+1419,7bb4d7bdedff4f6e,Kicking & Screaming,sadness,sadness
+1420,2582abd30979583a,Kicking & Screaming,sadness,sadness
+1421,50c361521bd1cc48,Kicking & Screaming,sadness,joy
+1422,46a9a39dba75c149,Kicking & Screaming,sadness,joy
+1423,f6fdcacb22ccf2bf,Kicking & Screaming,sadness,anticipation
+1424,351c0a0aa04c57f7,Kicking & Screaming,sadness,joy
+1425,2af2067ba56879ad,Kicking & Screaming,sadness,joy
+1426,1f64aa1a749a0738,Kicking & Screaming,sadness,sadness
+1427,1e3771e0353cf71d,Kicking & Screaming,sadness,joy
+1428,985a7bda215e64b0,Kicking & Screaming,sadness,joy
+1429,7e456a7084285795,Kicking & Screaming,sadness,sadness
+1430,d215b77b639e93c6,Kicking & Screaming,sadness,anticipation
+1431,eac270b31ff1366c,Kicking & Screaming,sadness,joy
+1432,0e4d5e68e648e623,9 Songs,anticipation,joy
+1433,6f81f4d24acd65ad,9 Songs,anticipation,joy
+1434,7dc27195a152bb2e,9 Songs,anticipation,joy
+1435,86596f1734ef5378,9 Songs,anticipation,joy
+1436,1dd91fed604c742a,9 Songs,anticipation,joy
+1437,acecf32e9a09fd18,9 Songs,anticipation,joy
+1438,70a70b7f7214251d,9 Songs,anticipation,joy
+1439,b3a68c84e600ef52,9 Songs,anticipation,joy
+1440,cc1ce3de0c6726f2,9 Songs,anticipation,joy
+1441,b02109d310b719dd,9 Songs,anticipation,joy
+1442,d4822ddeffeb5999,9 Songs,anticipation,joy
+1443,385bd4b675346ef2,The Uninvited,sadness,sadness
+1444,cb5c0a039bdc37e5,The Uninvited,sadness,fear
+1445,7b7e0da0da947c0f,The Uninvited,sadness,sadness
+1446,00aa21e3351f2a4a,The Uninvited,sadness,sadness
+1447,dedc6bd866f469d8,The Uninvited,sadness,sadness
+1448,3178f336da76e3af,The Uninvited,sadness,sadness
+1449,8eb6e115f174c97a,The Uninvited,sadness,sadness
+1450,9721eadfe2845d05,The Uninvited,sadness,sadness
+1451,172bd3dd8e04455d,The Uninvited,sadness,sadness
+1452,46d68c7639db536d,The Uninvited,sadness,sadness
+1453,5206debbbf53994d,The Uninvited,sadness,fear
+1454,4d79db6f88de9104,The Uninvited,sadness,sadness
+1455,3f434718aac1ee2d,The Uninvited,sadness,sadness
+1456,efea05fd7ecfe61c,The Uninvited,sadness,sadness
+1457,7188cb4b0d25b401,The Uninvited,sadness,sadness
+1458,da9dfda9b16f46e9,The Uninvited,sadness,sadness
+1459,878f9e5e4bfb93e2,The Uninvited,sadness,sadness
+1460,b3784ffa7eb869b0,The Uninvited,sadness,sadness
+1461,8f932d9a19a1bd31,The Uninvited,sadness,sadness
+1462,309357c1a9a31b24,The Uninvited,sadness,sadness
+1463,88defd703d0e4c1c,Coronado,anticipation,optimism
+1464,7b4a93027ee8c4e0,Coronado,anticipation,fear
+1465,7faa56071117dccf,Coronado,anticipation,sadness
+1466,adb1eeedcdda80fa,Coronado,anticipation,anger
+1467,0520a9d21eb48e9c,Coronado,anticipation,fear
+1468,9f7046e8461ae3e5,Coronado,anticipation,fear
+1469,04824d8da49849e8,Coronado,anticipation,sadness
+1470,ce7df0e0f644e7ca,Coronado,anticipation,fear
+1471,dfc81fc0094e54fb,Coronado,anticipation,fear
+1472,88cf00d2228f9fc7,Coronado,anticipation,sadness
+1473,ba7f028ffc30209e,Coronado,anticipation,sadness
+1474,b2d9ff451d8eb880,Kiss Kiss Bang Bang,anger,fear
+1475,60fef3713d52540e,Kiss Kiss Bang Bang,anger,fear
+1476,0655252a67a75fbf,Kiss Kiss Bang Bang,anger,fear
+1477,0211ced1c796e4f1,Kiss Kiss Bang Bang,anger,fear
+1478,f2ff2afd86b3eb95,Kiss Kiss Bang Bang,anger,anticipation
+1479,8ca2006e902b06f0,Kiss Kiss Bang Bang,anger,fear
+1480,97aa66b28ed1c77a,Kiss Kiss Bang Bang,anger,fear
+1481,249f10158b31aea2,Kiss Kiss Bang Bang,anger,fear
+1482,c2352ad963fdc5ce,Kiss Kiss Bang Bang,anger,anger
+1483,3ee482931f53e0c2,Kiss Kiss Bang Bang,anger,fear
+1484,16b070c2fb8b5137,Kiss Kiss Bang Bang,anger,fear
+1485,80951b68dd03aa4f,Pride & Prejudice,optimism,joy
+1486,32f7218fe1577b7b,Pride & Prejudice,optimism,anticipation
+1487,1b6086606e00b75e,Pride & Prejudice,optimism,joy
+1488,f14d32e8e7b8642c,Pride & Prejudice,optimism,sadness
+1489,3d8dc39dda2db510,Pride & Prejudice,optimism,anticipation
+1490,8d0f5c878c20dc1d,Pride & Prejudice,optimism,sadness
+1491,895aa4c4a7fe1379,Pride & Prejudice,optimism,sadness
+1492,4a6e523b75cdc837,Pride & Prejudice,optimism,sadness
+1493,b2ac85573d7e7479,Pride & Prejudice,optimism,optimism
+1494,8d41f898aaf3eab5,Pride & Prejudice,optimism,sadness
+1495,a883d2878d56e728,Pride & Prejudice,optimism,sadness
+1496,0ba93595463fb3cf,Pride & Prejudice,optimism,anticipation
+1497,c09572530f6a0bcd,"Yours, Mine & Ours",sadness,anticipation
+1498,f386c150ca19e6fc,"Yours, Mine & Ours",sadness,joy
+1499,8b8c0665bf6474bb,"Yours, Mine & Ours",sadness,joy
+1500,d06be2830a712d1a,"Yours, Mine & Ours",sadness,joy
+1501,7e576673a7c7479f,"Yours, Mine & Ours",sadness,joy
+1502,f34ab0a2bb58520c,"Yours, Mine & Ours",sadness,joy
+1503,da9279a294d28b09,"Yours, Mine & Ours",sadness,joy
+1504,c022df5a1d66e6ff,"Yours, Mine & Ours",sadness,joy
+1505,050a7e894cd8b0c0,"Yours, Mine & Ours",sadness,joy
+1506,bb5a3278c53f3714,"Yours, Mine & Ours",sadness,joy
+1507,7adddbdbdeab22c5,"Yours, Mine & Ours",sadness,joy
+1508,b86cd2078fb1b8a8,"Yours, Mine & Ours",sadness,disgust
+1509,499725d21e3ddf1c,"Yours, Mine & Ours",sadness,joy
+1510,f64ec0151ad6a360,"Yours, Mine & Ours",sadness,joy
+1511,eb08b961bb31b610,"Yours, Mine & Ours",sadness,joy
+1512,3c1ba9443cee84b5,"Yours, Mine & Ours",sadness,joy
+1513,9e47739da9e45cdd,Dirty Love,sadness,optimism
+1514,3a10972ec654434d,Dirty Love,sadness,sadness
+1515,076ddc9407d6069d,Dirty Love,sadness,disgust
+1516,baa9c368f19332ec,Dirty Love,sadness,anger
+1517,040a2370fe831713,Dirty Love,sadness,disgust
+1518,e423b32f86944771,Dirty Love,sadness,anger
+1519,1b7e23ff1ae8c4d9,Dirty Love,sadness,joy
+1520,b9337af8658858e0,Dirty Love,sadness,anticipation
+1521,9a35fd12c9325e8c,Dirty Love,sadness,optimism
+1522,728bf9e9efe68e83,Dirty Love,sadness,optimism
+1523,21c3ff49cabb367b,Dirty Love,sadness,sadness
+1524,7f55ce55f89a902e,Dirty Love,sadness,optimism
+1525,b64815a133da43ac,Dirty Love,sadness,anticipation
+1526,e82bdf135b31f028,Dirty Love,sadness,disgust
+1527,5f3a97bde1adc935,Dirty Love,sadness,disgust
+1528,6a4f470f07dd6ad6,Dirty Love,sadness,optimism
+1529,dfc68f677d4ca5a7,Dirty Love,sadness,optimism
+1530,7ceed2c9b0209bf4,Dirty Love,sadness,anticipation
+1531,a2703a9cbf9a8650,Dirty Love,sadness,joy
+1532,1fbc8ea30703931f,Dirty Love,sadness,anticipation
+1533,a8b45b668e0a0110,Dirty Love,sadness,anticipation
+1534,30e4ecb06b8198eb,Dirty Love,sadness,anticipation
+1535,e630ddb6305a3b3d,Dirty Love,sadness,disgust
+1536,340b3d1b341fb665,Failure to Launch,optimism,anticipation
+1537,34fce63e4c0033a6,Failure to Launch,optimism,anticipation
+1538,d5704eadf43bd08d,Failure to Launch,optimism,anticipation
+1539,b59fa99c0c8f0a19,Failure to Launch,optimism,optimism
+1540,652cff7ef2c33590,Failure to Launch,optimism,joy
+1541,8efd07e623ec2153,Failure to Launch,optimism,disgust
+1542,88a3067ff228589a,Failure to Launch,optimism,anticipation
+1543,5008f3ab1055a27c,Failure to Launch,optimism,anticipation
+1544,85a2be90bafec393,Failure to Launch,optimism,anticipation
+1545,b3e9521bc01f65f6,Failure to Launch,optimism,anticipation
+1546,f2005e54bdc840fb,Failure to Launch,optimism,sadness
+1547,ab299cb85c3d919b,Failure to Launch,optimism,anger
+1548,bfa85e6f3003f8bf,Failure to Launch,optimism,anticipation
+1549,be9c43095fff7e05,Failure to Launch,optimism,anticipation
+1550,06858378676f6ae2,Failure to Launch,optimism,anticipation
+1551,ffb2edcf225d4171,Failure to Launch,optimism,sadness
+1552,ff7b85c73c5829ff,Failure to Launch,optimism,sadness
+1553,8e1f0a0c2dd90e09,The Break-Up,disgust,sadness
+1554,6988ae1e63c3fdc6,The Break-Up,disgust,joy
+1555,9e31347b19d48d54,The Break-Up,disgust,joy
+1556,a6b679d4793e218b,The Break-Up,disgust,anger
+1557,2b62bc8bc18fec96,The Break-Up,disgust,joy
+1558,3aa01bea6c50289a,The Break-Up,disgust,joy
+1559,4020676d3e52dae6,The Break-Up,disgust,anticipation
+1560,861dd54b5abe5513,The Break-Up,disgust,disgust
+1561,354db591defebe5f,The Break-Up,disgust,joy
+1562,64a29386b468281a,The Break-Up,disgust,joy
+1563,94edd6f488809009,The Break-Up,disgust,sadness
+1564,1bef3c3bee4d4d0c,The Break-Up,disgust,joy
+1565,60abb6034b89bbd8,The Break-Up,disgust,anticipation
+1566,40ea7ec0556ddfd4,The Break-Up,disgust,sadness
+1567,11eebdaca24c7654,The Break-Up,disgust,sadness
+1568,0b64fe83edcec3f9,The Break-Up,disgust,sadness
+1569,00e93f2a948fc8b9,The Break-Up,disgust,sadness
+1570,4f56bfc4ed444748,"You, Me and Dupree",sadness,sadness
+1571,e59f8c8f905e2729,"You, Me and Dupree",sadness,anger
+1572,eb491e6482bec700,"You, Me and Dupree",sadness,anticipation
+1573,81e6dd0957b1aa1a,"You, Me and Dupree",sadness,sadness
+1574,b23067a71b2e538a,"You, Me and Dupree",sadness,anger
+1575,40bcd71450a03591,"You, Me and Dupree",sadness,sadness
+1576,321564af632e54dc,"You, Me and Dupree",sadness,sadness
+1577,c61d29914a8acdd6,"You, Me and Dupree",sadness,joy
+1578,16550fa8a243ef07,"You, Me and Dupree",sadness,anticipation
+1579,262c502ab71a2f87,"You, Me and Dupree",sadness,joy
+1580,7dd7ca21810992db,"You, Me and Dupree",sadness,sadness
+1581,12743a4b68b24071,"You, Me and Dupree",sadness,joy
+1582,45963a3d597f570e,"You, Me and Dupree",sadness,sadness
+1583,80fa40347fcca6de,"You, Me and Dupree",sadness,sadness
+1584,6d0674d1407f6f2f,"You, Me and Dupree",sadness,sadness
+1585,46f80d585161e362,"You, Me and Dupree",sadness,sadness
+1586,9c892efbdedea0e0,"You, Me and Dupree",sadness,joy
+1587,5cd88162167a2f70,"You, Me and Dupree",sadness,joy
+1588,3aa54ffe10bfa144,"You, Me and Dupree",sadness,joy
+1589,d0a842f110928373,My Super Ex-Girlfriend,anger,sadness
+1590,a62425597580e09b,My Super Ex-Girlfriend,anger,optimism
+1591,fb5adea738cb2028,My Super Ex-Girlfriend,anger,disgust
+1592,e63adc564390c193,My Super Ex-Girlfriend,anger,optimism
+1593,313e3e3a8c859b37,My Super Ex-Girlfriend,anger,joy
+1594,cf6b0485c14b37cb,My Super Ex-Girlfriend,anger,joy
+1595,5c4e9b34e36fbc68,My Super Ex-Girlfriend,anger,sadness
+1596,195f99a52bb53bf7,My Super Ex-Girlfriend,anger,sadness
+1597,a0e9684f69a5b042,My Super Ex-Girlfriend,anger,sadness
+1598,2fade1d66591352e,My Super Ex-Girlfriend,anger,sadness
+1599,2fa241ce517a0b04,My Super Ex-Girlfriend,anger,optimism
+1600,fa33b4a03015f50b,My Super Ex-Girlfriend,anger,sadness
+1601,df9674b9535d51d8,My Super Ex-Girlfriend,anger,sadness
+1602,7011dbc384b9ed4d,My Super Ex-Girlfriend,anger,sadness
+1603,5caccd150431e386,My Super Ex-Girlfriend,anger,optimism
+1604,55b1cc59f5f54b62,My Super Ex-Girlfriend,anger,fear
+1605,653c9388b656793d,My Super Ex-Girlfriend,anger,fear
+1606,57438522c9d411be,My Super Ex-Girlfriend,anger,optimism
+1607,99cc7f01485972b5,End Game,anticipation,sadness
+1608,a686c6f84473c1a0,End Game,anticipation,anticipation
+1609,6f7c56d86a34298e,End Game,anticipation,sadness
+1610,37f1cb9281a5699b,End Game,anticipation,sadness
+1611,e091c6a22d82dc7c,End Game,anticipation,sadness
+1612,4d12b548c77ae7a7,End Game,anticipation,disgust
+1613,d7169831d4c5e680,End Game,anticipation,sadness
+1614,7896cdb8b0cf72fb,End Game,anticipation,sadness
+1615,d1016aa9e8a1edb8,End Game,anticipation,disgust
+1616,51b444f42b0728b3,End Game,anticipation,sadness
+1617,92a2e3da1eb0aba1,End Game,anticipation,sadness
+1618,4c624c3b3c22e8aa,End Game,anticipation,anticipation
+1619,f1286bb477fb4981,End Game,anticipation,anticipation
+1620,52a9e663de94621f,End Game,anticipation,anticipation
+1621,5985bc84da589e6c,Loch Ness,anticipation,joy
+1622,b51025c33ea3dee3,Loch Ness,anticipation,anticipation
+1623,916e79180a9dcf65,Material Girls,sadness,anticipation
+1624,aec5a9cac47b319e,Material Girls,sadness,sadness
+1625,37c4c7585731a817,Material Girls,sadness,anticipation
+1626,16091ee96f8c13ba,Material Girls,sadness,anticipation
+1627,2d6e98d6ed96a39d,Material Girls,sadness,anger
+1628,f38ee51b7c110b6a,Material Girls,sadness,anticipation
+1629,6106224d87348e90,Material Girls,sadness,disgust
+1630,475496d3d1eb198c,Material Girls,sadness,anticipation
+1631,7676e3edd92e1f23,Material Girls,sadness,optimism
+1632,0e824d7615d9f96e,Material Girls,sadness,anger
+1633,251bd7e7769f0411,Material Girls,sadness,joy
+1634,5bc73fba56310e48,Material Girls,sadness,sadness
+1635,77040d01cf017c94,Material Girls,sadness,anticipation
+1636,a3886194b2159054,Material Girls,sadness,sadness
+1637,d9acb4e854dac5dc,Material Girls,sadness,disgust
+1638,85f98ae561142ec6,Material Girls,sadness,anticipation
+1639,9d6f9a368b786c99,Material Girls,sadness,anticipation
+1640,56cbdcf5d9a43aca,Material Girls,sadness,anger
+1641,db99e7cc2c085db2,Material Girls,sadness,joy
+1642,f545a85ef07996cc,Material Girls,sadness,anticipation
+1643,ec7ccc861b291d4b,Material Girls,sadness,optimism
+1644,1249f4ddc4ee87b7,Material Girls,sadness,anticipation
+1645,c992576b0b599631,Material Girls,sadness,sadness
+1646,d50743bf178f16d3,Material Girls,sadness,anticipation
+1647,58326484fe36051d,Material Girls,sadness,anticipation
+1648,2d8c928c1f484580,Stomp the Yard,anticipation,anticipation
+1649,cfc2621a2245e61e,Stomp the Yard,anticipation,joy
+1650,e074016c8dc87c97,Stomp the Yard,anticipation,joy
+1651,53b5ff35b49b94db,Stomp the Yard,anticipation,joy
+1652,be38945be9d02b73,Stomp the Yard,anticipation,joy
+1653,92e9644c2badaaf2,Stomp the Yard,anticipation,joy
+1654,2c7ecda6f562b30a,Stomp the Yard,anticipation,joy
+1655,9c5a7f5cc69837c1,Stomp the Yard,anticipation,joy
+1656,e09b2ce5e0ce77ce,Stomp the Yard,anticipation,joy
+1657,bac0163824d117e8,Stomp the Yard,anticipation,joy
+1658,d97fa4d19c721417,Stomp the Yard,anticipation,joy
+1659,87b1dd5d4a9cb363,Stomp the Yard,anticipation,joy
+1660,6bc47cb0894aa81f,Stomp the Yard,anticipation,joy
+1661,4ae476ad8254a0f0,Stomp the Yard,anticipation,joy
+1662,4804a2271458632f,Stomp the Yard,anticipation,joy
+1663,4a32efd4f89c8dd1,Stomp the Yard,anticipation,joy
+1664,ab03423a43b45c2c,Stomp the Yard,anticipation,joy
+1665,843cf8e978e72aa6,Stomp the Yard,anticipation,anticipation
+1666,458ab025be0955eb,Daddy's Little Girls,joy,sadness
+1667,c4b3e19845172cbf,Daddy's Little Girls,joy,sadness
+1668,619818da0843fb61,Daddy's Little Girls,joy,joy
+1669,10c37244085b5126,Daddy's Little Girls,joy,sadness
+1670,28c8a8487215a397,Music and Lyrics,joy,anticipation
+1671,10e2b9719b543f63,Music and Lyrics,joy,anticipation
+1672,57ad82a199e2dbd3,Music and Lyrics,joy,joy
+1673,79ffe3daacc61341,Music and Lyrics,joy,anticipation
+1674,80bb9892d980bec6,Music and Lyrics,joy,anticipation
+1675,3fdb34d667460855,Music and Lyrics,joy,anticipation
+1676,29cd8dd5889fae5f,Music and Lyrics,joy,joy
+1677,71d3de11756e5f66,Music and Lyrics,joy,joy
+1678,fb10b5cd6a887ec5,Music and Lyrics,joy,anticipation
+1679,78f3db70ffb9436f,Music and Lyrics,joy,anticipation
+1680,01d875da765970b7,Music and Lyrics,joy,joy
+1681,58cb968f95536ed9,Music and Lyrics,joy,anticipation
+1682,3dcdec20e3fa0eff,Music and Lyrics,joy,anticipation
+1683,fd46facc2a8cd166,Music and Lyrics,joy,anticipation
+1684,43b901edb9c4a7e5,Music and Lyrics,joy,anticipation
+1685,978c751fc8bf7062,Music and Lyrics,joy,anticipation
+1686,4997070a772332a8,Music and Lyrics,joy,joy
+1687,a991a3c4b7a6d77d,Music and Lyrics,joy,anticipation
+1688,097e5180628ed2d1,Music and Lyrics,joy,anticipation
+1689,7617a752651eab4f,Music and Lyrics,joy,anticipation
+1690,64ce4826dfefa0c0,Music and Lyrics,joy,anticipation
+1691,b58d6316c359c536,Music and Lyrics,joy,anticipation
+1692,93c4b58519d48183,Music and Lyrics,joy,anticipation
+1693,4ab6054e0a3bcd4b,Music and Lyrics,joy,optimism
+1694,200e44751c2a3768,The Host,fear,anticipation
+1695,7bcd9bef02a626fd,The Host,fear,sadness
+1696,a6d341d5ff1341f7,The Host,fear,sadness
+1697,be3588c24c7a3b0d,The Host,fear,sadness
+1698,574f7cd7a0d7a053,The Host,fear,anticipation
+1699,a7c2af50cdae3ea7,The Host,fear,anticipation
+1700,bcec8447af0accd1,The Host,fear,anger
+1701,16f3355fced02496,The Host,fear,sadness
+1702,b9bdd10ea726b3d8,The Host,fear,joy
+1703,ba389c38a9b4e18d,The Host,fear,anticipation
+1704,df6b26b17d3d5da8,The Host,fear,sadness
+1705,6d71172df209a7d9,The Host,fear,anger
+1706,e2ebd62cfb9bf11a,The Host,fear,anger
+1707,0617ed206ddc32d6,The Host,fear,sadness
+1708,4cf2d069f6b5ed5c,The Host,fear,anticipation
+1709,5333a0b5bd069618,The Host,fear,sadness
+1710,0b893ebf5e340f44,The Host,fear,sadness
+1711,d8fad37f0a1fe082,The Host,fear,anticipation
+1712,efb7b6ed8e7e9a25,The Host,fear,anger
+1713,022b96c810520692,The Host,fear,anticipation
+1714,7b844bddd91611e3,The Host,fear,sadness
+1715,e7cd7c3d26983960,Mr. Woodcock,sadness,anger
+1716,654fbd55bdb23ca6,Mr. Woodcock,sadness,joy
+1717,65d7bbc1caa1e99d,Mr. Woodcock,sadness,disgust
+1718,9267fa7644a7572a,Mr. Woodcock,sadness,sadness
+1719,512d4d580565a47e,Mr. Woodcock,sadness,disgust
+1720,bd0337b11022c018,Mr. Woodcock,sadness,joy
+1721,a12c3e36a50155c0,Mr. Woodcock,sadness,joy
+1722,33eaecf1fd3c35cc,Mr. Woodcock,sadness,joy
+1723,9eebc621703a04bb,Mr. Woodcock,sadness,anticipation
+1724,2b5d484afca72fc2,Mr. Woodcock,sadness,sadness
+1725,9eae3d13877638e2,Mr. Woodcock,sadness,sadness
+1726,fddb8b8fb44033e3,Mr. Woodcock,sadness,anger
+1727,ca2404dcbd35ad0a,Mr. Woodcock,sadness,anticipation
+1728,f8d9beed1c1ab04c,Mr. Woodcock,sadness,joy
+1729,79a4f367f5b42526,Mr. Woodcock,sadness,joy
+1730,58faf5225b958c3f,Mr. Woodcock,sadness,sadness
+1731,11beae72b59db25f,Good Luck Chuck,optimism,anger
+1732,20b5917be18a14d8,Good Luck Chuck,optimism,joy
+1733,7dd844187a6958ed,Good Luck Chuck,optimism,sadness
+1734,5bfe7fdffbdda3e8,Good Luck Chuck,optimism,anger
+1735,7fd98131d452a65b,Good Luck Chuck,optimism,sadness
+1736,e596291f90ee3760,Good Luck Chuck,optimism,anticipation
+1737,413e997b7a94106a,Good Luck Chuck,optimism,anger
+1738,0652ee482a12d4c6,Good Luck Chuck,optimism,disgust
+1739,4977e08fd77c17b1,Good Luck Chuck,optimism,anger
+1740,3cb122d120c2724a,Good Luck Chuck,optimism,anger
+1741,e0fabd527b37fd3e,Good Luck Chuck,optimism,sadness
+1742,fd16698cae88a297,Good Luck Chuck,optimism,sadness
+1743,411677bd18415a2f,Good Luck Chuck,optimism,anticipation
+1744,54842ad9d6cb027e,Good Luck Chuck,optimism,optimism
+1745,0f70f5d51793994a,Good Luck Chuck,optimism,disgust
+1746,88b3f9f3313c6473,Good Luck Chuck,optimism,sadness
+1747,8726f59d66dca91b,Good Luck Chuck,optimism,sadness
+1748,3893f2e7c6908995,Good Luck Chuck,optimism,disgust
+1749,f07fef614702951f,Good Luck Chuck,optimism,disgust
+1750,ad29b04b0070bb94,Dan in Real Life,sadness,sadness
+1751,c71bb63b2d07ef12,Dan in Real Life,sadness,sadness
+1752,ddf707d1e4410548,Dan in Real Life,sadness,sadness
+1753,6edb40edb7fd35d8,Dan in Real Life,sadness,sadness
+1754,5808177943540d8a,Dan in Real Life,sadness,sadness
+1755,3d80d9765b9be0da,Dan in Real Life,sadness,sadness
+1756,df84851f5f3ccb02,Dan in Real Life,sadness,sadness
+1757,fd099c78e5bd6be9,Dan in Real Life,sadness,sadness
+1758,4aec7f7c0e866aae,Dan in Real Life,sadness,sadness
+1759,b7335dfd9703f031,Dan in Real Life,sadness,sadness
+1760,ab5f2b0b00e8bb72,Dan in Real Life,sadness,sadness
+1761,86a8595c3f102a83,Dan in Real Life,sadness,sadness
+1762,d663681659839e8c,Dan in Real Life,sadness,sadness
+1763,3628ae23d6ccb724,Dan in Real Life,sadness,sadness
+1764,b93ef5a02f547358,Dan in Real Life,sadness,sadness
+1765,c7b3c727c6803bc5,Dan in Real Life,sadness,sadness
+1766,938d3882f5fb0363,Dan in Real Life,sadness,sadness
+1767,a13380786a95bbe2,Dan in Real Life,sadness,sadness
+1768,f81e325e048fc915,Blonde Ambition,disgust,joy
+1769,f23d0838dda80361,Blonde Ambition,disgust,sadness
+1770,8dab1059c01efc36,Blonde Ambition,disgust,optimism
+1771,d6c85440b2389f02,Blonde Ambition,disgust,joy
+1772,0400542233621b34,Blonde Ambition,disgust,sadness
+1773,181aa70901aecf84,Blonde Ambition,disgust,joy
+1774,a3062522eae9ffec,Blonde Ambition,disgust,anticipation
+1775,63cd75c7449b2bfb,Blonde Ambition,disgust,optimism
+1776,07e104dce7a51b9f,Blonde Ambition,disgust,sadness
+1777,8c9bc93040470a82,Blonde Ambition,disgust,anticipation
+1778,76336418a25505ec,Blonde Ambition,disgust,disgust
+1779,695ae08766420d25,Blonde Ambition,disgust,joy
+1780,1e675adbda0f10c0,Blonde Ambition,disgust,joy
+1781,a78480fb568a9d0e,Blonde Ambition,disgust,anger
+1782,d1bee938f74971fd,Blonde Ambition,disgust,anticipation
+1783,80a3b516c8daeee4,Blonde Ambition,disgust,sadness
+1784,666b536a40e0e605,Blonde Ambition,disgust,joy
+1785,6cfe6107890a9138,Blonde Ambition,disgust,joy
+1786,7da75bf6e3b91651,Blonde Ambition,disgust,joy
+1787,889346bbd7d3acfc,Blonde Ambition,disgust,sadness
+1788,faf5b818d07f4c06,Blonde Ambition,disgust,joy
+1789,1a2761b4f14b64a5,Sex and the City,sadness,joy
+1790,92795fb7cbd703da,Sex and the City,sadness,joy
+1791,504adfffef8189b4,Sex and the City,sadness,sadness
+1792,75acea3648f43f50,Sex and the City,sadness,joy
+1793,bda7bacf84f40900,Sex and the City,sadness,sadness
+1794,f9d3cc71e3708834,Sex and the City,sadness,sadness
+1795,481841225cefa7aa,Sex and the City,sadness,disgust
+1796,a7cf1ef604c1f33e,Sex and the City,sadness,sadness
+1797,0816237ff4c9713d,Sex and the City,sadness,sadness
+1798,307e8d7bfaa877d5,Sex and the City,sadness,anticipation
+1799,caf907d2f33e5e42,Sex and the City,sadness,sadness
+1800,31551a5c76f39bce,Sex and the City,sadness,sadness
+1801,4b537442d0f2163f,Sex and the City,sadness,anticipation
+1802,0b326e0a06c7d72c,Sex and the City,sadness,sadness
+1803,ad8c03b2ac37da95,Sex and the City,sadness,sadness
+1804,23e31063625e32c9,Sex and the City,sadness,anticipation
+1805,6e8824431bf1d6d0,Sex and the City,sadness,sadness
+1806,1b5623a455b7207c,Sex and the City,sadness,joy
+1807,00c7d7c0839013e4,Mamma Mia!,joy,anticipation
+1808,5664592cbf0e1a95,Mamma Mia!,joy,anticipation
+1809,d132e0c2553a8aac,Mamma Mia!,joy,joy
+1810,8c428954c0e28bda,Mamma Mia!,joy,sadness
+1811,b901a588e29b13f7,Mamma Mia!,joy,joy
+1812,c4195a6ea2321e80,Mamma Mia!,joy,joy
+1813,bbfb9ccf120df096,Mamma Mia!,joy,joy
+1814,7280518ca84ea286,Mamma Mia!,joy,joy
+1815,c4f72f9d328d51c6,Mamma Mia!,joy,joy
+1816,152c0f756b0a441c,Mamma Mia!,joy,anticipation
+1817,c6148b94c5930762,Mamma Mia!,joy,anticipation
+1818,762dc4b1086e9f7e,Mamma Mia!,joy,joy
+1819,bb33538bddc3b1e5,Mamma Mia!,joy,joy
+1820,903b89e8c80cf006,Mamma Mia!,joy,joy
+1821,f32b05db66390833,Mamma Mia!,joy,joy
+1822,a260b29d3956f628,Mamma Mia!,joy,joy
+1823,af249aa07d96d067,Mamma Mia!,joy,joy
+1824,27fce720851969ef,A Moment to Remember,sadness,sadness
+1825,fa9fcc08fab52fb9,A Moment to Remember,sadness,sadness
+1826,0630deaccbbb00af,A Moment to Remember,sadness,sadness
+1827,6c21fb0917c15b91,A Moment to Remember,sadness,sadness
+1828,ddc9498106e6fa59,A Moment to Remember,sadness,sadness
+1829,742e1563574e265f,A Moment to Remember,sadness,sadness
+1830,74f47292f92c4bb6,A Moment to Remember,sadness,joy
+1831,5da6ac95f18373ab,A Moment to Remember,sadness,sadness
+1832,01e569406f4bfd99,A Moment to Remember,sadness,optimism
+1833,4f6df8ac46a43205,A Moment to Remember,sadness,joy
+1834,f7a3eac1a35c7c18,Let the Right One In,sadness,anticipation
+1835,71a876b0aa6279e2,Let the Right One In,sadness,sadness
+1836,8f7ef6d483e2e959,Let the Right One In,sadness,anticipation
+1837,bbc6491b200e1e61,Let the Right One In,sadness,sadness
+1838,ed9b8b8410eb8c87,Let the Right One In,sadness,sadness
+1839,4529e36944dd570e,Let the Right One In,sadness,sadness
+1840,aa34c170676ae066,Sunflower,sadness,optimism
+1841,37e33129b78eac9d,Nick and Norah's Infinite Playlist,joy,anticipation
+1842,82cb9ca9256bb2c7,Nick and Norah's Infinite Playlist,joy,anticipation
+1843,a4ddbb423bbbc739,Nick and Norah's Infinite Playlist,joy,anticipation
+1844,e46e1c73317a73a8,Nick and Norah's Infinite Playlist,joy,anticipation
+1845,95e444001b64094d,Nick and Norah's Infinite Playlist,joy,joy
+1846,c59e23db9f98c357,Nick and Norah's Infinite Playlist,joy,anticipation
+1847,b5613aa1277f1eb8,Nick and Norah's Infinite Playlist,joy,anticipation
+1848,8a7faf539120a36e,Nick and Norah's Infinite Playlist,joy,anticipation
+1849,1607efded1521841,Nick and Norah's Infinite Playlist,joy,anticipation
+1850,060fbe128bd4a9bf,Nick and Norah's Infinite Playlist,joy,anticipation
+1851,12afb058fa846dc1,Nick and Norah's Infinite Playlist,joy,joy
+1852,387a51b8f086d04a,Nick and Norah's Infinite Playlist,joy,joy
+1853,c020442eb9188f7c,Nick and Norah's Infinite Playlist,joy,anticipation
+1854,2c9e1743506e026c,Nick and Norah's Infinite Playlist,joy,anticipation
+1855,f2a79ec11eedcffe,Nick and Norah's Infinite Playlist,joy,anticipation
+1856,0206efa0562b1d41,Nick and Norah's Infinite Playlist,joy,anticipation
+1857,1533be454c036bc5,Nick and Norah's Infinite Playlist,joy,joy
+1858,3ec3acb66cef1a92,Nick and Norah's Infinite Playlist,joy,anticipation
+1859,2b25dd9efe3946b0,Nick and Norah's Infinite Playlist,joy,joy
+1860,59be6233d2add859,The Duchess,sadness,joy
+1861,90fa9f6754da92d4,The Duchess,sadness,anticipation
+1862,d36f212776510902,The Duchess,sadness,joy
+1863,9c4c25d655a982ee,The Duchess,sadness,joy
+1864,a0545fd69ea62b65,The Duchess,sadness,sadness
+1865,bc5272d53c359f9c,The Duchess,sadness,sadness
+1866,e16a6c8ae8e5261b,The Duchess,sadness,anticipation
+1867,b773df706ba98554,The Duchess,sadness,sadness
+1868,e1839fa68f08fb44,The Duchess,sadness,joy
+1869,7de965494532f582,The Duchess,sadness,joy
+1870,6c1a17f4901f5748,The Duchess,sadness,sadness
+1871,ab5229d72d04630c,The Duchess,sadness,anticipation
+1872,9a53cae7f0c4e8f6,The Duchess,sadness,sadness
+1873,376825a220a02a86,The Duchess,sadness,sadness
+1874,bb4ea36701002313,The Duchess,sadness,sadness
+1875,b05b6a6a6c10933e,The Duchess,sadness,sadness
+1876,3aedc47e196e3ddf,The Duchess,sadness,sadness
+1877,1cb50573281542f7,The Duchess,sadness,sadness
+1878,7ef61b94af90b397,The Duchess,sadness,joy
+1879,1d1c3340a81048f5,The Duchess,sadness,joy
+1880,f3cfa3ef42220f87,The Duchess,sadness,joy
+1881,799ac1afb8246346,Doubt,sadness,anticipation
+1882,2bf3e6050d2db38d,Doubt,sadness,sadness
+1883,881c7745eeb434e2,Doubt,sadness,anticipation
+1884,70f3971e7d593271,Doubt,sadness,anticipation
+1885,93b216d0efb8b284,Doubt,sadness,optimism
+1886,e307a56651b35ede,Doubt,sadness,anticipation
+1887,f3e36dc43fac9235,Doubt,sadness,optimism
+1888,b31628a347c7b528,Doubt,sadness,anticipation
+1889,1a40b960d54b6c2a,Doubt,sadness,anticipation
+1890,fddba64f33c98470,Doubt,sadness,optimism
+1891,d6fe0728e1fd4206,Doubt,sadness,anticipation
+1892,b9bbf510ea1bb5b7,Doubt,sadness,anticipation
+1893,391ba462e1b0d72a,Doubt,sadness,sadness
+1894,a205b7bc4662a636,Doubt,sadness,sadness
+1895,b903bc390b0b23d1,The Reader,sadness,sadness
+1896,a5be7dbba7e02898,The Reader,sadness,anticipation
+1897,52f1bddf5a0f1c35,The Reader,sadness,sadness
+1898,15b00ad68e2e98cd,The Reader,sadness,sadness
+1899,d3978fc7bc09f326,The Reader,sadness,sadness
+1900,84a77b47d059e833,The Reader,sadness,sadness
+1901,c2bf67dc7c06d662,The Reader,sadness,sadness
+1902,fd57df0ccd356a1a,The Reader,sadness,joy
+1903,5c3d1c08c19e9fec,The Curious Case of Benjamin Button,optimism,fear
+1904,aaa38672c302a82b,The Curious Case of Benjamin Button,optimism,fear
+1905,1bea4cca1f37a8ca,The Curious Case of Benjamin Button,optimism,fear
+1906,f2639f58f02aef4e,The Curious Case of Benjamin Button,optimism,fear
+1907,3baf05fbb4060388,The Curious Case of Benjamin Button,optimism,fear
+1908,db06667e34055fba,The Curious Case of Benjamin Button,optimism,fear
+1909,eac89d06032b8748,The Curious Case of Benjamin Button,optimism,fear
+1910,13c5068f32d6cd8a,The Curious Case of Benjamin Button,optimism,fear
+1911,9d0b94cc5f549776,The Curious Case of Benjamin Button,optimism,fear
+1912,820de65d1c4062ca,The Curious Case of Benjamin Button,optimism,fear
+1913,5fe1a5d94897fe87,The Curious Case of Benjamin Button,optimism,fear
+1914,1a84e11ff9d83cc0,The Curious Case of Benjamin Button,optimism,fear
+1915,01970765a9305221,The Curious Case of Benjamin Button,optimism,fear
+1916,9ab443114ba567b5,The Curious Case of Benjamin Button,optimism,fear
+1917,47fd7fa2d1be2ac4,The Curious Case of Benjamin Button,optimism,fear
+1918,a232690a4bf784f7,The Curious Case of Benjamin Button,optimism,fear
+1919,34c3d6ddf14ee94d,The Curious Case of Benjamin Button,optimism,fear
+1920,44faf3b7015daf3b,The Curious Case of Benjamin Button,optimism,fear
+1921,1a8ca5a728ea6342,Yes Man,anticipation,optimism
+1922,f6e3dfaa5a62fde8,Yes Man,anticipation,anger
+1923,e8df8403e345f015,Yes Man,anticipation,anticipation
+1924,7b2be89a98c443d1,Yes Man,anticipation,anticipation
+1925,cd774164bb0a5914,Yes Man,anticipation,disgust
+1926,04c5d504cd8fca99,Yes Man,anticipation,anticipation
+1927,8502ecb115e41835,Yes Man,anticipation,anticipation
+1928,0728e50c2f86cb66,Yes Man,anticipation,anticipation
+1929,a9b275029e7ac9e5,Yes Man,anticipation,anticipation
+1930,f2d87610174a0070,Yes Man,anticipation,anticipation
+1931,06554323f3cf0d9e,Yes Man,anticipation,joy
+1932,661d2181c213e222,Yes Man,anticipation,sadness
+1933,13d9c305943f212c,Yes Man,anticipation,anticipation
+1934,ba7560563b0c7ccb,Yes Man,anticipation,sadness
+1935,d4fe39200ba6d065,Yes Man,anticipation,sadness
+1936,c01d2cb1bff1e998,Yes Man,anticipation,anticipation
+1937,07f99c29180f217e,Yes Man,anticipation,disgust
+1938,201fa6b833784635,Yes Man,anticipation,anger
+1939,eec11da4f9ebd8d5,Yes Man,anticipation,sadness
+1940,da8a5d7fdce64c2e,Yes Man,anticipation,anticipation
+1941,2efd500bd9819940,Yes Man,anticipation,joy
+1942,c73053173b17458d,Confessions of a Shopaholic,sadness,joy
+1943,74e8267c07623a89,Confessions of a Shopaholic,sadness,joy
+1944,d8537cea3183899e,Confessions of a Shopaholic,sadness,sadness
+1945,e3d1d6a6e02386fc,Confessions of a Shopaholic,sadness,joy
+1946,70f6d95356e8b140,Confessions of a Shopaholic,sadness,joy
+1947,e7cf4bb5f16ab51b,Confessions of a Shopaholic,sadness,anger
+1948,02fd1ff544117eaf,Confessions of a Shopaholic,sadness,joy
+1949,230ce0c12de4ae2e,Confessions of a Shopaholic,sadness,joy
+1950,9c09c2cc79f0272b,Confessions of a Shopaholic,sadness,joy
+1951,ef99b99b66ac1387,Confessions of a Shopaholic,sadness,joy
+1952,edac94fdae825568,Confessions of a Shopaholic,sadness,joy
+1953,ad1575a289755ac5,Confessions of a Shopaholic,sadness,optimism
+1954,4c404ed0d1457fed,Confessions of a Shopaholic,sadness,joy
+1955,f3e3288d66260d3b,Confessions of a Shopaholic,sadness,sadness
+1956,6d1e19e9dbed2885,Confessions of a Shopaholic,sadness,joy
+1957,d8da57f335d4b4a6,Confessions of a Shopaholic,sadness,joy
+1958,4529e9d1f49d02fa,Confessions of a Shopaholic,sadness,sadness
+1959,fa0274ac928a49f4,Confessions of a Shopaholic,sadness,sadness
+1960,e531d9ca304539cf,Confessions of a Shopaholic,sadness,joy
+1961,08684fc2934c2b4e,Euphoria,optimism,optimism
+1962,2e396423d51a04fe,Euphoria,optimism,optimism
+1963,7b92810d0e55a229,Euphoria,optimism,optimism
+1964,3871c68e546ce137,Euphoria,optimism,joy
+1965,8dee1d1749cee365,Euphoria,optimism,anticipation
+1966,d6eaaf6cdbcd1e63,Euphoria,optimism,optimism
+1967,703fea82e8459924,Euphoria,optimism,anticipation
+1968,9bad60456c34583e,Euphoria,optimism,sadness
+1969,781f65ee6d2d9f85,Euphoria,optimism,joy
+1970,5200cb84aef3d661,Euphoria,optimism,joy
+1971,128fa07cac4f4c80,Euphoria,optimism,anger
+1972,de8ad0ae5f741a5b,Euphoria,optimism,joy
+1973,d7d7d42dd7ee88b1,Euphoria,optimism,sadness
+1974,7412f5df0a5f3280,Euphoria,optimism,anticipation
+1975,893a633b546945d8,Euphoria,optimism,sadness
+1976,42c90e2a0713078b,Euphoria,optimism,anger
+1977,c54d5f9a4bb51d0e,Ghosts of Girlfriends Past,sadness,sadness
+1978,f71a7399b2fbafec,Ghosts of Girlfriends Past,sadness,sadness
+1979,3de89cb3c48d347a,Ghosts of Girlfriends Past,sadness,sadness
+1980,75454208a2742660,Ghosts of Girlfriends Past,sadness,joy
+1981,3e48d3d60ddd3905,Ghosts of Girlfriends Past,sadness,joy
+1982,63263ee4199d5e65,Ghosts of Girlfriends Past,sadness,joy
+1983,a0c10a7e0172e0a9,Ghosts of Girlfriends Past,sadness,joy
+1984,cee95e98c32b89bb,Ghosts of Girlfriends Past,sadness,joy
+1985,a617261033a99064,Ghosts of Girlfriends Past,sadness,joy
+1986,96ee3cd35286ff5f,Ghosts of Girlfriends Past,sadness,joy
+1987,91d8de2f6e665a05,Ghosts of Girlfriends Past,sadness,disgust
+1988,1d272a17291c0925,Ghosts of Girlfriends Past,sadness,sadness
+1989,3428d4aea60cc40e,Ghosts of Girlfriends Past,sadness,joy
+1990,3845dc37b5cf26b2,Ghosts of Girlfriends Past,sadness,joy
+1991,9a1879cfc6211aec,Ghosts of Girlfriends Past,sadness,optimism
+1992,f06d4e741e7774f5,Ghosts of Girlfriends Past,sadness,sadness
+1993,772bb8da4aea9fb8,Ghosts of Girlfriends Past,sadness,joy
+1994,1b5389d2e0aa4bb5,Ghosts of Girlfriends Past,sadness,joy
+1995,cb4cac36f2b64f9d,Ghosts of Girlfriends Past,sadness,sadness
+1996,148cc88ac075e1a5,Ghosts of Girlfriends Past,sadness,sadness
+1997,ebe01747a450aec8,Ghosts of Girlfriends Past,sadness,joy
+1998,0fb2784bbd9de6e2,Public Enemies,anticipation,optimism
+1999,9fa0f0e6e5ef9547,Public Enemies,anticipation,fear
+2000,848613355e754862,Public Enemies,anticipation,fear
+2001,31c6918ecf95d9b7,Public Enemies,anticipation,anticipation
+2002,b7d0bc1603522d54,Public Enemies,anticipation,anticipation
+2003,7bd8884759275097,Public Enemies,anticipation,anger
+2004,38cc3bdec4ed362d,Public Enemies,anticipation,optimism
+2005,dd1c74f2d103b6cf,Public Enemies,anticipation,fear
+2006,fa7346b2d9404e51,Public Enemies,anticipation,fear
+2007,f5ebf7058540d9eb,Public Enemies,anticipation,anger
+2008,6507b28bc6fc2575,Public Enemies,anticipation,optimism
+2009,df653f703c278578,Public Enemies,anticipation,anticipation
+2010,a27dc8bcf9fca631,Public Enemies,anticipation,optimism
+2011,0a9e75363af8233d,Public Enemies,anticipation,anticipation
+2012,7f1522111225e8c2,Public Enemies,anticipation,optimism
+2013,a309db6861e089d2,Public Enemies,anticipation,optimism
+2014,609d1b1cc250dc43,Public Enemies,anticipation,fear
+2015,cf2e8df5e4ae2b27,Public Enemies,anticipation,anticipation
+2016,0dfce0723cc59147,Public Enemies,anticipation,anticipation
+2017,49295027af590f11,Public Enemies,anticipation,sadness
+2018,676da8ca931bd4a1,Shiver,joy,fear
+2019,317d139d9baae621,Shiver,joy,disgust
+2020,4b72bdc2d3d713ba,Shiver,joy,fear
+2021,9cf71ac5a5b47479,Obsessed,sadness,disgust
+2022,fdd94b53cc70fe7f,Obsessed,sadness,sadness
+2023,ec4004a0f2e4fe4f,Obsessed,sadness,sadness
+2024,4356531da964c74f,Obsessed,sadness,anticipation
+2025,8c85afb1d4a3d7c0,Obsessed,sadness,anticipation
+2026,ed858a0b5d3cb954,Obsessed,sadness,optimism
+2027,afc0f4c3dc4eef1a,Obsessed,sadness,disgust
+2028,a1fde8b0689504fe,Obsessed,sadness,fear
+2029,3c14596ddc5fe2de,Obsessed,sadness,sadness
+2030,c95d79b300ff9d8b,Obsessed,sadness,anticipation
+2031,42f792f18c496c94,Obsessed,sadness,sadness
+2032,ec42b2b765c59526,Obsessed,sadness,anticipation
+2033,96d85748b3b86d3d,Obsessed,sadness,sadness
+2034,3aca82f1bbc93784,Obsessed,sadness,sadness
+2035,195f453fb9edeabc,Obsessed,sadness,optimism
+2036,c5c536efd74c1ea8,Obsessed,sadness,sadness
+2037,0eb0a008363dc58e,Obsessed,sadness,optimism
+2038,1d20d995005e31c7,Obsessed,sadness,optimism
+2039,57ca76d07ffd743c,Obsessed,sadness,fear
+2040,e6215b87e017d180,Obsessed,sadness,fear
+2041,890f33f6d9e9e2de,Obsessed,sadness,sadness
+2042,2f1fb4d9d7d447e7,Adam,sadness,sadness
+2043,f1b5d0b16cbf7e76,Adam,sadness,anticipation
+2044,6d1aa550e81203bb,Adam,sadness,sadness
+2045,0468bbf7f119ecfd,Adam,sadness,joy
+2046,abed3d336a84b007,Adam,sadness,joy
+2047,99ba96d1521edf33,Adam,sadness,sadness
+2048,e882f5a54bed4990,Adam,sadness,anticipation
+2049,d3c95d9316b5eccb,Adam,sadness,sadness
+2050,7915da2e6e8dd702,Adam,sadness,anticipation
+2051,89d526fbea05dba3,Adam,sadness,sadness
+2052,b4646eb5af72bc2a,Adam,sadness,sadness
+2053,c9c5529ed9ce7376,Adam,sadness,sadness
+2054,30a728ccb62588f1,Adam,sadness,sadness
+2055,8490eabba0a42dc8,Adam,sadness,sadness
+2056,5e30de1fa43adc6f,Adam,sadness,joy
+2057,76f27c749e25a18e,Adam,sadness,sadness
+2058,3a243d4dea19f2be,Adam,sadness,joy
+2059,9e1c34638db21bb8,Adam,sadness,sadness
+2060,a6dd20223d2016c6,Adam,sadness,sadness
+2061,c239de91ae5db7f4,Adam,sadness,sadness
+2062,2a1e455e8fb0f948,Adam,sadness,joy
+2063,6d6ec8f58c303922,Miss March,sadness,anger
+2064,8d89f9de893eb658,Miss March,sadness,joy
+2065,630afe0ecc8b140a,Miss March,sadness,joy
+2066,e83a22854ede3a0f,Miss March,sadness,joy
+2067,bf24c14488d7efe3,Miss March,sadness,joy
+2068,6c632961f4e6507c,Miss March,sadness,joy
+2069,e1a2726eb4ba7b21,Miss March,sadness,joy
+2070,b1379e60f25e90b7,Miss March,sadness,joy
+2071,a013862e41a31752,Miss March,sadness,disgust
+2072,8031010ac5e2d2c3,Miss March,sadness,joy
+2073,78114235cab2a5e5,Miss March,sadness,sadness
+2074,14166f328aa69465,Miss March,sadness,anticipation
+2075,f43fc649a352c3a1,Miss March,sadness,anger
+2076,64b6be158859c9f5,Miss March,sadness,joy
+2077,328d4bc41672bc33,Miss March,sadness,anger
+2078,e77ec517cce7199e,Miss March,sadness,joy
+2079,72b95a7abf6d93c8,Meet the Browns,joy,sadness
+2080,b0be023cd2ebafc6,Meet the Browns,joy,joy
+2081,255f5fb65ad870fb,Meet the Browns,joy,sadness
+2082,c26b4fade5d11d69,Meet the Browns,joy,sadness
+2083,b09f140ddeeb8a6f,Meet the Browns,joy,sadness
+2084,f45367408f235afc,Meet the Browns,joy,sadness
+2085,97642601617441ad,Meet the Browns,joy,anger
+2086,ea92f1adc9878de1,Meet the Browns,joy,disgust
+2087,7f9325cdcdf47e40,Meet the Browns,joy,sadness
+2088,8bfae90f46350597,Meet the Browns,joy,sadness
+2089,bff9d860d2139551,Meet the Browns,joy,sadness
+2090,e63844f59a2aea83,Meet the Browns,joy,sadness
+2091,d26ee858079c209a,Meet the Browns,joy,sadness
+2092,7b36f2999cd42aee,Meet the Browns,joy,sadness
+2093,72739f1aaacb5d1b,Meet the Browns,joy,sadness
+2094,b65fac23dcce744d,Meet the Browns,joy,sadness
+2095,c99d1690e256e384,Meet the Browns,joy,disgust
+2096,890aa1d663e74779,Meet the Browns,joy,sadness
+2097,1cc8d50556eb2e24,The Invention of Lying,anticipation,joy
+2098,901148e5c3a514a2,The Invention of Lying,anticipation,joy
+2099,dd97bd7caf0097a0,The Invention of Lying,anticipation,sadness
+2100,0ded42f98314fb34,The Invention of Lying,anticipation,sadness
+2101,1422e40ff4d9e4e0,The Invention of Lying,anticipation,joy
+2102,e7882b7c2b12b8fc,The Invention of Lying,anticipation,sadness
+2103,d874ec8d1133aab4,The Invention of Lying,anticipation,fear
+2104,73e3937ef1f44e5a,The Invention of Lying,anticipation,optimism
+2105,d968575ad7df0b77,The Invention of Lying,anticipation,sadness
+2106,7bd677ab7abf7f0b,The Invention of Lying,anticipation,joy
+2107,490a81ce617ab6b0,The Invention of Lying,anticipation,disgust
+2108,2f812c0d0baa870b,The Invention of Lying,anticipation,fear
+2109,a6af317db81f7b62,The Invention of Lying,anticipation,fear
+2110,7033f011e73fb33a,The Invention of Lying,anticipation,sadness
+2111,2ffea4207377f29b,The Invention of Lying,anticipation,sadness
+2112,22460568538c1aba,The Invention of Lying,anticipation,sadness
+2113,862f26444bc7b881,The Invention of Lying,anticipation,joy
+2114,d160b54e8c9a52ed,All About Steve,joy,anticipation
+2115,5a321da551df470f,All About Steve,joy,anticipation
+2116,85e7f81f1b74a843,All About Steve,joy,optimism
+2117,5dcbcdb7b86661cd,All About Steve,joy,optimism
+2118,ca16adcb3386b610,All About Steve,joy,anticipation
+2119,88d62f37dfe2f268,All About Steve,joy,sadness
+2120,7bffdacc9e63c44a,All About Steve,joy,anticipation
+2121,2fad959eaadd3a73,All About Steve,joy,joy
+2122,927b6e57f309399d,All About Steve,joy,sadness
+2123,d43c98bbc382f4e8,All About Steve,joy,joy
+2124,465aec0bfbf3dae8,All About Steve,joy,anticipation
+2125,3db8399e65c2a4aa,All About Steve,joy,anticipation
+2126,dfadd68ddebc6878,All About Steve,joy,optimism
+2127,684cd7d249a58668,All About Steve,joy,disgust
+2128,0fcaed2e0b72c4cf,All About Steve,joy,anger
+2129,5c55e86fc43b4f07,All About Steve,joy,sadness
+2130,e9afb5c80d0c99c8,All About Steve,joy,anticipation
+2131,3a51b805507f5554,All About Steve,joy,optimism
+2132,15efc517b783b267,All About Steve,joy,anger
+2133,0ec54a1195ff944d,All About Steve,joy,optimism
+2134,52ecf520268d600d,All About Steve,joy,optimism
+2135,693253baa78ebd0b,All About Steve,joy,disgust
+2136,42067906bfdc1720,All About Steve,joy,sadness
+2137,9c4a66bf8dcd739d,All About Steve,joy,optimism
+2138,f4baf2c174f00d22,Sleep Dealer,fear,optimism
+2139,1d6dc929954db821,Sleep Dealer,fear,sadness
+2140,79e53fc03b421643,Sleep Dealer,fear,sadness
+2141,940b75170c646811,Doghouse,optimism,sadness
+2142,2d4a90cc887a1c73,Doghouse,optimism,anticipation
+2143,ca5efc93db94742d,Doghouse,optimism,anticipation
+2144,270f18d3dbbf60b2,Doghouse,optimism,optimism
+2145,60aab3e14cf2d3c8,Doghouse,optimism,joy
+2146,08e47f690eace347,Doghouse,optimism,anticipation
+2147,80c8b8a391033b32,Doghouse,optimism,optimism
+2148,024fa4095db6743f,Doghouse,optimism,anticipation
+2149,e809a5d1f342d476,Doghouse,optimism,optimism
+2150,9bc6610ad3d4839c,Doghouse,optimism,optimism
+2151,e2791347c080de2a,Doghouse,optimism,disgust
+2152,0f619e4a0609fcfe,Doghouse,optimism,joy
+2153,ab5c0b0b8d70771d,Doghouse,optimism,sadness
+2154,039963a975093d04,Doghouse,optimism,anger
+2155,351c687cdf723ad6,Doghouse,optimism,joy
+2156,ff871324f2fc46ad,Doghouse,optimism,optimism
+2157,77119d2c29ee48c9,Doghouse,optimism,optimism
+2158,6e8ad3a143a01723,Doghouse,optimism,joy
+2159,2abc795e96623023,Doghouse,optimism,optimism
+2160,08a71d8c70a3e3df,Doghouse,optimism,anticipation
+2161,8c393a8bbe51703b,Doghouse,optimism,anger
+2162,403f1b925a2498ed,Doghouse,optimism,anger
+2163,d96574d0b606f62d,Doghouse,optimism,disgust
+2164,c174cd61bdf7bb2c,Nine,sadness,joy
+2165,d2ca79c38a9a7da6,Nine,sadness,joy
+2166,33d533ca5bfcdbde,Nine,sadness,joy
+2167,6c68392abac8e689,Nine,sadness,joy
+2168,161d6887b288506d,Nine,sadness,joy
+2169,f57834f7095b8b3a,Nine,sadness,joy
+2170,7894f938e8f310e2,Nine,sadness,joy
+2171,37245844d7dc4c7a,Nine,sadness,joy
+2172,43dd0db00cb7e19e,Nine,sadness,joy
+2173,a9e9098da9bdc55b,Nine,sadness,joy
+2174,7b25342137fb8de9,Nine,sadness,joy
+2175,adf062de79c33994,Nine,sadness,joy
+2176,c836c81a7dac4b7e,Nine,sadness,joy
+2177,8cc02517d24b1e28,Nine,sadness,joy
+2178,7f36ba3493eaf533,Nine,sadness,joy
+2179,486b7f38d45d5fd5,Nine,sadness,joy
+2180,7d5c14d84b29c99b,Nine,sadness,joy
+2181,f1a7897456cb4fce,Bart Got a Room,sadness,sadness
+2182,3190532f347f4225,Lucky: No Time for Love,fear,joy
+2183,c15b6e8d46755c99,Lucky: No Time for Love,fear,joy
+2184,9cbb18d11a559eab,Lucky: No Time for Love,fear,joy
+2185,eebd3613e6767c7a,Lucky: No Time for Love,fear,joy
+2186,4c5be96d4fe95ba6,Lucky: No Time for Love,fear,joy
+2187,26a168491c12d4cd,Lucky: No Time for Love,fear,joy
+2188,4831cd01fa01e8f4,Lucky: No Time for Love,fear,joy
+2189,78c11149ee36ca87,Lucky: No Time for Love,fear,joy
+2190,570dfa5c4139f57b,Lucky: No Time for Love,fear,joy
+2191,b5066dcd8a6add2a,Lucky: No Time for Love,fear,joy
+2192,2d898caaed9b0e4b,Our Family Wedding,sadness,anticipation
+2193,d4c65f6780dcc887,Our Family Wedding,sadness,disgust
+2194,5315b6554f9552fa,Our Family Wedding,sadness,sadness
+2195,6156e323b10a1288,Our Family Wedding,sadness,joy
+2196,9713eb509899fdf0,Our Family Wedding,sadness,joy
+2197,724a9cf5590b6397,Our Family Wedding,sadness,disgust
+2198,757d7f9120fc01a7,Our Family Wedding,sadness,sadness
+2199,f6cc03ebe4575981,Our Family Wedding,sadness,sadness
+2200,44e5089964db2987,Our Family Wedding,sadness,joy
+2201,85a97aa0e5c940bf,Our Family Wedding,sadness,optimism
+2202,3a0026503b927ad9,Our Family Wedding,sadness,joy
+2203,8e527b18481d7351,Our Family Wedding,sadness,anticipation
+2204,0d7a75d96a77af83,Our Family Wedding,sadness,joy
+2205,333f9d70ddd9dc9f,Our Family Wedding,sadness,joy
+2206,3053cfec90869ec3,Our Family Wedding,sadness,anticipation
+2207,835ee1886e89b8b7,Our Family Wedding,sadness,sadness
+2208,631f762a50e10384,Our Family Wedding,sadness,anticipation
+2209,f79140c625953122,Our Family Wedding,sadness,sadness
+2210,a36dc5e2c1fa1c9b,Mark of the Devil,anticipation,sadness
+2211,ba313f65637b7ffe,Mark of the Devil,anticipation,fear
+2212,11c75a84b893bd59,Mark of the Devil,anticipation,sadness
+2213,f663b89627f2cba0,Mark of the Devil,anticipation,sadness
+2214,9d107817818703cd,Mark of the Devil,anticipation,fear
+2215,74db850341a795b8,Mark of the Devil,anticipation,sadness
+2216,f08e102e43af7459,Mark of the Devil,anticipation,fear
+2217,1eaaf64e4c082742,Mark of the Devil,anticipation,fear
+2218,02b611fa7ef0703e,Mark of the Devil,anticipation,sadness
+2219,77e795e2974dffea,Mark of the Devil,anticipation,joy
+2220,09ad261258622624,Mark of the Devil,anticipation,fear
+2221,8599b862ec607870,Mark of the Devil,anticipation,sadness
+2222,c1565ae05332b67d,Mark of the Devil,anticipation,sadness
+2223,c4da62adc033f7da,Mark of the Devil,anticipation,sadness
+2224,93a8b49f6061ab43,Mark of the Devil,anticipation,sadness
+2225,7c1325128df60380,Mark of the Devil,anticipation,sadness
+2226,ad3eee80ce524334,Mark of the Devil,anticipation,fear
+2227,7825ef82df76656f,Mark of the Devil,anticipation,sadness
+2228,42f3ef31431fdecb,Mark of the Devil,anticipation,sadness
+2229,477b5850724c1365,Mark of the Devil,anticipation,sadness
+2230,8f8ed675fa0465c3,Mark of the Devil,anticipation,sadness
+2231,6ecd64d35f875e61,Mark of the Devil,anticipation,anger
+2232,2dbe770d80f428e7,Mark of the Devil,anticipation,anger
+2233,ab7acf21e0957d0a,Mark of the Devil,anticipation,fear
+2234,047978867f139b1c,Mark of the Devil,anticipation,fear
+2235,5dd73fd515bb73d3,The Last Song,sadness,anticipation
+2236,eb92f0d9573b2410,The Last Song,sadness,anticipation
+2237,2972704002f77ec7,The Last Song,sadness,optimism
+2238,7599501d2cdee698,The Last Song,sadness,joy
+2239,5ae772739d67c3fb,The Last Song,sadness,anticipation
+2240,f2d601b10cc1174b,The Last Song,sadness,joy
+2241,8f9950a1a6e9b4cf,The Last Song,sadness,joy
+2242,7807530474dea903,The Last Song,sadness,anticipation
+2243,12768134a4718940,The Last Song,sadness,anticipation
+2244,e5aeb28f1ab55928,The Last Song,sadness,sadness
+2245,f7b7082d950e0adc,The Last Song,sadness,sadness
+2246,f3e06de2b23ac655,The Last Song,sadness,sadness
+2247,d37e06e969f8156e,The Last Song,sadness,joy
+2248,efabf72a4c0fa92f,The Last Song,sadness,joy
+2249,a61d508dad110f1f,The Last Song,sadness,joy
+2250,8acc186af0999409,The Last Song,sadness,anticipation
+2251,c78fb6af214eaa0b,The Last Song,sadness,sadness
+2252,53cc3046d52227dd,The Last Song,sadness,sadness
+2253,bcc5b4a69cce4717,Sex and the City 2,sadness,joy
+2254,06be404b64adb88d,Sex and the City 2,sadness,joy
+2255,6bb413c4507aecac,Sex and the City 2,sadness,disgust
+2256,ffde24197466d9bf,Sex and the City 2,sadness,joy
+2257,211ca013a148d886,Sex and the City 2,sadness,joy
+2258,3624bc5a204edf1b,Sex and the City 2,sadness,joy
+2259,604b7fe81ce7f145,Sex and the City 2,sadness,sadness
+2260,91157ee89700fdc6,Sex and the City 2,sadness,joy
+2261,703ce2c838c2d07d,Sex and the City 2,sadness,sadness
+2262,0ca7d2f2fa174b01,Sex and the City 2,sadness,joy
+2263,9fa598454fc5e39b,Sex and the City 2,sadness,sadness
+2264,8e421c7873d79c73,Sex and the City 2,sadness,sadness
+2265,c18b46890b24d735,Sex and the City 2,sadness,sadness
+2266,9509c14329eca005,Sex and the City 2,sadness,sadness
+2267,ad9e293e54e63fdb,Sex and the City 2,sadness,anticipation
+2268,13e3dcd0b0894696,Sex and the City 2,sadness,joy
+2269,b2bcd3384f425770,Sex and the City 2,sadness,sadness
+2270,cab78f6b25da003f,Sex and the City 2,sadness,joy
+2271,acdaf5d0d29214c7,Sex and the City 2,sadness,sadness
+2272,d1ae688f4e464fd7,Sex and the City 2,sadness,optimism
+2273,8e5dbdee3c2426e2,Sex and the City 2,sadness,joy
+2274,1f548dabb6de7e52,Sex and the City 2,sadness,anticipation
+2275,cc4ff76ff0c4ae17,Sex and the City 2,sadness,joy
+2276,cf2b51dcd3307860,Sex and the City 2,sadness,disgust
+2277,6a821ddcc149ef67,Sex and the City 2,sadness,joy
+2278,f4aa8d95ee1c14db,Betrayal,sadness,disgust
+2279,179742a22cdee56c,Betrayal,sadness,anticipation
+2280,e8ef0ea72c0152aa,Machete,sadness,anger
+2281,c37ae612166b8fe8,Machete,sadness,disgust
+2282,93528aaa9c34e0cb,Machete,sadness,anger
+2283,1cf94241763f25e2,Machete,sadness,disgust
+2284,6bbb634eecff6b61,Machete,sadness,anger
+2285,0df9e41e97193c8a,Machete,sadness,disgust
+2286,27177f42df4e474f,Machete,sadness,optimism
+2287,e9d5017b8fb2828d,Machete,sadness,sadness
+2288,6272a0b4e6295272,Machete,sadness,anger
+2289,c27da48e894624fe,Machete,sadness,optimism
+2290,003350673f51865f,Machete,sadness,optimism
+2291,a17f1ebbce760cc1,Machete,sadness,sadness
+2292,031dac1bf62e2c0d,Machete,sadness,optimism
+2293,49a820a82d33b808,Eat Pray Love,sadness,anticipation
+2294,ec7995280578b00b,Eat Pray Love,sadness,sadness
+2295,0aa41165b954023d,Eat Pray Love,sadness,anticipation
+2296,804e1d0688d72c65,Eat Pray Love,sadness,anticipation
+2297,b5bae2b2fedead6f,Eat Pray Love,sadness,sadness
+2298,12aeb4bdc0f62bae,Eat Pray Love,sadness,anticipation
+2299,b503859dc28f1929,Eat Pray Love,sadness,anticipation
+2300,20e5d6a39eab9a2b,Eat Pray Love,sadness,anticipation
+2301,48cf2923707b3dc6,Eat Pray Love,sadness,sadness
+2302,da72f9eac0159bc7,Eat Pray Love,sadness,anticipation
+2303,f40287f0be7f9315,Eat Pray Love,sadness,sadness
+2304,7ca8c694260f55a2,Eat Pray Love,sadness,sadness
+2305,74a5eba74c933726,Eat Pray Love,sadness,anticipation
+2306,199700d86a001757,Eat Pray Love,sadness,anticipation
+2307,a4651c6f4dd29994,Eat Pray Love,sadness,anticipation
+2308,023935f15770168d,Eat Pray Love,sadness,anticipation
+2309,2d687c0ee41a4fee,Eat Pray Love,sadness,optimism
+2310,b19c3eec04dd52b0,The Mirror,fear,sadness
+2311,3dfced062156a5dc,The Mirror,fear,sadness
+2312,c2e57b324457007c,The Mirror,fear,anger
+2313,0bfb62ad1c3428b4,The Mirror,fear,anticipation
+2314,c649fd67550b6237,The Mirror,fear,anticipation
+2315,698c2543dac0994c,The Mirror,fear,sadness
+2316,bbae90f38f6dd341,The Mirror,fear,sadness
+2317,76299a94a3546d94,Ceremony,sadness,sadness
+2318,a4e61e94a007804b,Ceremony,sadness,joy
+2319,b28a3524149e9497,Wrecked,anticipation,anticipation
+2320,590b22f6590069bf,Wrecked,anticipation,anticipation
+2321,00fbffde5f2b82aa,Wrecked,anticipation,anticipation
+2322,9779db905bb71668,Wrecked,anticipation,anticipation
+2323,57b8e47bde0e45f9,Wrecked,anticipation,anticipation
+2324,92449fb54221b1fc,Wrecked,anticipation,anticipation
+2325,8311af5a210e6970,Wrecked,anticipation,optimism
+2326,64a95b2f9d636215,Wrecked,anticipation,anticipation
+2327,608d02fa67494037,Wrecked,anticipation,optimism
+2328,87eac738dc512e1b,Warrior,anticipation,fear
+2329,848a116ada0014cd,Warrior,anticipation,optimism
+2330,e195b75b213a9d5d,Warrior,anticipation,sadness
+2331,2b3bb0e0d366eaa7,Warrior,anticipation,anticipation
+2332,8f27b7cb47a2d29b,Warrior,anticipation,optimism
+2333,d171804feeb04a88,Warrior,anticipation,anticipation
+2334,e782dccadd70e405,Warrior,anticipation,fear
+2335,3d936e531b237adc,Warrior,anticipation,anticipation
+2336,75902ec078f93959,Warrior,anticipation,anticipation
+2337,3ffafc60fb295c85,Warrior,anticipation,optimism
+2338,1a95d8802c4daab7,Warrior,anticipation,optimism
+2339,0b908d05c8be15cb,Warrior,anticipation,sadness
+2340,ab61b4c1bb24ff00,Tomboy,joy,disgust
+2341,4b8aee19cc44d86b,Tomboy,joy,anticipation
+2342,416dbb8f07e7898e,Tomboy,joy,joy
+2343,9287d0414259b3d0,Tomboy,joy,anticipation
+2344,1512e5789d445a7a,Tomboy,joy,anticipation
+2345,b69ec5e9c885c89f,Tomboy,joy,sadness
+2346,7b37a2f1023858cc,Tomboy,joy,anger
+2347,8f716f01bfdfb98a,Tomboy,joy,anticipation
+2348,10bf8c8a93d04c86,Girl Walks Into a Bar,joy,anger
+2349,fec05077003b18db,Girl Walks Into a Bar,joy,anger
+2350,d18442e52904841a,The Vow,sadness,sadness
+2351,0a6ef35e1548091d,The Vow,sadness,sadness
+2352,9407c2a815f0e109,The Vow,sadness,joy
+2353,e1dcb2375ab84f86,The Vow,sadness,sadness
+2354,eddc70e0b05bed7e,The Vow,sadness,joy
+2355,a091672b4801baaf,The Vow,sadness,optimism
+2356,48d355c5b417d1b7,The Vow,sadness,sadness
+2357,582a4255b3850d93,The Vow,sadness,sadness
+2358,686472522274cb54,The Vow,sadness,sadness
+2359,dc1d48462b3a0e2c,The Vow,sadness,sadness
+2360,47bce08f51f2a606,The Vow,sadness,sadness
+2361,2ec873ef1dbcc300,The Vow,sadness,sadness
+2362,8727ab4ff4a5e3ca,The Vow,sadness,sadness
+2363,2024be2f434aebab,The Vow,sadness,sadness
+2364,470a0ae33b6cebaa,The Vow,sadness,sadness
+2365,917b7826e80a5272,The Vow,sadness,sadness
+2366,9c8a353c5239f36e,The Vow,sadness,sadness
+2367,b3f38ae922c19a0d,The Vow,sadness,sadness
+2368,84e3e340d2b93ff5,The Vow,sadness,sadness
+2369,12b081488ce71907,The Vow,sadness,sadness
+2370,a55f972fd4eb4c41,Silence,sadness,joy
+2371,a049fc363539408f,Silence,sadness,joy
+2372,5876af14b433cc45,Silence,sadness,sadness
+2373,b5552f768471825f,Silence,sadness,anticipation
+2374,f608bf4a57cca02a,Silence,sadness,sadness
+2375,536ee533941bb86b,Silence,sadness,sadness
+2376,4058b995855fc6d2,Silence,sadness,sadness
+2377,531c2f80e51c4182,Silence,sadness,anger
+2378,fedc2b58d8705a35,Silence,sadness,sadness
+2379,d4b1a075b5a12f0f,Silence,sadness,anticipation
+2380,35e4c6feab3f5116,Gone,sadness,sadness
+2381,e5ae5040dccfe81c,Gone,sadness,sadness
+2382,d5ff12329074b7f2,Gone,sadness,anticipation
+2383,55e5c588ef2bd7a1,Gone,sadness,optimism
+2384,c2faf47a25cda36e,Gone,sadness,fear
+2385,dae3db6749f8e87e,Gone,sadness,sadness
+2386,b46ce76249b22949,Gone,sadness,sadness
+2387,e85f4afb3a38c762,Gone,sadness,sadness
+2388,657edf3294675cee,Gone,sadness,optimism
+2389,aa24f99e10621408,Gone,sadness,sadness
+2390,e33ce8e8640c73a8,Gone,sadness,optimism
+2391,0d4bcb9f2fbd2070,Gone,sadness,fear
+2392,31044a680a7aef9c,Gone,sadness,sadness
+2393,7037e8ab4e0f6827,Gone,sadness,anticipation
+2394,6d08032a7f35e8f6,Gone,sadness,sadness
+2395,c05c98615bc24f9f,Gone,sadness,sadness
+2396,8d58aa4a8d69e81b,Gone,sadness,anticipation
+2397,e2a4e46e29391207,Gone,sadness,fear
+2398,0d85123cf0340b17,Gone,sadness,anger
+2399,8d3207c7ae112ca3,Gone,sadness,optimism
+2400,413699c59e04417a,Gone,sadness,anticipation
+2401,6452929cf68ed468,Gone,sadness,sadness
+2402,329fbecf4db407c7,Gone,sadness,optimism
+2403,5074eb37f51f60e3,This Means War,anger,anger
+2404,f467cf4a6261cf8d,This Means War,anger,fear
+2405,2a61c4a43f58c3ab,This Means War,anger,anger
+2406,9867c1c6eced3a3e,This Means War,anger,sadness
+2407,e43332589ed78f1d,This Means War,anger,sadness
+2408,2f69b768a4be703f,This Means War,anger,anger
+2409,f08553183f2bee7c,This Means War,anger,joy
+2410,48225e5fb881e657,This Means War,anger,anger
+2411,68b5e241c8cf32bc,This Means War,anger,disgust
+2412,62d6360bd55df55d,This Means War,anger,sadness
+2413,7766b607cfc45f86,This Means War,anger,anger
+2414,54ff495e82261d16,This Means War,anger,sadness
+2415,7062d90e3a8164d1,This Means War,anger,sadness
+2416,2fd61fdb423e4462,This Means War,anger,joy
+2417,64c833fe4644d2f1,This Means War,anger,anger
+2418,da254b1ab585663b,This Means War,anger,sadness
+2419,645ff5c9b675a1f8,The Five-Year Engagement,sadness,anger
+2420,0ebcf0c65a0f8c0b,The Five-Year Engagement,sadness,joy
+2421,084d5ae6b7c94e76,The Five-Year Engagement,sadness,anger
+2422,47f77b28d21ecb9a,The Five-Year Engagement,sadness,anger
+2423,2c1e76e4a51e6671,The Five-Year Engagement,sadness,sadness
+2424,f80e2764705d093f,The Five-Year Engagement,sadness,anticipation
+2425,b3177d2b5826f44a,The Five-Year Engagement,sadness,sadness
+2426,0f2fe43332485fec,The Five-Year Engagement,sadness,sadness
+2427,8abfc565bd05485e,The Five-Year Engagement,sadness,sadness
+2428,05e354a084e098a3,The Five-Year Engagement,sadness,joy
+2429,c760c6b92f273da7,The Five-Year Engagement,sadness,sadness
+2430,45e535efbbded456,The Five-Year Engagement,sadness,optimism
+2431,cf13a5fe84bf5364,The Five-Year Engagement,sadness,anticipation
+2432,eccef4c88f8c1418,The Five-Year Engagement,sadness,sadness
+2433,01bee8d3283d5af1,The Five-Year Engagement,sadness,joy
+2434,d3ad95cf53a63bbd,The Five-Year Engagement,sadness,disgust
+2435,80087a96ed7a0334,The Lucky One,anticipation,sadness
+2436,cf4e64e4309094b2,The Lucky One,anticipation,sadness
+2437,cf618e863557172d,The Lucky One,anticipation,sadness
+2438,feb6eb0ac06e1fe4,The Lucky One,anticipation,sadness
+2439,309e5b900da4fc4c,The Lucky One,anticipation,joy
+2440,4c84945ecca7f902,The Lucky One,anticipation,anticipation
+2441,6d0b7dc8394c0252,The Lucky One,anticipation,joy
+2442,4f5a9dd2409b629f,The Lucky One,anticipation,sadness
+2443,ce1b0d032db305b7,The Lucky One,anticipation,sadness
+2444,09ac456b2b49b6d7,The Lucky One,anticipation,sadness
+2445,c15dc2805c34274c,The Lucky One,anticipation,sadness
+2446,d2a0b4bd1ccf2808,The Lucky One,anticipation,sadness
+2447,8045022a29c64369,The Lucky One,anticipation,sadness
+2448,f3500924033df8f5,The Lucky One,anticipation,anticipation
+2449,4cddb24185ab8fb6,The Lucky One,anticipation,joy
+2450,28636d2a47af8150,The Lucky One,anticipation,sadness
+2451,0290072ee81bc382,The Lucky One,anticipation,joy
+2452,1ce0cbf0d5b57465,The Lucky One,anticipation,sadness
+2453,35989659c98c7117,The Lucky One,anticipation,sadness
+2454,dffcab740612869b,Pitch Perfect,joy,joy
+2455,fbedbdefb85514d4,Pitch Perfect,joy,joy
+2456,d91e593d5b882aec,Pitch Perfect,joy,anticipation
+2457,48e9ad143c9c63d6,Pitch Perfect,joy,joy
+2458,97d6cb33886f9164,Pitch Perfect,joy,joy
+2459,78475e7af4e84833,Pitch Perfect,joy,anticipation
+2460,149f5f1fecb06197,Pitch Perfect,joy,joy
+2461,cbf33654b3d98f32,Pitch Perfect,joy,joy
+2462,93ceaed6773ef59f,Pitch Perfect,joy,anticipation
+2463,b657dc497874d7ba,Pitch Perfect,joy,anticipation
+2464,6920c01b61d54df9,Pitch Perfect,joy,joy
+2465,97d236c9bbf6b737,Pitch Perfect,joy,joy
+2466,16ae74247699c7e1,Pitch Perfect,joy,joy
+2467,13a0901128348426,Pitch Perfect,joy,joy
+2468,6f23ccb24ee1808f,Pitch Perfect,joy,joy
+2469,ad1f54a695c61115,Pitch Perfect,joy,joy
+2470,fc4d972223daa351,That's My Boy,sadness,disgust
+2471,fc01038e31653799,That's My Boy,sadness,disgust
+2472,4ca7a43146194cc9,That's My Boy,sadness,joy
+2473,9efee3f994e42166,That's My Boy,sadness,optimism
+2474,e2ed6e2efbf6a78e,That's My Boy,sadness,anticipation
+2475,fbbebfce88f7fd83,That's My Boy,sadness,anticipation
+2476,da2c2c99035d776f,That's My Boy,sadness,joy
+2477,bf486f9b7d389e48,That's My Boy,sadness,disgust
+2478,cbf2049444d17bba,That's My Boy,sadness,anger
+2479,f547836f68166cd3,That's My Boy,sadness,disgust
+2480,790f7851c35cc2f6,That's My Boy,sadness,optimism
+2481,0d043a47fa1eb761,That's My Boy,sadness,disgust
+2482,4ace4b76b6b66def,That's My Boy,sadness,disgust
+2483,453925e21cb00fbf,That's My Boy,sadness,disgust
+2484,3e11b5d95724534c,That's My Boy,sadness,optimism
+2485,bd64aa9695ea71ba,That's My Boy,sadness,optimism
+2486,60da1bfb3d6d3413,That's My Boy,sadness,disgust
+2487,e7b59d928ed036b8,That's My Boy,sadness,optimism
+2488,0bf94974b89a7a45,That's My Boy,sadness,sadness
+2489,8b01ad956f7e8951,That's My Boy,sadness,optimism
+2490,ef408d814543d132,Lay the Favorite,joy,sadness
+2491,87a088cbd62da2b4,Lay the Favorite,joy,sadness
+2492,c4f089886a650d91,Lay the Favorite,joy,sadness
+2493,6a7bd5f72c6dc46b,Lay the Favorite,joy,anticipation
+2494,068c7e940f86f139,Lay the Favorite,joy,disgust
+2495,2509daaf21125edb,Lay the Favorite,joy,optimism
+2496,3eb331d2e8afb7bc,Lay the Favorite,joy,anticipation
+2497,d89fd33eee717610,Lay the Favorite,joy,anger
+2498,e2aea7be26b813bf,Lay the Favorite,joy,anticipation
+2499,02267223842f366f,Lay the Favorite,joy,sadness
+2500,c489cc123308ea09,Lay the Favorite,joy,anticipation
+2501,3778024cddccf962,Lay the Favorite,joy,anger
+2502,5771341f8491bfac,Lay the Favorite,joy,anticipation
+2503,28b33d97397b9d53,Lay the Favorite,joy,anticipation
+2504,12fc31722d09c0eb,Lay the Favorite,joy,anticipation
+2505,8d83236515e95ba5,Lay the Favorite,joy,anticipation
+2506,a025404117dd0c65,Lay the Favorite,joy,sadness
+2507,50f9201a0de63301,Lay the Favorite,joy,anticipation
+2508,2c0a941bdc94018f,Lay the Favorite,joy,sadness
+2509,6819235dc0ce22b7,Lay the Favorite,joy,optimism
+2510,70efad219f8b2fae,Lay the Favorite,joy,anticipation
+2511,502c04afab2b1b2f,Lay the Favorite,joy,anticipation
+2512,52042ea72336ff66,Silent Night,sadness,optimism
+2513,99f650dc2a1c9c45,Silent Night,sadness,anticipation
+2514,cc230acc2ece988d,Silent Night,sadness,optimism
+2515,894ad89d501586a1,Silent Night,sadness,optimism
+2516,9d342de9c564bdad,Silent Night,sadness,fear
+2517,55c0575e2d888030,Silent Night,sadness,fear
+2518,431958f03862d558,Silent Night,sadness,sadness
+2519,4ec28eff22af37d0,Silent Night,sadness,optimism
+2520,571b0157bde9599b,Silent Night,sadness,optimism
+2521,7a7e639f12e8c644,Silent Night,sadness,optimism
+2522,b2707b58c53d31ee,Silent Night,sadness,fear
+2523,27b886b511e8d1c3,Lucy,joy,optimism
+2524,0fb2219bf4e72efb,Lucy,joy,anger
+2525,aeb3d11b58a45887,Lucy,joy,sadness
+2526,9ee51756b1bab31c,Lucy,joy,optimism
+2527,eb2e47eb0f2f1a75,Lucy,joy,anticipation
+2528,039d578aa8f687df,Lucy,joy,sadness
+2529,e4f0c8de3a05fa62,Lucy,joy,anticipation
+2530,832bc2ce78b696b7,Lucy,joy,optimism
+2531,86d17062c29ffa78,Lucy,joy,sadness
+2532,92cec54191d2eb04,Lucy,joy,sadness
+2533,bf5707120607bd5b,Lucy,joy,anticipation
+2534,f7b7c57e5339883d,Lucy,joy,sadness
+2535,4d31ce567b4af4ef,Lucy,joy,anticipation
+2536,d36d70c7b97ceca0,Lucy,joy,anticipation
+2537,986318adecd5150f,Lucy,joy,optimism
+2538,2451b33bb7ba619e,Lucy,joy,anticipation
+2539,daa9c41a53c24c67,Lucy,joy,sadness
+2540,c2ce872dd893517e,Lucy,joy,optimism
+2541,735fe0355eef4126,Side Effects,optimism,anticipation
+2542,ffaa8baccd958226,Side Effects,optimism,sadness
+2543,89c009dd4406e531,Side Effects,optimism,sadness
+2544,7c4ff43b4ed44d4e,Side Effects,optimism,sadness
+2545,8d2ba01df45b36ca,Side Effects,optimism,sadness
+2546,c4ed8d4079256fb7,Side Effects,optimism,sadness
+2547,71a1222c13cd721e,Side Effects,optimism,sadness
+2548,9566c232c473b091,Side Effects,optimism,sadness
+2549,0c7bce7ad7cb94b3,Side Effects,optimism,sadness
+2550,6551c126e528e84f,Side Effects,optimism,sadness
+2551,f96360d5f9d4259f,Side Effects,optimism,sadness
+2552,44a07ec8d8d0ff89,Side Effects,optimism,sadness
+2553,5260257952abd40b,Side Effects,optimism,anger
+2554,8d4ea8f942ed7afe,Side Effects,optimism,sadness
+2555,36a5ee9dd501d678,Side Effects,optimism,sadness
+2556,390df967a4759ad8,Safe Haven,fear,anticipation
+2557,7ed3a67df917ea81,Safe Haven,fear,anticipation
+2558,9dd79aafbc6c682b,Safe Haven,fear,anticipation
+2559,dae55581f35eaedb,Safe Haven,fear,sadness
+2560,915af159c074804a,Safe Haven,fear,sadness
+2561,25e2dacdda48c178,Safe Haven,fear,anticipation
+2562,4d9465407f3300ad,Safe Haven,fear,sadness
+2563,f3c0efbfd0e4c56a,Safe Haven,fear,anticipation
+2564,f1637bef84e0dd2d,Safe Haven,fear,optimism
+2565,3b8438287b00a099,Safe Haven,fear,anticipation
+2566,153f3c2f8937d1ad,Safe Haven,fear,anticipation
+2567,2d32c43166390bf1,Safe Haven,fear,anticipation
+2568,c1cbe1221358898a,Safe Haven,fear,sadness
+2569,33fa8955c8164214,Safe Haven,fear,anticipation
+2570,ac1ab019d2b54d93,Safe Haven,fear,sadness
+2571,586990a83f1d0359,Safe Haven,fear,sadness
+2572,cbf8a0fbadfd5df2,Safe Haven,fear,fear
+2573,4b65b4f8ffc382a8,Admission,fear,sadness
+2574,1469228c88499e9d,Admission,fear,sadness
+2575,b76bf480e50b139e,Admission,fear,sadness
+2576,3c113a30c3ec10c4,Admission,fear,sadness
+2577,663b382951cc98be,Admission,fear,sadness
+2578,c2ba56e331b2a42d,Admission,fear,sadness
+2579,57099b4cb10414f3,Admission,fear,sadness
+2580,017d189629d7dba2,Admission,fear,sadness
+2581,c5d1b8c6cd0bfae3,Admission,fear,sadness
+2582,051dc0f4ebbf70e1,Admission,fear,sadness
+2583,c59cc8b43db85a79,Admission,fear,joy
+2584,cf2a69d3ce85076d,Admission,fear,sadness
+2585,47d9f49f628a683a,Admission,fear,sadness
+2586,f41c3c2b28014452,Admission,fear,sadness
+2587,b4bd0b78f7a2396b,Admission,fear,sadness
+2588,04b14652c738fb4c,Admission,fear,sadness
+2589,69ac3c2154094f09,Admission,fear,sadness
+2590,8ad823330b8199ae,Admission,fear,sadness
+2591,9e796c634a831cd9,To the Wonder,sadness,sadness
+2592,230e408ac42d0823,To the Wonder,sadness,anticipation
+2593,2ab15d3220dd33ab,To the Wonder,sadness,sadness
+2594,39d25da95a882887,To the Wonder,sadness,sadness
+2595,47a19e7fcecbc3b3,To the Wonder,sadness,sadness
+2596,ab5a39a610d004e1,To the Wonder,sadness,sadness
+2597,bc58217796deda95,To the Wonder,sadness,optimism
+2598,9291feb7c8ec8bce,To the Wonder,sadness,sadness
+2599,b09de150eefe730c,To the Wonder,sadness,sadness
+2600,4c400867794d28e0,To the Wonder,sadness,sadness
+2601,d2772121239c32b7,To the Wonder,sadness,sadness
+2602,48bcefef3609b9fa,To the Wonder,sadness,sadness
+2603,c9d9e52b5acee282,To the Wonder,sadness,sadness
+2604,f10b23359853c2be,To the Wonder,sadness,sadness
+2605,24b511994b44dfdf,To the Wonder,sadness,sadness
+2606,777223337f6bc28a,The Mortal Instruments: City of Bones,fear,fear
+2607,6d656604565d18cd,The Mortal Instruments: City of Bones,fear,sadness
+2608,092a5965cb4eccc0,The Mortal Instruments: City of Bones,fear,sadness
+2609,1d667e79397e7ac5,The Mortal Instruments: City of Bones,fear,sadness
+2610,447860394ae16255,The Mortal Instruments: City of Bones,fear,anticipation
+2611,8d6ecfe29b4db517,The Mortal Instruments: City of Bones,fear,sadness
+2612,d84ba0c4e73604d7,The Mortal Instruments: City of Bones,fear,optimism
+2613,d00500a9c0a3c620,The Mortal Instruments: City of Bones,fear,optimism
+2614,a05fdf4c4bb6c444,The Mortal Instruments: City of Bones,fear,fear
+2615,3e417a6d513f34d7,The Mortal Instruments: City of Bones,fear,optimism
+2616,f3babb31d3a09d71,The Mortal Instruments: City of Bones,fear,sadness
+2617,7dfdda30ab27610b,The Mortal Instruments: City of Bones,fear,optimism
+2618,88e211764216601c,The Mortal Instruments: City of Bones,fear,sadness
+2619,df2582270e73cedd,The Mortal Instruments: City of Bones,fear,sadness
+2620,916e08366f3b75c9,The Mortal Instruments: City of Bones,fear,sadness
+2621,6eea6fab501d8b45,The Mortal Instruments: City of Bones,fear,optimism
+2622,6e44a3d29e7dedb4,The Mortal Instruments: City of Bones,fear,optimism
+2623,fda921e5ff7e4b8a,Prisoners,anticipation,disgust
+2624,f537b685efcf451b,Prisoners,anticipation,anticipation
+2625,366eb77e28db1fbf,Prisoners,anticipation,sadness
+2626,06a03354a2b22608,Prisoners,anticipation,sadness
+2627,6823fc4a62debb11,Prisoners,anticipation,optimism
+2628,ece38863006593d3,Prisoners,anticipation,optimism
+2629,d5310d6531fb8661,Prisoners,anticipation,anticipation
+2630,1cdef7aa2119be15,Prisoners,anticipation,anticipation
+2631,8f1cafc09c72d47a,Prisoners,anticipation,sadness
+2632,ce04f30ba6fa246e,Prisoners,anticipation,optimism
+2633,18601c73f099bb97,Prisoners,anticipation,anticipation
+2634,52c41fe7dc6fb029,Prisoners,anticipation,sadness
+2635,923b65e123ca20f0,Prisoners,anticipation,sadness
+2636,d76b5d1fd7145dcb,Prisoners,anticipation,optimism
+2637,9f2a033d03915393,Prisoners,anticipation,sadness
+2638,b6425d463b2aa4f6,I Will Follow You Into the Dark,sadness,fear
+2639,d06badc901470370,I Will Follow You Into the Dark,sadness,fear
+2640,618403876ee85b47,I Will Follow You Into the Dark,sadness,fear
+2641,dd6a0cb95844fdad,I Will Follow You Into the Dark,sadness,fear
+2642,94b0fef64a9d882d,Just Wright,sadness,optimism
+2643,0edef26baf9eaf1f,Just Wright,sadness,joy
+2644,1f8d4cb2fe710f4d,Just Wright,sadness,sadness
+2645,7068521240de0df3,Just Wright,sadness,sadness
+2646,11700302196e4568,Just Wright,sadness,anger
+2647,28f308cb5450f8c7,Just Wright,sadness,anger
+2648,3eab841141568f2a,Just Wright,sadness,sadness
+2649,322f517641fc5eb3,Just Wright,sadness,sadness
+2650,d9c14d4753ab8f7f,Just Wright,sadness,anticipation
+2651,9248c864b453e7f3,Just Wright,sadness,sadness
+2652,e758aa207c84aa16,Just Wright,sadness,sadness
+2653,cd1ed559327e905e,Just Wright,sadness,sadness
+2654,2f6a267864fe1d32,The Cosmonaut,sadness,optimism
+2655,0d6032398ff95414,The Cosmonaut,sadness,optimism
+2656,19128d74bb24a451,The Cosmonaut,sadness,sadness
+2657,159c11dc9a0dfdfe,The Cosmonaut,sadness,sadness
+2658,7176e2344a7ba2ac,The Cosmonaut,sadness,anticipation
+2659,8fbd2ee27169c666,Sextette,anger,joy
+2660,a47b9b5a3229364c,Sextette,anger,joy
+2661,a2649ceb57174943,Sextette,anger,joy
+2662,ae9b86bda976385a,Today,sadness,anticipation
+2663,725b0526ac24a7c6,Today,sadness,anticipation
+2664,2a7bff28e138bf3f,Today,sadness,anger
+2665,7b65d05bc0900f57,Today,sadness,sadness
+2666,b3edce53f45f7892,Today,sadness,sadness
+2667,703782eac6621dd0,The Fault in Our Stars,optimism,optimism
+2668,9292bbf272c1684f,The Fault in Our Stars,optimism,sadness
+2669,dd2f748daddc1026,The Fault in Our Stars,optimism,optimism
+2670,876f4da1b470d279,The Fault in Our Stars,optimism,sadness
+2671,ca3dff017ebf2993,The Fault in Our Stars,optimism,sadness
+2672,75fc11e7756149d8,The Fault in Our Stars,optimism,sadness
+2673,48f0d64364f47e0b,The Fault in Our Stars,optimism,sadness
+2674,cffbb9a5724a6c31,The Fault in Our Stars,optimism,joy
+2675,0323cb3ebc87e7a5,The Fault in Our Stars,optimism,anticipation
+2676,cfe61b3a821543e4,The Fault in Our Stars,optimism,joy
+2677,ba1065512ce15e28,The Fault in Our Stars,optimism,joy
+2678,382e355c3a2f4b00,The Fault in Our Stars,optimism,optimism
+2679,b8dd3087b8cb45ba,The Fault in Our Stars,optimism,anticipation
+2680,c5bf5cb83d403447,The Fault in Our Stars,optimism,sadness
+2681,857f7efb587fa2c3,The Fault in Our Stars,optimism,anticipation
+2682,018e23927d279b3e,The Fault in Our Stars,optimism,sadness
+2683,8249863b2b3131cc,Very Good Girls,anticipation,sadness
+2684,8a9e246fe2e5c824,Very Good Girls,anticipation,anticipation
+2685,6b8385c403fb61dc,Very Good Girls,anticipation,sadness
+2686,9601f043d3166a2f,Very Good Girls,anticipation,sadness
+2687,969395d7416e9743,Very Good Girls,anticipation,anticipation
+2688,2065cc2a34319961,Very Good Girls,anticipation,anticipation
+2689,31e7cdaa2a1c568b,Very Good Girls,anticipation,anticipation
+2690,1b1daf62bc0b28f3,Very Good Girls,anticipation,anticipation
+2691,f3f6acb1736cfcc8,Very Good Girls,anticipation,anticipation
+2692,960bc4518ee27937,Very Good Girls,anticipation,sadness
+2693,66c6798f3e0145db,Very Good Girls,anticipation,anticipation
+2694,8bc2971e0c82add4,Very Good Girls,anticipation,anticipation
+2695,35206e8f0f8b9969,Very Good Girls,anticipation,sadness
+2696,f288c21797d7f504,Very Good Girls,anticipation,sadness
+2697,93ddf0e191808281,Very Good Girls,anticipation,optimism
+2698,5921428cc1ad5abe,Very Good Girls,anticipation,anticipation
+2699,01333f30cace674a,Very Good Girls,anticipation,joy
+2700,d81cde473cfb6e41,They Came Together,joy,joy
+2701,592de75fa7f83148,They Came Together,joy,optimism
+2702,113c75ae22e8cdde,They Came Together,joy,optimism
+2703,35598351d651f090,They Came Together,joy,joy
+2704,6407b210cd97c0d7,They Came Together,joy,anticipation
+2705,6a2641c1e794723d,They Came Together,joy,disgust
+2706,592709656f0c192d,They Came Together,joy,sadness
+2707,224865a1491c3c75,They Came Together,joy,anticipation
+2708,e814df8e11207e0c,They Came Together,joy,anticipation
+2709,a2b9ba0293c25909,They Came Together,joy,anger
+2710,7bb48732c1526c35,They Came Together,joy,sadness
+2711,4ffebf29308a3e7e,They Came Together,joy,optimism
+2712,c2024a11ce5b1d77,They Came Together,joy,optimism
+2713,acd73390d57b6a8c,They Came Together,joy,anticipation
+2714,00b991095e6c4d9a,They Came Together,joy,disgust
+2715,78d22f3ea3ffcb94,The Giver,optimism,optimism
+2716,1412553df06f2fe6,The Giver,optimism,optimism
+2717,5d0dd7e18be0453f,The Giver,optimism,anticipation
+2718,2fe7bcbd97d80eda,The Giver,optimism,optimism
+2719,7b22916821f33ffb,The Giver,optimism,sadness
+2720,8bdad73d8772d0de,The Giver,optimism,optimism
+2721,bee9638f043e03be,The Giver,optimism,optimism
+2722,0ecb7bfa9c7ab9f2,The Giver,optimism,optimism
+2723,f2def415153457ac,The Giver,optimism,optimism
+2724,b3e6f035487d23d5,The Giver,optimism,optimism
+2725,55a497eab9eab6ef,The Giver,optimism,anticipation
+2726,8aabb651904ff813,The Giver,optimism,optimism
+2727,6677f2a31da28fe1,The Giver,optimism,joy
+2728,4cdf0a56ef88c430,The Giver,optimism,optimism
+2729,a235666f3a20a026,The Giver,optimism,optimism
+2730,d9e0cc1c0602ed21,The Giver,optimism,optimism
+2731,5e9e7d91d87ce8cf,The Giver,optimism,sadness
+2732,cc705b064012e241,The Giver,optimism,optimism
+2733,035dcbe4547a89c2,The Giver,optimism,optimism
+2734,d8cb004954751a64,The Giver,optimism,sadness
+2735,e922aa3e6bd609ea,The Giver,optimism,optimism
+2736,55399fd128ae3ae5,Bad Johnson,joy,disgust
+2737,665f0d56ce8899e8,Bad Johnson,joy,disgust
+2738,4ab434505cbc5715,Bad Johnson,joy,sadness
+2739,a519123f80c01930,Bad Johnson,joy,optimism
+2740,bdfd639f833a8a9b,Bad Johnson,joy,sadness
+2741,e878a684341e6dc7,Bad Johnson,joy,disgust
+2742,2f76f8b48dc7fb6d,Bad Johnson,joy,joy
+2743,9bccefe4eeb48f8e,Bad Johnson,joy,sadness
+2744,2ca3fd64af590c0e,Bad Johnson,joy,sadness
+2745,09b439000d8e655e,Bad Johnson,joy,fear
+2746,79719bda9fd2ffc5,Bad Johnson,joy,joy
+2747,cba73dab9bce812c,Bad Johnson,joy,sadness
+2748,6fda1911359ba221,Bad Johnson,joy,fear
+2749,a9e8dc27a9ddeae6,Bad Johnson,joy,sadness
+2750,06c104b34ea83b0e,Bad Johnson,joy,sadness
+2751,fdb2f9aa79e4cacc,Bad Johnson,joy,sadness
+2752,024bf3818e431ea5,Bad Johnson,joy,sadness
+2753,7ed16d42f7719097,Bad Johnson,joy,sadness
+2754,a656bd23a5450b59,Bad Johnson,joy,disgust
+2755,ca0d77bb7b7761f4,Bad Johnson,joy,sadness
+2756,8135d0cf9661ec50,"Love, Rosie",sadness,joy
+2757,29740bb413d7d4f3,"Love, Rosie",sadness,joy
+2758,d9d9062a02678da5,"Love, Rosie",sadness,optimism
+2759,d1d2e658646efd9a,"Love, Rosie",sadness,optimism
+2760,280bd3385052993f,"Love, Rosie",sadness,anticipation
+2761,28f651f99385fbb6,"Love, Rosie",sadness,sadness
+2762,3c18556c39d97cb2,"Love, Rosie",sadness,anger
+2763,ad1f080deb5ef134,"Love, Rosie",sadness,anticipation
+2764,225a0ec56766b33c,"Love, Rosie",sadness,joy
+2765,57ebdbd456ab0716,"Love, Rosie",sadness,sadness
+2766,d9cb7c2fb729c0ec,"Love, Rosie",sadness,joy
+2767,5b5994a38c3be1e2,"Love, Rosie",sadness,sadness
+2768,54a67a5bbfe7c4bc,Sex Ed,sadness,joy
+2769,479de5f7fd8db6a1,Sex Ed,sadness,optimism
+2770,361259fdce9fdc9d,Sex Ed,sadness,sadness
+2771,4ab74721db29dbe5,The Longest Week,optimism,sadness
+2772,07f0a3c92d9eb3d7,The Longest Week,optimism,anticipation
+2773,60b42ae88cfd6c0e,The Longest Week,optimism,sadness
+2774,67a3d7de3fb75c76,The Longest Week,optimism,sadness
+2775,06b19d7257281f96,The Longest Week,optimism,sadness
+2776,684ddc0bfc7f165c,The Longest Week,optimism,sadness
+2777,0e4fa8712ea07081,The Longest Week,optimism,anticipation
+2778,9ae2ccd31956062d,The Longest Week,optimism,sadness
+2779,237178455c917064,The Longest Week,optimism,sadness
+2780,72a299f3eea7d3fc,The Longest Week,optimism,sadness
+2781,0791181717ebd715,The Longest Week,optimism,sadness
+2782,722b58d636a918ca,The Longest Week,optimism,sadness
+2783,7295c9598169d933,The Longest Week,optimism,anger
+2784,1a78fd716ad9472d,Fishtales,sadness,optimism
+2785,d8ba4e957cbfc548,Fishtales,sadness,joy
+2786,435f8d7fcd9d6ef8,Fishtales,sadness,optimism
+2787,b5680c7d7b80ce17,Fishtales,sadness,optimism
+2788,afaf6d1707159e49,Fishtales,sadness,optimism
+2789,a130e33b2b0e1dbb,Fishtales,sadness,optimism
+2790,bcda6a8945f3dc46,Fishtales,sadness,optimism
+2791,bdbd9971d1428dce,Fishtales,sadness,optimism
+2792,6053721f529ec0b3,Swinging with the Finkels,sadness,joy
+2793,b52633f0d849642f,Swinging with the Finkels,sadness,joy
+2794,253df6a7b31ffa23,Swinging with the Finkels,sadness,joy
+2795,eca80b223fd5fde4,Swinging with the Finkels,sadness,joy
+2796,be29118b37aafe1a,Swinging with the Finkels,sadness,sadness
+2797,691929516d9ee815,Swinging with the Finkels,sadness,sadness
+2798,abee21f1c7dd7760,Swinging with the Finkels,sadness,joy
+2799,cb9c958be8b9f723,Swinging with the Finkels,sadness,joy
+2800,cdd3ed8ea3cab43b,Swinging with the Finkels,sadness,sadness
+2801,7597a5ba1c0cda9b,Swinging with the Finkels,sadness,sadness
+2802,107fc8f7497599df,Popstar,sadness,joy
+2803,b7ece37dceabea29,Popstar,sadness,joy
+2804,6be3e0da9cd8d375,Popstar,sadness,joy
+2805,a7ea3b54a2b780a5,Popstar,sadness,joy
+2806,a27c9920faf8171b,Popstar,sadness,joy
+2807,a88d56f6dacf0a3f,Popstar,sadness,joy
+2808,8a16565488908217,Popstar,sadness,joy
+2809,286bcd326aa9fad2,Popstar,sadness,joy
+2810,c77b4aec9ad7a393,Popstar,sadness,joy
+2811,d06afc8abb2281b4,Popstar,sadness,optimism
+2812,168d8fd05bce1807,Popstar,sadness,anticipation
+2813,757347411b492874,Popstar,sadness,joy
+2814,3f861c48a1d8f07b,Popstar,sadness,sadness
+2815,cc0ddf0bce6eadea,Popstar,sadness,joy
+2816,3a97571346dc4d8b,Popstar,sadness,joy
+2817,6b9c907f6af31038,Popstar,sadness,joy
+2818,d6e588258dd1b37a,Results,sadness,sadness
+2819,6ad54e35d54d3c99,Results,sadness,optimism
+2820,d60761219445f9bc,Results,sadness,sadness
+2821,695e95168401304d,Results,sadness,sadness
+2822,c0c679508f3e6e69,Results,sadness,disgust
+2823,bac9cee4ae326b0a,Results,sadness,sadness
+2824,7e8012b58e246382,Results,sadness,anticipation
+2825,f732b3e0d24b279a,Results,sadness,sadness
+2826,c7455d917274b711,Results,sadness,optimism
+2827,933d1e16546d1bda,Results,sadness,anticipation
+2828,adc7d774dd38ebab,Paper Towns,optimism,anticipation
+2829,d1415fdadc644f18,Paper Towns,optimism,anticipation
+2830,6074d5c3e4d0e125,Paper Towns,optimism,sadness
+2831,b17785b16d5f2923,Paper Towns,optimism,sadness
+2832,aebb72f06b79c497,Paper Towns,optimism,sadness
+2833,c6f31d3f8d995ba0,Paper Towns,optimism,sadness
+2834,f134a5371a4c4eba,Paper Towns,optimism,sadness
+2835,b77a189d84793e57,Paper Towns,optimism,anticipation
+2836,04d64a3e7b351589,Paper Towns,optimism,sadness
+2837,3bfe1c9ad977fa58,Paper Towns,optimism,optimism
+2838,c869ef40fb1908c2,Paper Towns,optimism,anticipation
+2839,76792734215131ac,Paper Towns,optimism,anticipation
+2840,eeff19831031d881,Paper Towns,optimism,sadness
+2841,490e72c2d7731b9b,Paper Towns,optimism,anticipation
+2842,879c39b0bb32f295,Paper Towns,optimism,sadness
+2843,8e266b63d6537f0e,Paper Towns,optimism,sadness
+2844,37f26bca2c3f55b2,Paper Towns,optimism,anticipation
+2845,f41886ae59415ff6,Paper Towns,optimism,anticipation
+2846,a72f158d45a2a924,Paper Towns,optimism,anticipation
+2847,91ca570cbe645f00,Paper Towns,optimism,optimism
+2848,ef53a06d0b89e99a,Paper Towns,optimism,sadness
+2849,3488070e741811a5,Paper Towns,optimism,sadness
+2850,30c2aeed7d22126c,The Color of Time,joy,anticipation
+2851,488be7b59667b5b6,The Color of Time,joy,joy
+2852,663830300613d9d8,The Color of Time,joy,joy
+2853,e9115d29a4d94629,The Color of Time,joy,sadness
+2854,ba608db26d989080,The Color of Time,joy,sadness
+2855,9ccfdfcdcafd6b08,Seven Minutes in Heaven,joy,sadness
+2856,1309680699a6dec2,Seven Minutes in Heaven,joy,sadness
+2857,0a35b41026f0c009,The Mad Monster,anger,fear
+2858,7e32c7078f7359df,The Mad Monster,anger,fear
+2859,71122fb2c2254e04,The Mad Monster,anger,sadness
+2860,c20d127cbb2efc80,The Mad Monster,anger,fear
+2861,739163cb1770e072,The Mad Monster,anger,fear
+2862,a75c1243b35f6da7,The Mad Monster,anger,disgust
+2863,fd6c85693800876e,The Mad Monster,anger,fear
+2864,281338d410123924,The Mad Monster,anger,fear
+2865,94f357cca46d8e66,The Mad Monster,anger,fear
+2866,3f92b2bc27b5a628,The Mad Monster,anger,fear
+2867,9e3e38cb8292ddf5,The Mad Monster,anger,fear
+2868,be5429177f1757e2,The Mad Monster,anger,fear
+2869,e2407c65284f3692,The Mad Monster,anger,fear
+2870,5c031567fb912cd7,The Mad Monster,anger,fear
+2871,97d1b825a4f8daf6,The Mad Monster,anger,sadness
+2872,786cc2bbf1b3fecd,The Mad Monster,anger,fear
+2873,9e4459e472f98031,The Mad Monster,anger,fear
+2874,32a5bbd8e62d5361,The Mad Monster,anger,anger
+2875,3b4426acdfa50418,The Mad Monster,anger,sadness
+2876,c5b91bb09f0280ec,The Mad Monster,anger,anger
+2877,e24d19ffd5f0753e,The Mad Monster,anger,fear
+2878,7451a80a67180bbe,Morgan,fear,joy
+2879,49aa89305613d7c5,Morgan,fear,disgust
+2880,bd45f6d72c9be715,Morgan,fear,anger
+2881,c3d387188d2b7940,Morgan,fear,optimism
+2882,7cced01c1b3e7117,Morgan,fear,anticipation
+2883,8e5f3a2607cce596,Morgan,fear,anticipation
+2884,fa021a6027e5c5a8,Morgan,fear,sadness
+2885,bc3e5dd3ab0aa700,Morgan,fear,anger
+2886,8ed1687a03a379d2,Morgan,fear,optimism
+2887,24cd3433c5ce5f4a,Morgan,fear,optimism
+2888,9819ef0aa8f31649,Morgan,fear,sadness
+2889,8bd97bf8f5064cb9,Morgan,fear,anticipation
+2890,394d38caa95ddf6a,Morgan,fear,optimism
+2891,7ea869b35d4f6cfd,Morgan,fear,sadness
+2892,61dd6510915fb619,Morgan,fear,sadness
+2893,092176631708036b,Morgan,fear,sadness
+2894,cbffa7869e54188a,Morgan,fear,sadness
+2895,133c64e1def8dd8d,Morgan,fear,anticipation
+2896,f4cdc77243fd32c5,Morgan,fear,anticipation
+2897,a9679582b181febe,Morgan,fear,sadness
+2898,3d044ba2f47465df,Morgan,fear,sadness
+2899,f8a89be0b50c0881,Morgan,fear,optimism
+2900,4054b3d761c02fa8,Morgan,fear,sadness
+2901,cb6269acf494fbd7,Bottoms Up,optimism,disgust
+2902,b61cfcae6796df30,Bottoms Up,optimism,joy
+2903,cc8dfddd93d56ae4,Bottoms Up,optimism,sadness
+2904,4516888d29abcd40,Bottoms Up,optimism,joy
+2905,88ada93b730c803f,Bottoms Up,optimism,sadness
+2906,34188869d8e23dad,Bottoms Up,optimism,joy
+2907,4e22cbfc42f14385,Bottoms Up,optimism,joy
+2908,c324de109f5ef1b5,Bottoms Up,optimism,joy
+2909,4bc7458e7d03e2f1,Bottoms Up,optimism,joy
+2910,230f61ccf59a2901,Bottoms Up,optimism,joy
+2911,20c5454b04aa308c,Bottoms Up,optimism,joy
+2912,e60f33ffaa80a152,Bottoms Up,optimism,joy
+2913,65966f7ba5c91fc5,Bottoms Up,optimism,anticipation
+2914,30f2c17e76027726,Bottoms Up,optimism,anger
+2915,66638c6cc5095030,Bottoms Up,optimism,joy
+2916,fda462b3e5d4f7fa,Bottoms Up,optimism,optimism
+2917,b948a3540abb3d3c,Bottoms Up,optimism,anticipation
+2918,1cb929312c3b2f83,Bottoms Up,optimism,anticipation
+2919,ab2e24f0a8d757ee,Bottoms Up,optimism,anticipation
+2920,7227161beab35cad,Bottoms Up,optimism,sadness
+2921,258a82806922f14f,Bottoms Up,optimism,joy
+2922,881a4224605e50d4,Bottoms Up,optimism,joy
+2923,76326e52af39927b,Bottoms Up,optimism,sadness
+2924,63f36a7149456815,Private Number,sadness,anticipation
+2925,33b1f3373666f867,Christian Mingle,optimism,sadness
+2926,0a5ca86cc72577ac,Christian Mingle,optimism,anticipation
+2927,75844f1644d4e77d,Christian Mingle,optimism,fear
+2928,c6043cb52367675b,Christian Mingle,optimism,fear
+2929,3b1c61f5c93a34c2,Christian Mingle,optimism,anticipation
+2930,4e5af48d3d678235,Christian Mingle,optimism,anger
+2931,5c654647d7612dc5,Christian Mingle,optimism,optimism
+2932,87441a55307548f3,Christian Mingle,optimism,optimism
+2933,011ae1ca764679da,Fascination,sadness,fear
+2934,9a695e473aba7f09,Fascination,sadness,fear
+2935,4e657456458c37bc,Fascination,sadness,fear
+2936,91f7622200f7d59c,Fascination,sadness,fear
+2937,500ed409388ce5aa,Fascination,sadness,fear
+2938,6e3dd4cd0b9ee978,Fascination,sadness,fear
+2939,8290b055f8f5c60e,Fascination,sadness,anger
+2940,36a7cc51a79b893d,Fascination,sadness,anger
+2941,6df0dffd1cc342d6,Fascination,sadness,fear
+2942,a74fd5c6a90c549e,Fascination,sadness,anger
+2943,fc0d8a7d3f0c797a,Fascination,sadness,joy
+2944,4903bfff2c399361,Fascination,sadness,joy
+2945,467b64c4fe96df1e,Fascination,sadness,anger
+2946,bba4c07b9f3b8458,Fascination,sadness,joy
+2947,a0a565c4d1ea1963,Fascination,sadness,fear
+2948,253ab24ed6f69ed8,Fascination,sadness,fear
+2949,862a4c3a005df469,Fascination,sadness,joy
+2950,c1571689f12b4726,Fascination,sadness,fear
+2951,14b2d2d285afe2a2,Fascination,sadness,joy
+2952,8a8561e1932e5201,Fascination,sadness,fear
+2953,7d00db0f14bdb8dd,Fascination,sadness,anticipation
+2954,f7abeef5486e5eb7,Fascination,sadness,joy
+2955,50bee2fd41107573,Find Me,anticipation,anger
+2956,65e5e613bc2b97d0,Find Me,anticipation,fear
+2957,e22ee13c727f6c79,Find Me,anticipation,fear
+2958,baf133ccc3cfb640,Women of the Prehistoric Planet,sadness,optimism
+2959,60bc4d8707a2718a,Women of the Prehistoric Planet,sadness,optimism
+2960,eba6d1e87700af71,Women of the Prehistoric Planet,sadness,anticipation
+2961,2ffd3b08e16594ca,Women of the Prehistoric Planet,sadness,fear
+2962,6f98c1f4da3e3728,Women of the Prehistoric Planet,sadness,optimism
+2963,3bdaabc31420afc0,Women of the Prehistoric Planet,sadness,disgust
+2964,21d7182e69e740cd,Women of the Prehistoric Planet,sadness,optimism
+2965,e9929d56556f67c9,Women of the Prehistoric Planet,sadness,optimism
+2966,b405e6f8b9ec8e0e,Women of the Prehistoric Planet,sadness,disgust
+2967,95f0611d0b5e26b4,Women of the Prehistoric Planet,sadness,optimism
+2968,4768f60e4879d76f,Women of the Prehistoric Planet,sadness,optimism
+2969,955d3c3ac462810a,Women of the Prehistoric Planet,sadness,optimism
+2970,2fd62ed38fbf86ff,Women of the Prehistoric Planet,sadness,disgust
+2971,a132197250c45229,Room,sadness,fear
+2972,0a3cd611d1e7ffd0,Room,sadness,sadness
+2973,ae2d1acb20b6afc1,Room,sadness,sadness
+2974,a15dc852b8bd6aa4,Room,sadness,sadness
+2975,2de8fa17d125550d,Room,sadness,sadness
+2976,5736e68b6cd7a1a6,Room,sadness,optimism
+2977,cb439ef47be06909,Room,sadness,anticipation
+2978,444150a200be65eb,Room,sadness,sadness
+2979,106629681caf7d2f,Room,sadness,anger
+2980,ba44d6daf1e9e4a4,Room,sadness,sadness
+2981,36156b1970c62e0e,Room,sadness,sadness
+2982,e7f65df6333a238a,Room,sadness,optimism
+2983,3d041a0fa4559e33,Room,sadness,optimism
+2984,2f1dce28955d0d22,Room,sadness,optimism
+2985,d281c2c466b65d4f,3-Day Weekend,joy,anticipation
+2986,9dd854464fe61e20,3-Day Weekend,joy,sadness
+2987,4f9458b859f7d5e6,Air,optimism,fear
+2988,66d4db52c67fb419,Air,optimism,fear
+2989,0910312ec144e67d,Air,optimism,fear
+2990,3eef9588eba7cfe9,Air,optimism,sadness
+2991,24acce9c560b703f,Air,optimism,fear
+2992,a7fd0de2b33a84d8,Air,optimism,fear
+2993,f322ca65e227b9bb,Air,optimism,anger
+2994,0aa7a194363ba237,Air,optimism,anticipation
+2995,df00ed51b59afadf,Fuga de cerebros 2,anticipation,fear
+2996,5d026575ed09f612,Meet Market,joy,disgust
+2997,5c47f9b390d97a82,Meet Market,joy,joy
+2998,5af5b8bba322509a,Meet Market,joy,joy
+2999,f13d95f8f2d9e8f8,Meet Market,joy,anger
+3000,82cc5ade49af0588,Miss Conception,anticipation,joy
+3001,32d55382667c3527,Miss Conception,anticipation,sadness
+3002,5db9e6d6050a6c1e,Miss Conception,anticipation,joy
+3003,bd26895dfa797754,Miss Conception,anticipation,sadness
+3004,8799f8bd24b344d0,Miss Conception,anticipation,anticipation
+3005,aa329d21fc04b4a7,Miss Conception,anticipation,joy
+3006,c3a780a170ba45b0,Miss Conception,anticipation,joy
+3007,6b84d440b7ecb4fd,Miss Conception,anticipation,joy
+3008,db1d9fbb2396bab9,Miss Conception,anticipation,joy
+3009,aeb96a6a9b2e36c8,The Perfect Date,joy,disgust
+3010,beb6b80a42abd76e,The Perfect Date,joy,joy
+3011,42ff995b6b128136,The Perfect Date,joy,sadness
+3012,09d5ddb4499aad1b,The Perfect Date,joy,joy
+3013,3939f8be027eb331,The Perfect Date,joy,joy
+3014,307005fade283128,The Perfect Date,joy,anticipation
+3015,97e013d3d138334c,The Perfect Date,joy,joy
+3016,88322d5552653358,The Perfect Date,joy,anticipation
+3017,8ea5dfcaa229498f,The Perfect Date,joy,joy
+3018,73a20078c60020b2,The Perfect Date,joy,sadness
+3019,85a61405874a3a46,The Perfect Date,joy,anger
+3020,1380dc1c01480ee6,The Perfect Date,joy,joy
+3021,5ee160d6abdb1257,The Perfect Date,joy,joy
+3022,e668ea58e3624242,The Perfect Date,joy,joy
+3023,ba7d673501002578,The Perfect Date,joy,disgust
+3024,6dca3f5b2f922d5c,The Perfect Date,joy,sadness
+3025,8d1e2010e4a99231,The Perfect Date,joy,joy
+3026,7769242a3cf7e91e,The Perfect Date,joy,anticipation
+3027,ed034b80729e6395,The Perfect Date,joy,joy
+3028,9e092368f6224dfd,The Perfect Date,joy,joy
+3029,f142f7451624c545,The Perfect Date,joy,joy
+3030,39d331cf69f27978,Hacker's Game,joy,sadness
+3031,4bda862d5fc13baf,Hacker's Game,joy,fear
+3032,6e9bedde94a93ef3,Hacker's Game,joy,joy
+3033,3aa88c452e1f1b83,Homeland,anger,optimism
+3034,60ec574b5dee492f,Homeland,anger,sadness
+3035,e20f843a657b650f,Homeland,anger,optimism
+3036,63a72d99571a97c8,Homeland,anger,sadness
+3037,b8ef6c9f23c10a15,Homeland,anger,anticipation
+3038,436ae2b0dcccce1a,Homeland,anger,sadness
+3039,01183c31d28410f0,Homeland,anger,optimism
+3040,4ae2ad00f44616be,Homeland,anger,optimism
+3041,9ffae2dfb4034394,Homeland,anger,optimism
+3042,75bc8db9d32efbfe,Jaanam Samjha Karo,joy,optimism
+3043,9b4254036f5453fe,Zoolander 2,fear,anticipation
+3044,bcddc79260ce56bb,Zoolander 2,fear,anger
+3045,d9e074c579c75788,Zoolander 2,fear,sadness
+3046,b5d134b72c3914b2,Zoolander 2,fear,anticipation
+3047,01345b85f4779965,Zoolander 2,fear,optimism
+3048,e70495b61e1ca738,Zoolander 2,fear,optimism
+3049,18f17ed7befa5511,Zoolander 2,fear,joy
+3050,c5aab87499125d7e,Zoolander 2,fear,disgust
+3051,cb9ccd5629d734cb,Zoolander 2,fear,disgust
+3052,8c436119b31ff6d5,Zoolander 2,fear,anger
+3053,deb6cbd1dd56be06,Zoolander 2,fear,optimism
+3054,b0a3e16ce0ef5eb1,Zoolander 2,fear,anticipation
+3055,0776f617722b1376,Zoolander 2,fear,disgust
+3056,21d1f5d8b577baa4,Zoolander 2,fear,disgust
+3057,f8a0ceb4cd3be015,Zoolander 2,fear,disgust
+3058,b500985f153810c5,Zoolander 2,fear,anger
+3059,8a8cdcdee9d3db58,Zoolander 2,fear,optimism
+3060,db45bca37571be1d,Zoolander 2,fear,disgust
+3061,95ecbc76c36eb55d,Zoolander 2,fear,sadness
+3062,6e5d151377a02733,Zoolander 2,fear,joy
+3063,7043dafeb51c0ecd,Zoolander 2,fear,anticipation
+3064,a75af17ccc5003ab,Zoolander 2,fear,anger
+3065,bb43f1b05391f4ae,Zoolander 2,fear,anger
+3066,5e0de4b242757a2c,Zoolander 2,fear,sadness
+3067,61ad14f56c233e5a,Zoolander 2,fear,anger
+3068,3ccdf586aacf3b30,Qayamat: City Under Threat,fear,fear
+3069,095dfece97463a3c,Qayamat: City Under Threat,fear,anger
+3070,5739bfa601e15410,Qayamat: City Under Threat,fear,optimism
+3071,39f8c7ee3097e772,Qayamat: City Under Threat,fear,fear
+3072,81ba43ee77723c61,Taarzan: The Wonder Car,sadness,anger
+3073,953d2c8420475e4a,Taarzan: The Wonder Car,sadness,sadness
+3074,6dee29edbdd4c735,Taarzan: The Wonder Car,sadness,sadness
+3075,f91af128ba301d0e,Naina,sadness,anger
+3076,7b9f2bd0da612bd7,Naina,sadness,fear
+3077,73f47a299f274249,Thank You,joy,joy
+3078,5e51d4172b6aaafc,Thank You,joy,anger
+3079,fc72c2e93e1f9b31,Thank You,joy,anger
+3080,2f34446059f28c31,Thank You,joy,joy
+3081,efa251e714eec99b,Thank You,joy,anger
+3082,ddf11aeee6e84b07,Thank You,joy,anger
+3083,d2780527e18864b5,Thank You,joy,anger
+3084,5186720dff7a704f,Thank You,joy,anger
+3085,ddc15561043b5ebd,Thank You,joy,anger
+3086,61b777ac01bfcf71,Thank You,joy,anger
+3087,3702709bebf204fb,Thank You,joy,anger
+3088,0ef0c2a23d315c5e,Thank You,joy,joy
+3089,72278767b98535a8,Thank You,joy,anger
+3090,3c807d5c2efd3b3e,Thank You,joy,anger
+3091,5046450e79c6400b,Thank You,joy,anger
+3092,431077f430188368,Thank You,joy,sadness
+3093,1d7450186a129184,Shuddh Desi Romance,joy,joy
+3094,a97a0cdc26b2acc9,Shuddh Desi Romance,joy,joy
+3095,a38febfe30fd5e33,Shuddh Desi Romance,joy,sadness
+3096,3371e540ef3eb91e,Shuddh Desi Romance,joy,anger
+3097,b493ba583841cac7,Shuddh Desi Romance,joy,sadness
+3098,1af6bd97f48723ea,Shuddh Desi Romance,joy,joy
+3099,c5e1d3411abdea8b,Shuddh Desi Romance,joy,sadness
+3100,98bf845b0f9bd342,Shuddh Desi Romance,joy,sadness
+3101,91e060474eac34de,Shuddh Desi Romance,joy,sadness
+3102,1f0f26da44d3eda4,Shuddh Desi Romance,joy,joy
+3103,c950521f7d73507b,Shuddh Desi Romance,joy,sadness
+3104,4cffdd603d64b432,Shuddh Desi Romance,joy,sadness
+3105,0b74745a97d1ae75,Get a Job,sadness,joy
+3106,ca955ba9bb235f51,Get a Job,sadness,sadness
+3107,48c8c4affe99c9ea,Get a Job,sadness,joy
+3108,b3a22ceacdca5829,Get a Job,sadness,sadness
+3109,7c4dbbd906615a7d,Get a Job,sadness,joy
+3110,e0b43b46c329a703,Get a Job,sadness,optimism
+3111,da04e97fc597f50d,Get a Job,sadness,disgust
+3112,c66cf78d414871d0,Get a Job,sadness,optimism
+3113,a20b66c844140be9,Get a Job,sadness,joy
+3114,ce6800e4db3231b0,Get a Job,sadness,joy
+3115,18ce171d0fe9a6c5,Get a Job,sadness,joy
+3116,093f053f47a63817,Get a Job,sadness,anticipation
+3117,b445f2cfbbccc07e,Get a Job,sadness,anticipation
+3118,c2cbd59732479a0c,Get a Job,sadness,anger
+3119,9d9949200f02e905,Get a Job,sadness,anticipation
+3120,dfe5f4b91ef0c603,Get a Job,sadness,anticipation
+3121,c3edc15bac09005e,Get a Job,sadness,disgust
+3122,fdacc445bbd18120,Get a Job,sadness,anticipation
+3123,d13309e7955a20b9,Get a Job,sadness,sadness
+3124,158d9dfd9e83bf19,Get a Job,sadness,sadness
+3125,5c122d9ea0eebc9d,The Girl in the Photographs,disgust,fear
+3126,e852cbaccd9e11f1,The Girl in the Photographs,disgust,fear
+3127,527fba943f6749e4,The Girl in the Photographs,disgust,fear
+3128,0deee5d929834f79,The Girl in the Photographs,disgust,fear
+3129,dadca1a0ae61587b,The Girl in the Photographs,disgust,anger
+3130,6592ff9fdadfd617,The Girl in the Photographs,disgust,fear
+3131,449e7351fc5fd3e9,The Girl in the Photographs,disgust,fear
+3132,cdbb1cfc5a7f3aaf,The Girl in the Photographs,disgust,optimism
+3133,8bb9466d0beb8426,The Girl in the Photographs,disgust,fear
+3134,139e6e8f0628761f,The Girl in the Photographs,disgust,fear
+3135,68e7d1cfc1650842,The Girl in the Photographs,disgust,fear
+3136,c40499ae00fd49df,The Girl in the Photographs,disgust,optimism
+3137,a016000899336821,The Girl in the Photographs,disgust,anticipation
+3138,ab376932932184ef,The Girl in the Photographs,disgust,anticipation
+3139,e0307692634d402d,The Girl in the Photographs,disgust,optimism
+3140,1be466628cd4efc4,The Girl in the Photographs,disgust,fear
+3141,fbbba0f60b8cb712,11/11/11,sadness,fear
+3142,c4be26637a2e3b6b,11/11/11,sadness,fear
+3143,8bb636899996a38e,11/11/11,sadness,fear
+3144,f82cd9e85500472d,11/11/11,sadness,joy
+3145,f5f72fb87846244c,11/11/11,sadness,sadness
+3146,faa5897f2d3318a5,11/11/11,sadness,fear
+3147,1c3c839a46c7dda1,11/11/11,sadness,joy
+3148,6156558bf2de1ed0,11/11/11,sadness,fear
+3149,41f97ca6489688b5,11/11/11,sadness,fear
+3150,8151f04d5116908f,The Forbidden Dance,joy,fear
+3151,891e7ba85203fb97,The Forbidden Dance,joy,joy
+3152,a2d46c4bb6c95164,The Forbidden Dance,joy,anger
+3153,c68224ec47254dac,The Forbidden Dance,joy,optimism
+3154,c29bec5ef944c0ad,The Forbidden Dance,joy,joy
+3155,4f2e78589f24716c,The Forbidden Dance,joy,anticipation
+3156,3df85c710983c56b,The Forbidden Dance,joy,joy
+3157,b29b31b6c8a52d05,The Forbidden Dance,joy,anticipation
+3158,2c2c9a053685ff7d,The Intervention,anticipation,sadness
+3159,15113d0519c29f5c,The Intervention,anticipation,anticipation
+3160,bf26c9d06778691c,Your Name.,sadness,sadness
+3161,3961d0ab80aee849,Your Name.,sadness,joy
+3162,dfcd7ad839c45a76,Your Name.,sadness,joy
+3163,9a38152959a923a7,Your Name.,sadness,joy
+3164,d066d46795cb0f55,Your Name.,sadness,joy
+3165,8003d2cc0d320ed9,Housefull,sadness,anger
+3166,e2aef57f4f68f485,Housefull,sadness,joy
+3167,8b7fc2497610f28f,Housefull,sadness,sadness
+3168,eefc791201242baa,Housefull,sadness,sadness
+3169,eba35047ae030acc,Housefull,sadness,joy
+3170,f065aa1131666907,Housefull,sadness,joy
+3171,b1be76481b7f8e6b,Housefull,sadness,anger
+3172,6cc7e9dcc046488f,Kajraare,sadness,joy
+3173,43ae20cae50486e9,Kajraare,sadness,sadness
+3174,790fb355ff6f1b1d,Kajraare,sadness,sadness
+3175,522ed1eb35be4d33,Awakening,optimism,anticipation
+3176,4223b65d873b6310,Awakening,optimism,disgust
+3177,4c0e6a937e27d358,Awakening,optimism,fear
+3178,79be3ef880de12ce,Last Woman on Earth,sadness,disgust
+3179,0b83cdd906402794,Last Woman on Earth,sadness,sadness
+3180,64353698372d6b09,Last Woman on Earth,sadness,disgust
+3181,b5f4a8b1cc44236c,Last Woman on Earth,sadness,sadness
+3182,11e358d5c476557e,Last Woman on Earth,sadness,optimism
+3183,455ae354612a6b2d,Last Woman on Earth,sadness,sadness
+3184,9701da5f83260f07,Last Woman on Earth,sadness,sadness
+3185,96fefd6dfdd2551a,Last Woman on Earth,sadness,sadness
+3186,98f3b014abb96ea7,Last Woman on Earth,sadness,sadness
+3187,0192b7ab92834d4d,Last Woman on Earth,sadness,optimism
+3188,ae36205dadb56266,Last Woman on Earth,sadness,sadness
+3189,fbfe6b4adbf7745d,Last Woman on Earth,sadness,sadness
+3190,b3dc6a851ba3008c,Last Woman on Earth,sadness,sadness
+3191,c2748128b58895b3,Last Woman on Earth,sadness,anticipation
+3192,291360a0249f6d35,Last Woman on Earth,sadness,disgust
+3193,a5f340293a870c35,Last Woman on Earth,sadness,sadness
+3194,04d8555c95ed0330,Last Woman on Earth,sadness,optimism
+3195,76659e3667e70edb,Last Woman on Earth,sadness,optimism
+3196,8e1f7946b94e8c69,The She-Creature,fear,fear
+3197,7aaeaa278ea567dc,The She-Creature,fear,fear
+3198,9bd15ca6d426c9e1,The She-Creature,fear,fear
+3199,daadcffe73130413,The She-Creature,fear,fear
+3200,0ff1a96b01e132aa,The She-Creature,fear,fear
+3201,ef7c694f9bb4ed56,The She-Creature,fear,fear
+3202,5beaf74d9d98a876,The She-Creature,fear,fear
+3203,bdcfa5101a0a5fc1,The She-Creature,fear,fear
+3204,05a62dbd54e4285c,The She-Creature,fear,fear
+3205,31519d5beb8f956d,The She-Creature,fear,fear
+3206,3510fef66df4ebc4,The She-Creature,fear,fear
+3207,4eb61014e1267fd1,The She-Creature,fear,fear
+3208,66826eac23fc1488,The She-Creature,fear,fear
+3209,7fa6a9f2b38409fe,The She-Creature,fear,fear
+3210,d68f5a1f53646418,The She-Creature,fear,fear
+3211,5c85027c6af0914b,The She-Creature,fear,fear
+3212,c4adfe7d22f30600,The She-Creature,fear,fear
+3213,cccfb612f6fe426b,The She-Creature,fear,fear
+3214,1c2eb264fde3a272,The She-Creature,fear,fear
+3215,519f6031e488e7c8,The She-Creature,fear,fear
+3216,1bfe8d8a707b8de7,Nude on the Moon,anticipation,optimism
+3217,1c9f943768cbe67e,Nude on the Moon,anticipation,optimism
+3218,028e4cd3700ad43e,Nude on the Moon,anticipation,disgust
+3219,44ca800d2cdcd3ea,Nude on the Moon,anticipation,optimism
+3220,128a99bb69e0677e,Nude on the Moon,anticipation,disgust

@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "model_key": "hist_gradient_boosting",
+  "labels": [
+    "anger",
+    "anticipation",
+    "disgust",
+    "fear",
+    "joy",
+    "optimism",
+    "sadness"
+  ],
+  "created_with": {
+    "python": "3.14.3",
+    "sklearn": "1.9.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.5"
+  },
+  "meta": {
+    "model_label": "HistGradientBoosting",
+    "member_id": "IT25103066",
+    "algorithm": "HistGradientBoostingClassifier",
+    "preprocessing": "TF-IDF (2500) + TruncatedSVD (100) + Numeric & Genres (22)",
+    "tuning": {
+      "method": "RandomizedSearchCV",
+      "n_configs": 12,
+      "n_folds": 5,
+      "scoring": [
+        "macro_f1",
+        "accuracy",
+        "weighted_f1"
+      ],
+      "elapsed_seconds": 2972.695554186,
+      "best_params": {
+        "learning_rate": 0.1,
+        "max_iter": 100,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "class_weight": "balanced"
+      }
+    }
+  },
+  "split": {
+    "random_state": 42,
+    "test_size": 0.2,
+    "n_train": 12886,
+    "n_test": 3221,
+    "n_train_movies": 1048,
+    "n_test_movies": 261,
+    "train_movies_sha256": "0328cac6eb3497d63c998b0d505818803e04ce5bb4a80af67d4d15d3f56af968",
+    "test_movies_sha256": "4c2db19b16912144e369125d6ebfcfda74c686adbe55c180703af76de719551e",
+    "train_review_ids_sha256": "ad22497c35f80d37435dc2c22ee4189e98bf080a7aa342a625720785b68b0dff",
+    "test_review_ids_sha256": "6980b40d7858603d6a27fe6ec2e77c25263cf761ffedd9447e5c45745b3a803e"
+  },
+  "cv": {
+    "n_splits": 5,
+    "macro_f1": {
+      "folds": [
+        0.1592453675275354,
+        0.17676127138299383,
+        0.1826428563373695,
+        0.1538246542329921,
+        0.1707485995580609
+      ],
+      "mean": 0.16864454980779034,
+      "std": 0.010716666576528628
+    },
+    "accuracy": {
+      "folds": [
+        0.2370054305663305,
+        0.25145518044237486,
+        0.2716336825766395,
+        0.2285603414823438,
+        0.23787349631354288
+      ],
+      "mean": 0.2453056262762463,
+      "std": 0.015069956419533164
+    },
+    "weighted_f1": {
+      "folds": [
+        0.2436582123555806,
+        0.25896083727889957,
+        0.28245709312869677,
+        0.23817642518227186,
+        0.25507116851535655
+      ],
+      "mean": 0.25566474729216104,
+      "std": 0.015356071319136605
+    }
+  },
+  "cv_fingerprints": [
+    {
+      "fold": 1,
+      "n_train": 10308,
+      "n_val": 2578,
+      "val_movies_sha256": "6bf2f45da9070ac616e3055e7efd0c46fd1256d1ffbaa11126bec39d086baf03"
+    },
+    {
+      "fold": 2,
+      "n_train": 10309,
+      "n_val": 2577,
+      "val_movies_sha256": "13fb5434da995effcd9efed782fb91c230ca880ddaac847f18601dd6c99f2fc4"
+    },
+    {
+      "fold": 3,
+      "n_train": 10309,
+      "n_val": 2577,
+      "val_movies_sha256": "d46a5c0fa8e3ed58fe0dc59bf535691c565e96a205b9e420f9885d27aebd0b49"
+    },
+    {
+      "fold": 4,
+      "n_train": 10309,
+      "n_val": 2577,
+      "val_movies_sha256": "22b38334191c7b0f86f4ad879f85b089bebfa10d843ee396fe6f634ab2a66643"
+    },
+    {
+      "fold": 5,
+      "n_train": 10309,
+      "n_val": 2577,
+      "val_movies_sha256": "ee20bd306a7d84cc90f97f464f7c8707812e355923c0075817e29b2296fd6674"
+    }
+  ],
+  "test": {
+    "accuracy": 0.2657559764048432,
+    "macro_f1": 0.19991661450371173,
+    "weighted_f1": 0.27739278710230736,
+    "per_class": {
+      "anger": {
+        "precision": 0.11336032388663968,
+        "recall": 0.15135135135135136,
+        "f1": 0.12962962962962962,
+        "support": 185
+      },
+      "anticipation": {
+        "precision": 0.17735849056603772,
+        "recall": 0.21709006928406466,
+        "f1": 0.1952232606438214,
+        "support": 433
+      },
+      "disgust": {
+        "precision": 0.027777777777777776,
+        "recall": 0.037383177570093455,
+        "f1": 0.03187250996015936,
+        "support": 107
+      },
+      "fear": {
+        "precision": 0.1783625730994152,
+        "recall": 0.22021660649819494,
+        "f1": 0.19709208400646203,
+        "support": 277
+      },
+      "joy": {
+        "precision": 0.2466765140324963,
+        "recall": 0.30198915009041594,
+        "f1": 0.27154471544715447,
+        "support": 553
+      },
+      "optimism": {
+        "precision": 0.1846590909090909,
+        "recall": 0.18309859154929578,
+        "f1": 0.18387553041018387,
+        "support": 355
+      },
+      "sadness": {
+        "precision": 0.4703982777179763,
+        "recall": 0.3333333333333333,
+        "f1": 0.39017857142857143,
+        "support": 1311
+      }
+    },
+    "confusion_matrix": [
+      [
+        28,
+        11,
+        3,
+        42,
+        41,
+        24,
+        36
+      ],
+      [
+        46,
+        94,
+        19,
+        46,
+        78,
+        39,
+        111
+      ],
+      [
+        11,
+        22,
+        4,
+        12,
+        28,
+        7,
+        23
+      ],
+      [
+        18,
+        37,
+        10,
+        61,
+        34,
+        34,
+        83
+      ],
+      [
+        46,
+        120,
+        21,
+        21,
+        167,
+        54,
+        124
+      ],
+      [
+        24,
+        63,
+        16,
+        30,
+        42,
+        65,
+        115
+      ],
+      [
+        74,
+        183,
+        71,
+        130,
+        287,
+        129,
+        437
+      ]
+    ]
+  },
+  "baselines": {
+    "majority": {
+      "class": "sadness",
+      "accuracy": 0.4070164545172307,
+      "macro_f1": 0.08265035934938847,
+      "weighted_f1": 0.235480393588742
+    },
+    "stratified_random": {
+      "accuracy_mean": 0.2377879540515368,
+      "accuracy_std": 0.007068243718744252,
+      "macro_f1_mean": 0.1426687552921984,
+      "macro_f1_std": 0.0062151128361809865
+    },
+    "uniform_random": {
+      "accuracy_mean": 0.14244023595156785,
+      "accuracy_std": 0.006042227346861529,
+      "macro_f1_mean": 0.12428949276925227,
+      "macro_f1_std": 0.005560493834197515
+    }
+  }
+}
