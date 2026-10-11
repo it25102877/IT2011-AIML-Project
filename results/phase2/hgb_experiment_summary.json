@@ -116,8 +116,11 @@
   },
   "tuning": {
     "method": "RandomizedSearchCV",
+    "selection_method": "Baseline plus RandomizedSearchCV",
     "candidates": 12,
     "fits": 60,
+    "total_candidates_compared": 13,
+    "total_cv_fits": 65,
     "selection_metric": "macro_f1",
     "best_tuned_parameters": {
       "model__min_samples_leaf": 40,
@@ -166,6 +169,11 @@
     "elapsed_seconds": 246.94749989799993
   },
   "final_refit_seconds": 57.232446048000384,
+  "final_refit_train_metrics": {
+    "accuracy": 0.7950488902685084,
+    "macro_f1": 0.8127069434099896,
+    "weighted_f1": 0.7921210196760167
+  },
   "test_metrics": {
     "accuracy": 0.2657559764048432,
     "precision_macro": 0.19979900685563343,

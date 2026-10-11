@@ -1,19 +1,26 @@
 {
   "reference_model": "decision_tree",
-  "models_evaluated_count": 2,
-  "models_passed_count": 2,
+  "models_evaluated_count": 5,
+  "models_passed_count": 5,
   "models_included": [
     "decision_tree",
+    "hist_gradient_boosting",
+    "linear_svc",
+    "naive_bayes",
     "random_forest"
   ],
   "models_excluded": {},
   "best_model": {
-    "model_key": "random_forest",
-    "model_label": "Random Forest",
-    "test_macro_f1": 0.19421056492629904,
-    "test_accuracy": 0.2728966159577771
+    "model_key": "hist_gradient_boosting",
+    "model_label": "HistGradientBoosting",
+    "test_macro_f1": 0.19991661450371173,
+    "test_accuracy": 0.2657559764048432
   },
-  "statistically_tied_with_best": [],
+  "statistically_tied_with_best": [
+    "Linear SVC",
+    "Multinomial Naive Bayes",
+    "Random Forest"
+  ],
   "roles": {
     "naive_bayes": "primary",
     "logistic_regression": "primary",
@@ -23,24 +30,34 @@
     "mlp": "primary",
     "decision_tree": "baseline"
   },
-  "primary_models_delivered": 1,
+  "primary_models_delivered": 4,
   "primary_models_expected": 6,
   "best_primary_model": {
-    "model_key": "random_forest",
-    "model_label": "Random Forest",
-    "test_macro_f1": 0.19421056492629904,
-    "test_accuracy": 0.2728966159577771
+    "model_key": "hist_gradient_boosting",
+    "model_label": "HistGradientBoosting",
+    "test_macro_f1": 0.19991661450371173,
+    "test_accuracy": 0.2657559764048432
   },
-  "tied_primary_models": [],
+  "tied_primary_models": [
+    "Linear SVC",
+    "Multinomial Naive Bayes",
+    "Random Forest"
+  ],
   "baseline_models": [
     "decision_tree"
   ],
   "rankings": {
     "cv_macro_f1_ranking": [
-      "Random Forest"
+      "Multinomial Naive Bayes",
+      "Random Forest",
+      "HistGradientBoosting",
+      "Linear SVC"
     ],
     "test_macro_f1_ranking": [
-      "Random Forest"
+      "HistGradientBoosting",
+      "Random Forest",
+      "Linear SVC",
+      "Multinomial Naive Bayes"
     ]
   },
   "generated_artifacts": {
