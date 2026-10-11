@@ -1,6 +1,9 @@
 | Model | Role | Member ID | Algorithm | Preprocessing | Tuning Budget | CV Macro-F1 (Mean ± Std) | CV Accuracy | Test Accuracy | Test Macro-F1 (95% CI) | Test Weighted-F1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| HistGradientBoosting | primary | IT25103066 | HistGradientBoostingClassifier | TF-IDF (2500) + TruncatedSVD (100) + Numeric & Genres (22) | Baseline + RandomizedSearchCV (13 configs x 5 folds, macro_f1, accuracy, weighted_f1) | 0.1686 ± 0.0107 | 0.2453 | 0.2658 | 0.1999 [0.1652, 0.2325] | 0.2774 |
 | Random Forest | primary | IT25102877 | RandomForestClassifier | TF-IDF (2500) + Genre Binarizer (20) + Word Count (1) + Rating (1) | RandomizedSearchCV (15 configs x 5 folds, macro_f1, accuracy, weighted_f1) | 0.1708 ± 0.0138 | 0.2594 | 0.2729 | 0.1942 [0.1543, 0.2310] | 0.2707 |
+| Linear SVC | primary | IT25102631 | LinearSVC | B_text_genres | GridSearchCV across preprocessing varieties (12 configs x 5 folds, macro_f1, accuracy, weighted_f1) | 0.1641 ± 0.0094 | 0.2460 | 0.2807 | 0.1885 [0.1593, 0.2144] | 0.2874 |
+| Multinomial Naive Bayes | primary | IT25102549 | MultinomialNB | Text + Genre (TF-IDF + Binary Genre Indicators) | GridSearchCV (14 configs x 5 folds, macro_f1, accuracy, weighted_f1) | 0.1788 ± 0.0239 | 0.2945 | 0.2952 | 0.1870 [0.1485, 0.2235] | 0.2817 |
 | Decision Tree | baseline | IT25102877 | DecisionTreeClassifier | TF-IDF (2500) + Genre Binarizer (20) + Word Count (1) + Rating (1) | GridSearchCV (30 configs x 5 folds, macro_f1, accuracy, weighted_f1) | 0.1767 ± 0.0211 | 0.2862 | 0.2866 | 0.1914 [0.1459, 0.2346] | 0.2788 |
 | Majority Class Predictor | reference | - | DummyClassifier (most_frequent) | - | - | - | - | 0.4070 | 0.0827 | 0.2355 |
 | Stratified Random Baseline | reference | - | DummyClassifier (stratified, 200 seeds) | - | - | - | - | 0.2378 ± 0.0071 | 0.1427 ± 0.0062 | - |

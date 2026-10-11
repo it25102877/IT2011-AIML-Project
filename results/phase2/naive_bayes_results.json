@@ -30,7 +30,7 @@
         "accuracy",
         "weighted_f1"
       ],
-      "elapsed_seconds": 7.489998824894428e-05,
+      "elapsed_seconds": 97.6,
       "best_params": {
         "clf__alpha": 2.0,
         "clf__fit_prior": false
